@@ -1,0 +1,4935 @@
+[
+  {
+    "IdStr": "ascendant.harmony",
+    "Label": "Ascendant Harmony",
+    "ApId": 101
+  },
+  {
+    "IdStr": "bittersweet.certainty",
+    "Label": "Bittersweet Certainty",
+    "ApId": 102
+  },
+  {
+    "IdStr": "confounding.parable",
+    "Label": "Confounding Parable",
+    "ApId": 103
+  },
+  {
+    "IdStr": "curious.hunch",
+    "Label": "Curious Hunch",
+    "ApId": 104
+  },
+  {
+    "IdStr": "didumos",
+    "Label": "Didumos",
+    "ApId": 105
+  },
+  {
+    "IdStr": "earthsign",
+    "Label": "Earth-Sign",
+    "ApId": 106
+  },
+  {
+    "IdStr": "enduring.reflection",
+    "Label": "Enduring Reflection",
+    "ApId": 107
+  },
+  {
+    "IdStr": "forbidden.epic",
+    "Label": "Forbidden Epic",
+    "ApId": 108
+  },
+  {
+    "IdStr": "horizonsight",
+    "Label": "Horizon-Sight",
+    "ApId": 109
+  },
+  {
+    "IdStr": "invincible.audacity",
+    "Label": "Invincible Audacity",
+    "ApId": 1010
+  },
+  {
+    "IdStr": "mem.contradiction",
+    "Label": "Memory: Contradiction",
+    "ApId": 1011
+  },
+  {
+    "IdStr": "mem.dreamt",
+    "Label": "Memory: A Stolen Secret",
+    "ApId": 1012
+  },
+  {
+    "IdStr": "mem.fear",
+    "Label": "Memory: Fear",
+    "ApId": 1013
+  },
+  {
+    "IdStr": "mem.foresight",
+    "Label": "Memory: Foresight",
+    "ApId": 1014
+  },
+  {
+    "IdStr": "mem.gossip",
+    "Label": "Memory: Gossip",
+    "ApId": 1015
+  },
+  {
+    "IdStr": "mem.hindsight",
+    "Label": "Memory: Hindsight",
+    "ApId": 1016
+  },
+  {
+    "IdStr": "mem.impulse",
+    "Label": "Memory: Impulse",
+    "ApId": 1017
+  },
+  {
+    "IdStr": "mem.intuition",
+    "Label": "Memory: Intuition",
+    "ApId": 1018
+  },
+  {
+    "IdStr": "mem.loss",
+    "Label": "Memory: Loss",
+    "ApId": 1019
+  },
+  {
+    "IdStr": "mem.regret",
+    "Label": "Memory: Regret",
+    "ApId": 1020
+  },
+  {
+    "IdStr": "mem.revelation",
+    "Label": "Memory: Revelation",
+    "ApId": 1021
+  },
+  {
+    "IdStr": "mem.salt",
+    "Label": "Memory: Salt",
+    "ApId": 1022
+  },
+  {
+    "IdStr": "mem.satisfaction",
+    "Label": "Memory: Satisfaction",
+    "ApId": 1023
+  },
+  {
+    "IdStr": "mem.scent",
+    "Label": "Memory: Scent",
+    "ApId": 1024
+  },
+  {
+    "IdStr": "mem.sight",
+    "Label": "Memory: Sight",
+    "ApId": 1025
+  },
+  {
+    "IdStr": "mem.solace",
+    "Label": "Memory: Solace",
+    "ApId": 1026
+  },
+  {
+    "IdStr": "mem.sound",
+    "Label": "Memory: Sound",
+    "ApId": 1027
+  },
+  {
+    "IdStr": "mem.storm",
+    "Label": "Memory: Storm",
+    "ApId": 1028
+  },
+  {
+    "IdStr": "mem.taste",
+    "Label": "Memory: Taste",
+    "ApId": 1029
+  },
+  {
+    "IdStr": "mem.touch",
+    "Label": "Memory: Touch",
+    "ApId": 1030
+  },
+  {
+    "IdStr": "music.beguiling",
+    "Label": "Beguiling Melody",
+    "ApId": 1031
+  },
+  {
+    "IdStr": "music.cheerful",
+    "Label": "Cheerful Ditty",
+    "ApId": 1032
+  },
+  {
+    "IdStr": "music.hive",
+    "Label": "Hive's Lament",
+    "ApId": 1033
+  },
+  {
+    "IdStr": "music.savage",
+    "Label": "Savage Hymn",
+    "ApId": 1034
+  },
+  {
+    "IdStr": "music.thunderskin",
+    "Label": "Thunderskin's Paean",
+    "ApId": 1035
+  },
+  {
+    "IdStr": "music.wistful",
+    "Label": "Wistful Air",
+    "ApId": 1036
+  },
+  {
+    "IdStr": "name.earthquake",
+    "Label": "Earthquake Name",
+    "ApId": 1037
+  },
+  {
+    "IdStr": "occult.scrap",
+    "Label": "Occult Scrap",
+    "ApId": 1038
+  },
+  {
+    "IdStr": "old.moment",
+    "Label": "Old Moment",
+    "ApId": 1039
+  },
+  {
+    "IdStr": "old.wound",
+    "Label": "Old Wound",
+    "ApId": 1040
+  },
+  {
+    "IdStr": "riddle.nameday",
+    "Label": "Nameday Riddle",
+    "ApId": 1041
+  },
+  {
+    "IdStr": "secret.threshold",
+    "Label": "Secret Threshold",
+    "ApId": 1042
+  },
+  {
+    "IdStr": "wild.surmise",
+    "Label": "Wild Surmise",
+    "ApId": 1043
+  },
+  {
+    "IdStr": "windinwaiting",
+    "Label": "Wind-in-Waiting",
+    "ApId": 1044
+  },
+  {
+    "IdStr": "windrumour",
+    "Label": "Wind-Rumour",
+    "ApId": 1045
+  },
+  {
+    "IdStr": "winning.move",
+    "Label": "Winning Move",
+    "ApId": 1046
+  },
+  {
+    "IdStr": "wormwood.dream",
+    "Label": "Wormwood Dream",
+    "ApId": 1047
+  },
+  {
+    "IdStr": "xcho",
+    "Label": "Chor",
+    "ApId": 201
+  },
+  {
+    "IdStr": "xcho2",
+    "Label": "+Chor",
+    "ApId": 202
+  },
+  {
+    "IdStr": "xcho3",
+    "Label": "++Chor",
+    "ApId": 203
+  },
+  {
+    "IdStr": "xcho4",
+    "Label": "+++Chor",
+    "ApId": 204
+  },
+  {
+    "IdStr": "xere",
+    "Label": "Ereb",
+    "ApId": 205
+  },
+  {
+    "IdStr": "xere2",
+    "Label": "+Ereb",
+    "ApId": 206
+  },
+  {
+    "IdStr": "xere3",
+    "Label": "++Ereb",
+    "ApId": 207
+  },
+  {
+    "IdStr": "xere4",
+    "Label": "+++Ereb",
+    "ApId": 208
+  },
+  {
+    "IdStr": "xfet",
+    "Label": "Fet",
+    "ApId": 209
+  },
+  {
+    "IdStr": "xfet2",
+    "Label": "+Fet",
+    "ApId": 2010
+  },
+  {
+    "IdStr": "xfet3",
+    "Label": "++Fet",
+    "ApId": 2011
+  },
+  {
+    "IdStr": "xfet4",
+    "Label": "+++Fet",
+    "ApId": 2012
+  },
+  {
+    "IdStr": "xhea",
+    "Label": "Health",
+    "ApId": 2013
+  },
+  {
+    "IdStr": "xhea2",
+    "Label": "+Health",
+    "ApId": 2014
+  },
+  {
+    "IdStr": "xhea3",
+    "Label": "++Health",
+    "ApId": 2015
+  },
+  {
+    "IdStr": "xhea4",
+    "Label": "+++Health",
+    "ApId": 2016
+  },
+  {
+    "IdStr": "xmet",
+    "Label": "Mettle",
+    "ApId": 2017
+  },
+  {
+    "IdStr": "xmet2",
+    "Label": "+Mettle",
+    "ApId": 2018
+  },
+  {
+    "IdStr": "xmet3",
+    "Label": "++Mettle",
+    "ApId": 2019
+  },
+  {
+    "IdStr": "xmet4",
+    "Label": "+++Mettle",
+    "ApId": 2020
+  },
+  {
+    "IdStr": "xpho",
+    "Label": "Phost",
+    "ApId": 2021
+  },
+  {
+    "IdStr": "xpho2",
+    "Label": "+Phost",
+    "ApId": 2022
+  },
+  {
+    "IdStr": "xpho3",
+    "Label": "++Phost",
+    "ApId": 2023
+  },
+  {
+    "IdStr": "xpho4",
+    "Label": "+++Phost",
+    "ApId": 2024
+  },
+  {
+    "IdStr": "xsha",
+    "Label": "Shapt",
+    "ApId": 2025
+  },
+  {
+    "IdStr": "xsha2",
+    "Label": "+Shapt",
+    "ApId": 2026
+  },
+  {
+    "IdStr": "xsha3",
+    "Label": "++Shapt",
+    "ApId": 2027
+  },
+  {
+    "IdStr": "xsha4",
+    "Label": "+++Shapt",
+    "ApId": 2028
+  },
+  {
+    "IdStr": "xtri",
+    "Label": "Trist",
+    "ApId": 2029
+  },
+  {
+    "IdStr": "xtri2",
+    "Label": "+Trist",
+    "ApId": 2030
+  },
+  {
+    "IdStr": "xtri3",
+    "Label": "++Trist",
+    "ApId": 2031
+  },
+  {
+    "IdStr": "xtri4",
+    "Label": "+++Trist",
+    "ApId": 2032
+  },
+  {
+    "IdStr": "xwis",
+    "Label": "Wist",
+    "ApId": 2033
+  },
+  {
+    "IdStr": "xwis2",
+    "Label": "+Wist",
+    "ApId": 2034
+  },
+  {
+    "IdStr": "xwis3",
+    "Label": "++Wist",
+    "ApId": 2035
+  },
+  {
+    "IdStr": "xwis4",
+    "Label": "+++Wist",
+    "ApId": 2036
+  },
+  {
+    "IdStr": "terrain.atrium",
+    "Preface": "Shadowed Atrium",
+    "Label": "Atrium",
+    "ApId": 301,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gloriousstair",
+        "Preface": "Gloomy Stair",
+        "Label": "Glorious Stair"
+      },
+      {
+        "IdStr": "terrain.grandascent.3",
+        "Preface": "Grand Ascent - Third Floor",
+        "Label": "Grand Ascent -Third Floor"
+      },
+      {
+        "IdStr": "terrain.nave",
+        "Preface": "Darkened Church",
+        "Label": "Nave of the Abbey Church"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.backstairs",
+    "Preface": "Blockaded Stairs",
+    "Label": "Back Stairs",
+    "ApId": 302,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.stores",
+        "Preface": "Heart-Haunted Room",
+        "Label": "Stores"
+      },
+      {
+        "IdStr": "terrain.ballroomduellinghall",
+        "Preface": "Dim Hall",
+        "Label": "Duelling Hall"
+      },
+      {
+        "IdStr": "terrain.winecellar",
+        "Preface": "Infested Wine-Cellar",
+        "Label": "Wine Cellar"
+      },
+      {
+        "IdStr": "terrain.servantsquarters2",
+        "Preface": "Wounded Room",
+        "Label": "Servants' Quarters - North"
+      },
+      {
+        "IdStr": "terrain.vestibulumtransitus",
+        "Preface": "Rattling Bridge",
+        "Label": "Vestibulum Transitus"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.ballroomduellinghall",
+    "Preface": "Dim Hall",
+    "Label": "Duelling Hall",
+    "ApId": 303,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.vestibulumtransitus",
+        "Preface": "Rattling Bridge",
+        "Label": "Vestibulum Transitus"
+      },
+      {
+        "IdStr": "terrain.mapchamber",
+        "Preface": "Web-Snared Room",
+        "Label": "Map Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.bells",
+    "Preface": "Fallen Bells",
+    "Label": "Bells",
+    "ApId": 304,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.spire",
+        "Preface": "Wyrd-Cursed Spire",
+        "Label": "Spire"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.boathouse",
+    "Preface": "Perilous Path",
+    "Label": "Boathouse",
+    "ApId": 305,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gullcolony",
+        "Preface": "Shrieking Gull-Cloud",
+        "Label": "Gull Colony"
+      },
+      {
+        "IdStr": "terrain.hermitcell",
+        "Preface": "Gaping Darkness",
+        "Label": "Hermit Cell"
+      },
+      {
+        "IdStr": "terrain.seacaves",
+        "Preface": "Submerged Sea-Caves",
+        "Label": "Sea-Caves"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.brancrug",
+    "Preface": "Brancrug Village",
+    "Label": "Brancrug Village",
+    "ApId": 306,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.cucurbitbridge",
+        "Preface": "Mist-Cloaked Bridge",
+        "Label": "Cucurbit Bridge"
+      },
+      {
+        "IdStr": "terrain.secondbeach",
+        "Preface": "Tidal Flats",
+        "Label": "Crowcross Sands"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.brancrugbeach",
+    "Preface": "",
+    "Label": "St Brandan’s Cove",
+    "ApId": 307,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.brancrug",
+        "Preface": "Brancrug Village",
+        "Label": "Brancrug Village"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.catacombs",
+    "Preface": "Rattling Tunnels",
+    "Label": "Catacombs",
+    "ApId": 308,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.columbiccrypt",
+        "Preface": "Fluttering Crypt",
+        "Label": "Columbic Crypt"
+      },
+      {
+        "IdStr": "terrain.ironvault",
+        "Preface": "Sealed Vault",
+        "Label": "Iron Vault"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.cell-adept",
+    "Preface": "Sealed Cell",
+    "Label": "Cell: Adepts",
+    "ApId": 309,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.staff-room",
+        "Preface": "Blackened Staff-Room",
+        "Label": "Staff-Room"
+      },
+      {
+        "IdStr": "terrain.cell-long",
+        "Preface": "Trapped Cell",
+        "Label": "Cell: Long"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.cell-long",
+    "Preface": "Trapped Cell",
+    "Label": "Cell: Long",
+    "ApId": 3010,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.cell-adept",
+        "Preface": "Sealed Cell",
+        "Label": "Cell: Adepts"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.cell-unknown",
+    "Preface": "Mazed Cell",
+    "Label": "Cell: ?",
+    "ApId": 3011,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.crucibletower1",
+        "Preface": "Smoky Chamber",
+        "Label": "Crucible Tower: Governor's Office"
+      },
+      {
+        "IdStr": "terrain.cell-worm-inhabited",
+        "Preface": "Impermeable Cell",
+        "Label": "Cell: Worm-Inhabited"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.cell-worm-inhabited",
+    "Preface": "Impermeable Cell",
+    "Label": "Cell: Worm-Inhabited",
+    "ApId": 3012,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.cell-unknown",
+        "Preface": "Mazed Cell",
+        "Label": "Cell: ?"
+      },
+      {
+        "IdStr": "terrain.cell-long",
+        "Preface": "Trapped Cell",
+        "Label": "Cell: Long"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.chancel",
+    "Preface": "Veiled Chamber",
+    "Label": "Chancel of the Abbey Church",
+    "ApId": 3013,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.radiantstair",
+        "Preface": "Shrouded Stair",
+        "Label": "Radiant Stair"
+      },
+      {
+        "IdStr": "terrain.nave",
+        "Preface": "Darkened Church",
+        "Label": "Nave of the Abbey Church"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.chapelascite",
+    "Preface": "A Wintry Forbidding",
+    "Label": "Chapel Ascite",
+    "ApId": 3014,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.chapelmalachite",
+        "Preface": "A Honeyed Forbidding",
+        "Label": "Chapel Malachite"
+      },
+      {
+        "IdStr": "terrain.chapelcalicite",
+        "Preface": "A Red Forbidding",
+        "Label": "Chapel Calicite"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.chapelcalicite",
+    "Preface": "A Red Forbidding",
+    "Label": "Chapel Calicite",
+    "ApId": 3015,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.chapelascite",
+        "Preface": "A Wintry Forbidding",
+        "Label": "Chapel Ascite"
+      },
+      {
+        "IdStr": "terrain.hallofvoices",
+        "Preface": "Silent Hall",
+        "Label": "Hall of Voices"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.chapelmalachite",
+    "Preface": "A Honeyed Forbidding",
+    "Label": "Chapel Malachite",
+    "ApId": 3016,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.smuggler'sden",
+        "Preface": "Wing-Haunted Cave",
+        "Label": "Smuggler's Den"
+      },
+      {
+        "IdStr": "terrain.chapelascite",
+        "Preface": "A Wintry Forbidding",
+        "Label": "Chapel Ascite"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.chapterhouse",
+    "Preface": "Echoing Chamber",
+    "Label": "Chapter House",
+    "ApId": 3017,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.churchtower1",
+    "Preface": "Ill-Omened Tower",
+    "Label": "Church Tower",
+    "ApId": 3018,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.solarium",
+        "Preface": "Glaring Room",
+        "Label": "Solarium"
+      },
+      {
+        "IdStr": "terrain.churchtower2",
+        "Preface": "Stopped Clock",
+        "Label": "Tower Clock"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.churchtower2",
+    "Preface": "Stopped Clock",
+    "Label": "Tower Clock",
+    "ApId": 3019,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.bells",
+        "Preface": "Fallen Bells",
+        "Label": "Bells"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.cloister",
+    "Preface": "Cloistered Garden",
+    "Label": "St Brandan’s Cloister",
+    "ApId": 3020,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.entrancehall",
+        "Preface": "The First True Threshold",
+        "Label": "Entrance Hall"
+      },
+      {
+        "IdStr": "terrain.longtower1",
+        "Preface": "Long Tower: First Floor",
+        "Label": "Long Tower: Solomon's Study"
+      },
+      {
+        "IdStr": "terrain.practicgarden",
+        "Preface": "Walled Garden",
+        "Label": "Practic Garden"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.columbiccrypt",
+    "Preface": "Fluttering Crypt",
+    "Label": "Columbic Crypt",
+    "ApId": 3021,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.ivoryvault",
+        "Preface": "Sealed Vault",
+        "Label": "Ivory Vault"
+      },
+      {
+        "IdStr": "terrain.catacombs",
+        "Preface": "Rattling Tunnels",
+        "Label": "Catacombs"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.crucibletower1",
+    "Preface": "Smoky Chamber",
+    "Label": "Crucible Tower: Governor's Office",
+    "ApId": 3022,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.crucibletower2",
+        "Preface": "Stifling Chamber",
+        "Label": "Crucible Tower: Governor's Quarters"
+      },
+      {
+        "IdStr": "terrain.cell-unknown",
+        "Preface": "Mazed Cell",
+        "Label": "Cell: ?"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.crucibletower2",
+    "Preface": "Stifling Chamber",
+    "Label": "Crucible Tower: Governor's Quarters",
+    "ApId": 3023,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.crucibletower3",
+        "Preface": "Charred Chamber",
+        "Label": "Crucible Tower: Interview Laboratory"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.crucibletower3",
+    "Preface": "Charred Chamber",
+    "Label": "Crucible Tower: Interview Laboratory",
+    "ApId": 3024,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.cucurbitbridge",
+    "Preface": "Mist-Cloaked Bridge",
+    "Label": "Cucurbit Bridge",
+    "ApId": 3025,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.lodge",
+        "Preface": "Lodge at the Gate",
+        "Label": "Keeper's Lodge"
+      },
+      {
+        "IdStr": "terrain.brancrugbeach",
+        "Preface": "",
+        "Label": "St Brandan’s Cove"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.deeplightcaves",
+    "Preface": "Menacing Phosphorescence",
+    "Label": "Deeplight Caves",
+    "ApId": 3026,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.shrinetosttentreto",
+        "Preface": "Pulsing Darkness",
+        "Label": "Shrine to St Tentreto"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.deepwelldescent",
+    "Preface": "Root-Thronged Descent",
+    "Label": "Deep Well Descent",
+    "ApId": 3027,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.welldescent",
+        "Preface": "Creeper-Crowded Descent",
+        "Label": "Well Descent"
+      },
+      {
+        "IdStr": "terrain.sacredspring",
+        "Preface": "Wheel-Filled Spring",
+        "Label": "Sacred Spring"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.earlbrian'sfield",
+    "Preface": "Mist-Sunk Meadow",
+    "Label": "Earl Brian's Field",
+    "ApId": 3028,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.earthcellar",
+        "Preface": "Collapsed Cellar",
+        "Label": "Earth Cellar"
+      },
+      {
+        "IdStr": "terrain.gullcolony",
+        "Preface": "Shrieking Gull-Cloud",
+        "Label": "Gull Colony"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.earthcellar",
+    "Preface": "Collapsed Cellar",
+    "Label": "Earth Cellar",
+    "ApId": 3029,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.stairtenebrous",
+        "Preface": "Shadowed Stair",
+        "Label": "Stair Tenebrous"
+      },
+      {
+        "IdStr": "terrain.winecellar",
+        "Preface": "Infested Wine-Cellar",
+        "Label": "Wine Cellar"
+      },
+      {
+        "IdStr": "terrain.earlbrian'sfield",
+        "Preface": "Mist-Sunk Meadow",
+        "Label": "Earl Brian's Field"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.entrancehall",
+    "Preface": "The First True Threshold",
+    "Label": "Entrance Hall",
+    "ApId": 3030,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.physicgarden",
+        "Preface": "Weed-Choked Garden",
+        "Label": "Physic Garden"
+      },
+      {
+        "IdStr": "terrain.scentgarden",
+        "Preface": "Tangle of Thorns",
+        "Label": "Scent Garden"
+      },
+      {
+        "IdStr": "terrain.grandascent.g",
+        "Preface": "Grand Ascent - Ground Floor",
+        "Label": "Grand Ascent - Ground Floor"
+      },
+      {
+        "IdStr": "terrain.cloister",
+        "Preface": "Cloistered Garden",
+        "Label": "St Brandan’s Cloister"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.fluddgallery",
+    "Preface": "Despoiled Laboratory",
+    "Label": "Fludd Gallery",
+    "ApId": 3031,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.hallofmirrors",
+        "Preface": "Silvered Snares",
+        "Label": "Hall of Division"
+      },
+      {
+        "IdStr": "terrain.grandascent.3",
+        "Preface": "Grand Ascent - Third Floor",
+        "Label": "Grand Ascent -Third Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.foundry",
+    "Preface": "Ravaged Foundry",
+    "Label": "Foundry",
+    "ApId": 3032,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.well",
+        "Preface": "Deserted Well",
+        "Label": "Well"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gaolbridge",
+    "Preface": "Broken Bridge",
+    "Label": "Lesser Bridge",
+    "ApId": 3033,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gullscryloggia",
+        "Preface": "Squawkful Loggia",
+        "Label": "Gullscry Loggia"
+      },
+      {
+        "IdStr": "terrain.gaolyard",
+        "Preface": "Blackened Yard",
+        "Label": "Gaol Yard"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gaolcellar",
+    "Preface": "Ravaged Cellar",
+    "Label": "Gaol Cellar",
+    "ApId": 3034,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.oubliette",
+        "Preface": "Incandescent Hollow",
+        "Label": "Oubliette"
+      },
+      {
+        "IdStr": "terrain.loadingdock",
+        "Preface": "Sagging Dock",
+        "Label": "Loading Dock"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gaolhall",
+    "Preface": "Worm-Eaten Hall",
+    "Label": "Gaol Hall",
+    "ApId": 3035,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gaolyard",
+        "Preface": "Blackened Yard",
+        "Label": "Gaol Yard"
+      },
+      {
+        "IdStr": "terrain.gaolkitchen",
+        "Preface": "Worm-Gnawed Kitchen",
+        "Label": "Gaol Kitchen"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gaolkitchen",
+    "Preface": "Worm-Gnawed Kitchen",
+    "Label": "Gaol Kitchen",
+    "ApId": 3036,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gaolhall",
+        "Preface": "Worm-Eaten Hall",
+        "Label": "Gaol Hall"
+      },
+      {
+        "IdStr": "terrain.gaolcellar",
+        "Preface": "Ravaged Cellar",
+        "Label": "Gaol Cellar"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gaolyard",
+    "Preface": "Blackened Yard",
+    "Label": "Gaol Yard",
+    "ApId": 3037,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.staff-room",
+        "Preface": "Blackened Staff-Room",
+        "Label": "Staff-Room"
+      },
+      {
+        "IdStr": "terrain.gaolhall",
+        "Preface": "Worm-Eaten Hall",
+        "Label": "Gaol Hall"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gatehouse",
+    "Preface": "The great gate of the House",
+    "Label": "Watchman's Tower: Gatehouse",
+    "ApId": 3038,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.cloister",
+        "Preface": "Cloistered Garden",
+        "Label": "St Brandan’s Cloister"
+      },
+      {
+        "IdStr": "terrain.watchmanstower1",
+        "Preface": "Gatehouse Stairs",
+        "Label": "Watchman's Tower: First Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gloriousstair",
+    "Preface": "Gloomy Stair",
+    "Label": "Glorious Stair",
+    "ApId": 3039,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.windlitgallery",
+        "Preface": "Wind-Prowled Gallery",
+        "Label": "Windlit Gallery"
+      },
+      {
+        "IdStr": "terrain.atrium",
+        "Preface": "Shadowed Atrium",
+        "Label": "Atrium"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.grandascent.1",
+    "Preface": "Grand Ascent - First Floor",
+    "Label": "Grand Ascent - First Floor",
+    "ApId": 3040,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.westcottroom",
+        "Preface": "Smoking-Room",
+        "Label": "Westcott Room"
+      },
+      {
+        "IdStr": "terrain.physicgarden",
+        "Preface": "Weed-Choked Garden",
+        "Label": "Physic Garden"
+      },
+      {
+        "IdStr": "terrain.grandascent.2",
+        "Preface": "Grand Ascent - Second Floor",
+        "Label": "Grand Ascent -Second Floor"
+      },
+      {
+        "IdStr": "terrain.grandascent.g",
+        "Preface": "Grand Ascent - Ground Floor",
+        "Label": "Grand Ascent - Ground Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.grandascent.2",
+    "Preface": "Grand Ascent - Second Floor",
+    "Label": "Grand Ascent -Second Floor",
+    "ApId": 3041,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.severnchamber",
+        "Preface": "Abandoned Bedroom",
+        "Label": "Severn Chamber"
+      },
+      {
+        "IdStr": "terrain.infirmaryg",
+        "Preface": "Infirmary",
+        "Label": "Infirmary"
+      },
+      {
+        "IdStr": "terrain.grandascent.3",
+        "Preface": "Grand Ascent - Third Floor",
+        "Label": "Grand Ascent -Third Floor"
+      },
+      {
+        "IdStr": "terrain.grandascent.1",
+        "Preface": "Grand Ascent - First Floor",
+        "Label": "Grand Ascent - First Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.grandascent.3",
+    "Preface": "Grand Ascent - Third Floor",
+    "Label": "Grand Ascent -Third Floor",
+    "ApId": 3042,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.fluddgallery",
+        "Preface": "Despoiled Laboratory",
+        "Label": "Fludd Gallery"
+      },
+      {
+        "IdStr": "terrain.infirmary1a",
+        "Preface": "Gloomy Room",
+        "Label": "Examination Room"
+      },
+      {
+        "IdStr": "terrain.atrium",
+        "Preface": "Shadowed Atrium",
+        "Label": "Atrium"
+      },
+      {
+        "IdStr": "terrain.grandascent.2",
+        "Preface": "Grand Ascent - Second Floor",
+        "Label": "Grand Ascent -Second Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.grandascent.g",
+    "Preface": "Grand Ascent - Ground Floor",
+    "Label": "Grand Ascent - Ground Floor",
+    "ApId": 3043,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.readingroom",
+        "Preface": "Dimly Lit Chamber",
+        "Label": "Reading Room"
+      },
+      {
+        "IdStr": "terrain.cloister",
+        "Preface": "Cloistered Garden",
+        "Label": "St Brandan’s Cloister"
+      },
+      {
+        "IdStr": "terrain.servantshall",
+        "Preface": "Ruinous Hall",
+        "Label": "Servants' Hall"
+      },
+      {
+        "IdStr": "terrain.scentgarden",
+        "Preface": "Tangle of Thorns",
+        "Label": "Scent Garden"
+      },
+      {
+        "IdStr": "terrain.grandascent.1",
+        "Preface": "Grand Ascent - First Floor",
+        "Label": "Grand Ascent - First Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gullcolony",
+    "Preface": "Shrieking Gull-Cloud",
+    "Label": "Gull Colony",
+    "ApId": 3044,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.earlbrian'sfield",
+        "Preface": "Mist-Sunk Meadow",
+        "Label": "Earl Brian's Field"
+      },
+      {
+        "IdStr": "terrain.hermitcell",
+        "Preface": "Gaping Darkness",
+        "Label": "Hermit Cell"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gullscryloggia",
+    "Preface": "Squawkful Loggia",
+    "Label": "Gullscry Loggia",
+    "ApId": 3045,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.nightgallery",
+        "Preface": "Shrouded Space",
+        "Label": "Night Gallery"
+      },
+      {
+        "IdStr": "terrain.gullscrytower1",
+        "Preface": "Weeping Chamber",
+        "Label": "Gullscry Tower: Valentine's Room"
+      },
+      {
+        "IdStr": "terrain.vestibulumtransitus",
+        "Preface": "Rattling Bridge",
+        "Label": "Vestibulum Transitus"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gullscrytower1",
+    "Preface": "Weeping Chamber",
+    "Label": "Gullscry Tower: Valentine's Room",
+    "ApId": 3046,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gullscryloggia",
+        "Preface": "Squawkful Loggia",
+        "Label": "Gullscry Loggia"
+      },
+      {
+        "IdStr": "terrain.gullscrytower2",
+        "Preface": "Howling Chamber",
+        "Label": "Gullscry Tower: Eales' Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gullscrytower2",
+    "Preface": "Howling Chamber",
+    "Label": "Gullscry Tower: Eales' Room",
+    "ApId": 3047,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gullscrytower1",
+        "Preface": "Weeping Chamber",
+        "Label": "Gullscry Tower: Valentine's Room"
+      },
+      {
+        "IdStr": "terrain.gullscrytower3",
+        "Preface": "Screaming Summit",
+        "Label": "Gullscry Tower: Summit"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.gullscrytower3",
+    "Preface": "Screaming Summit",
+    "Label": "Gullscry Tower: Summit",
+    "ApId": 3048,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.hallofmirrors",
+    "Preface": "Silvered Snares",
+    "Label": "Hall of Division",
+    "ApId": 3049,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.fluddgallery",
+        "Preface": "Despoiled Laboratory",
+        "Label": "Fludd Gallery"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.hallofvoices",
+    "Preface": "Silent Hall",
+    "Label": "Hall of Voices",
+    "ApId": 3050,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.narthex",
+        "Preface": "Slithering Fountain",
+        "Label": "Narthex"
+      },
+      {
+        "IdStr": "terrain.chapelcalicite",
+        "Preface": "A Red Forbidding",
+        "Label": "Chapel Calicite"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.hermitcell",
+    "Preface": "Gaping Darkness",
+    "Label": "Hermit Cell",
+    "ApId": 3051,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gullcolony",
+        "Preface": "Shrieking Gull-Cloud",
+        "Label": "Gull Colony"
+      },
+      {
+        "IdStr": "terrain.smuggler'sden",
+        "Preface": "Wing-Haunted Cave",
+        "Label": "Smuggler's Den"
+      },
+      {
+        "IdStr": "terrain.boathouse",
+        "Preface": "Perilous Path",
+        "Label": "Boathouse"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.hiddenstair",
+    "Preface": "Rustling Stair",
+    "Label": "Hidden Stair",
+    "ApId": 3052,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.winecellar",
+        "Preface": "Infested Wine-Cellar",
+        "Label": "Wine Cellar"
+      },
+      {
+        "IdStr": "terrain.whisperingstair",
+        "Preface": "Riddling Stair",
+        "Label": "Whispering Stair"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.infirmary1a",
+    "Preface": "Gloomy Room",
+    "Label": "Examination Room",
+    "ApId": 3053,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.grandascent.3",
+        "Preface": "Grand Ascent - Third Floor",
+        "Label": "Grand Ascent -Third Floor"
+      },
+      {
+        "IdStr": "terrain.infirmary1b",
+        "Preface": "Neglected Room",
+        "Label": "Patients' Lounge"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.infirmary1b",
+    "Preface": "Neglected Room",
+    "Label": "Patients' Lounge",
+    "ApId": 3054,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.motleytower1",
+        "Preface": "Motley Tower: First Floor",
+        "Label": "Motley Tower: Illopoly's Nook"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.infirmaryg",
+    "Preface": "Infirmary",
+    "Label": "Infirmary",
+    "ApId": 3055,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.infirmary1a",
+        "Preface": "Gloomy Room",
+        "Label": "Examination Room"
+      },
+      {
+        "IdStr": "terrain.infirmary1b",
+        "Preface": "Neglected Room",
+        "Label": "Patients' Lounge"
+      },
+      {
+        "IdStr": "terrain.grandascent.2",
+        "Preface": "Grand Ascent - Second Floor",
+        "Label": "Grand Ascent -Second Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.ironvault",
+    "Preface": "Sealed Vault",
+    "Label": "Iron Vault",
+    "ApId": 3056,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.ivoryvault",
+    "Preface": "Sealed Vault",
+    "Label": "Ivory Vault",
+    "ApId": 3057,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.kitchen",
+    "Preface": "Ruined Kitchen",
+    "Label": "Kitchen",
+    "ApId": 3058,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.servantshall",
+        "Preface": "Ruinous Hall",
+        "Label": "Servants' Hall"
+      },
+      {
+        "IdStr": "terrain.foundry",
+        "Preface": "Ravaged Foundry",
+        "Label": "Foundry"
+      },
+      {
+        "IdStr": "terrain.pantry",
+        "Preface": "Wrecked Pantry",
+        "Label": "Pantry"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.kitchengarden",
+    "Preface": "Overgrown Kitchen Garden",
+    "Label": "Kitchen Garden",
+    "ApId": 3059,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.servantsquarters1",
+        "Preface": "Maze-Crazed Room",
+        "Label": "Servants' Quarters - South"
+      },
+      {
+        "IdStr": "terrain.servantsquarters2",
+        "Preface": "Wounded Room",
+        "Label": "Servants' Quarters - North"
+      },
+      {
+        "IdStr": "terrain.well",
+        "Preface": "Deserted Well",
+        "Label": "Well"
+      },
+      {
+        "IdStr": "terrain.winecellar",
+        "Preface": "Infested Wine-Cellar",
+        "Label": "Wine Cellar"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.librarianquarters",
+    "Preface": "Abandoned Librarian's Quarters",
+    "Label": "Librarian's Quarters",
+    "ApId": 3060,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.loadingdock",
+    "Preface": "Sagging Dock",
+    "Label": "Loading Dock",
+    "ApId": 3061,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gaolcellar",
+        "Preface": "Ravaged Cellar",
+        "Label": "Gaol Cellar"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.lodge",
+    "Preface": "Lodge at the Gate",
+    "Label": "Keeper's Lodge",
+    "ApId": 3062,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gatehouse",
+        "Preface": "The great gate of the House",
+        "Label": "Watchman's Tower: Gatehouse"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.longtower1",
+    "Preface": "Long Tower: First Floor",
+    "Label": "Long Tower: Solomon's Study",
+    "ApId": 3063,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.longtower2",
+        "Preface": "Long Tower: Second Floor",
+        "Label": "Long Tower: Solomon's Quarters"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.longtower2",
+    "Preface": "Long Tower: Second Floor",
+    "Label": "Long Tower: Solomon's Quarters",
+    "ApId": 3064,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.lowerpumproom",
+    "Preface": "Flooded Level",
+    "Label": "Lower Pump Room",
+    "ApId": 3065,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.upperpumproom",
+        "Preface": "Room of Rusts",
+        "Label": "Upper Pump Room"
+      },
+      {
+        "IdStr": "terrain.hallofvoices",
+        "Preface": "Silent Hall",
+        "Label": "Hall of Voices"
+      },
+      {
+        "IdStr": "terrain.columbiccrypt",
+        "Preface": "Fluttering Crypt",
+        "Label": "Columbic Crypt"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.mapchamber",
+    "Preface": "Web-Snared Room",
+    "Label": "Map Room",
+    "ApId": 3066,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.ballroomduellinghall",
+        "Preface": "Dim Hall",
+        "Label": "Duelling Hall"
+      },
+      {
+        "IdStr": "terrain.westcottroom",
+        "Preface": "Smoking-Room",
+        "Label": "Westcott Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.mazarineroom",
+    "Preface": "Reeking Chamber",
+    "Label": "Mazarine Room",
+    "ApId": 3067,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.readingroom",
+        "Preface": "Dimly Lit Chamber",
+        "Label": "Reading Room"
+      },
+      {
+        "IdStr": "terrain.refectory",
+        "Preface": "Rose-Haunted Hall",
+        "Label": "Refectory"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.motleytower1",
+    "Preface": "Motley Tower: First Floor",
+    "Label": "Motley Tower: Illopoly's Nook",
+    "ApId": 3068,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.motleytower2",
+        "Preface": "Motley Tower: Second Floor",
+        "Label": "Motley Tower: Dispensary"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.motleytower2",
+    "Preface": "Motley Tower: Second Floor",
+    "Label": "Motley Tower: Dispensary",
+    "ApId": 3069,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.motleytower3",
+        "Preface": "Motley Tower: Third Floor",
+        "Label": "Motley Tower: Regensburg Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.motleytower3",
+    "Preface": "Motley Tower: Third Floor",
+    "Label": "Motley Tower: Regensburg Room",
+    "ApId": 3070,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.narthex",
+    "Preface": "Slithering Fountain",
+    "Label": "Narthex",
+    "ApId": 3071,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.ourladybeneath",
+        "Preface": "Abandoned Church",
+        "Label": "Our Lady Beneath"
+      },
+      {
+        "IdStr": "terrain.sacredspring",
+        "Preface": "Wheel-Filled Spring",
+        "Label": "Sacred Spring"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.nave",
+    "Preface": "Darkened Church",
+    "Label": "Nave of the Abbey Church",
+    "ApId": 3072,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.atrium",
+        "Preface": "Shadowed Atrium",
+        "Label": "Atrium"
+      },
+      {
+        "IdStr": "terrain.chancel",
+        "Preface": "Veiled Chamber",
+        "Label": "Chancel of the Abbey Church"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.nightgallery",
+    "Preface": "Shrouded Space",
+    "Label": "Night Gallery",
+    "ApId": 3073,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.stairtenebrous",
+        "Preface": "Shadowed Stair",
+        "Label": "Stair Tenebrous"
+      },
+      {
+        "IdStr": "terrain.gaolbridge",
+        "Preface": "Broken Bridge",
+        "Label": "Lesser Bridge"
+      },
+      {
+        "IdStr": "terrain.vestibulumtransitus",
+        "Preface": "Rattling Bridge",
+        "Label": "Vestibulum Transitus"
+      },
+      {
+        "IdStr": "terrain.gullscryloggia",
+        "Preface": "Squawkful Loggia",
+        "Label": "Gullscry Loggia"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.ocean",
+    "Preface": "",
+    "Label": "The Atlantic Ocean",
+    "ApId": 3074,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.oubliette",
+    "Preface": "Incandescent Hollow",
+    "Label": "Oubliette",
+    "ApId": 3075,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gaolcellar",
+        "Preface": "Ravaged Cellar",
+        "Label": "Gaol Cellar"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.ourladybeneath",
+    "Preface": "Abandoned Church",
+    "Label": "Our Lady Beneath",
+    "ApId": 3076,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.smuggler'sden",
+        "Preface": "Wing-Haunted Cave",
+        "Label": "Smuggler's Den"
+      },
+      {
+        "IdStr": "terrain.narthex",
+        "Preface": "Slithering Fountain",
+        "Label": "Narthex"
+      },
+      {
+        "IdStr": "terrain.whisperingstair",
+        "Preface": "Riddling Stair",
+        "Label": "Whispering Stair"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.palechamber",
+    "Preface": "Icy Bedroom",
+    "Label": "Pale Chamber",
+    "ApId": 3077,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.violetchamber",
+        "Preface": "Serpent-Haunted Bedroom",
+        "Label": "Violet Chamber"
+      },
+      {
+        "IdStr": "terrain.librarianquarters",
+        "Preface": "Abandoned Librarian's Quarters",
+        "Label": "Librarian's Quarters"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.pantry",
+    "Preface": "Wrecked Pantry",
+    "Label": "Pantry",
+    "ApId": 3078,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.kitchen",
+        "Preface": "Ruined Kitchen",
+        "Label": "Kitchen"
+      },
+      {
+        "IdStr": "terrain.servantsquarters1",
+        "Preface": "Maze-Crazed Room",
+        "Label": "Servants' Quarters - South"
+      },
+      {
+        "IdStr": "terrain.well",
+        "Preface": "Deserted Well",
+        "Label": "Well"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.physicgarden",
+    "Preface": "Weed-Choked Garden",
+    "Label": "Physic Garden",
+    "ApId": 3079,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.infirmaryg",
+        "Preface": "Infirmary",
+        "Label": "Infirmary"
+      },
+      {
+        "IdStr": "terrain.grandascent.1",
+        "Preface": "Grand Ascent - First Floor",
+        "Label": "Grand Ascent - First Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.practicgarden",
+    "Preface": "Walled Garden",
+    "Label": "Practic Garden",
+    "ApId": 3080,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.cloister",
+        "Preface": "Cloistered Garden",
+        "Label": "St Brandan’s Cloister"
+      },
+      {
+        "IdStr": "terrain.scentgarden",
+        "Preface": "Tangle of Thorns",
+        "Label": "Scent Garden"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.radiantstair",
+    "Preface": "Shrouded Stair",
+    "Label": "Radiant Stair",
+    "ApId": 3081,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.chancel",
+        "Preface": "Veiled Chamber",
+        "Label": "Chancel of the Abbey Church"
+      },
+      {
+        "IdStr": "terrain.windlitgallery",
+        "Preface": "Wind-Prowled Gallery",
+        "Label": "Windlit Gallery"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.readingroom",
+    "Preface": "Dimly Lit Chamber",
+    "Label": "Reading Room",
+    "ApId": 3082,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.mazarineroom",
+        "Preface": "Reeking Chamber",
+        "Label": "Mazarine Room"
+      },
+      {
+        "IdStr": "terrain.grandascent.1",
+        "Preface": "Grand Ascent - First Floor",
+        "Label": "Grand Ascent - First Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.refectory",
+    "Preface": "Rose-Haunted Hall",
+    "Label": "Refectory",
+    "ApId": 3083,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.stores",
+        "Preface": "Heart-Haunted Room",
+        "Label": "Stores"
+      },
+      {
+        "IdStr": "terrain.mazarineroom",
+        "Preface": "Reeking Chamber",
+        "Label": "Mazarine Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.rowenarium",
+    "Preface": "Crystallised Chamber",
+    "Label": "Rowenarium",
+    "ApId": 3084,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.silvervault",
+        "Preface": "Sealed Vault",
+        "Label": "Silver Vault"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.sacredspring",
+    "Preface": "Wheel-Filled Spring",
+    "Label": "Sacred Spring",
+    "ApId": 3085,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.upperpumproom",
+        "Preface": "Room of Rusts",
+        "Label": "Upper Pump Room"
+      },
+      {
+        "IdStr": "terrain.narthex",
+        "Preface": "Slithering Fountain",
+        "Label": "Narthex"
+      },
+      {
+        "IdStr": "terrain.deepwelldescent",
+        "Preface": "Root-Thronged Descent",
+        "Label": "Deep Well Descent"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.scentgarden",
+    "Preface": "Tangle of Thorns",
+    "Label": "Scent Garden",
+    "ApId": 3086,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.servantshall",
+        "Preface": "Ruinous Hall",
+        "Label": "Servants' Hall"
+      },
+      {
+        "IdStr": "terrain.practicgarden",
+        "Preface": "Walled Garden",
+        "Label": "Practic Garden"
+      },
+      {
+        "IdStr": "terrain.entrancehall",
+        "Preface": "The First True Threshold",
+        "Label": "Entrance Hall"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.seacaves",
+    "Preface": "Submerged Sea-Caves",
+    "Label": "Sea-Caves",
+    "ApId": 3087,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.boathouse",
+        "Preface": "Perilous Path",
+        "Label": "Boathouse"
+      },
+      {
+        "IdStr": "terrain.deeplightcaves",
+        "Preface": "Menacing Phosphorescence",
+        "Label": "Deeplight Caves"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.secondbeach",
+    "Preface": "Tidal Flats",
+    "Label": "Crowcross Sands",
+    "ApId": 3088,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.servantshall",
+    "Preface": "Ruinous Hall",
+    "Label": "Servants' Hall",
+    "ApId": 3089,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.scentgarden",
+        "Preface": "Tangle of Thorns",
+        "Label": "Scent Garden"
+      },
+      {
+        "IdStr": "terrain.kitchen",
+        "Preface": "Ruined Kitchen",
+        "Label": "Kitchen"
+      },
+      {
+        "IdStr": "terrain.grandascent.g",
+        "Preface": "Grand Ascent - Ground Floor",
+        "Label": "Grand Ascent - Ground Floor"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.servantsquarters1",
+    "Preface": "Maze-Crazed Room",
+    "Label": "Servants' Quarters - South",
+    "ApId": 3090,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.pantry",
+        "Preface": "Wrecked Pantry",
+        "Label": "Pantry"
+      },
+      {
+        "IdStr": "terrain.servantsquarters2",
+        "Preface": "Wounded Room",
+        "Label": "Servants' Quarters - North"
+      },
+      {
+        "IdStr": "terrain.well",
+        "Preface": "Deserted Well",
+        "Label": "Well"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.servantsquarters2",
+    "Preface": "Wounded Room",
+    "Label": "Servants' Quarters - North",
+    "ApId": 3091,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.servantsquarters1",
+        "Preface": "Maze-Crazed Room",
+        "Label": "Servants' Quarters - South"
+      },
+      {
+        "IdStr": "terrain.kitchengarden",
+        "Preface": "Overgrown Kitchen Garden",
+        "Label": "Kitchen Garden"
+      },
+      {
+        "IdStr": "terrain.backstairs",
+        "Preface": "Blockaded Stairs",
+        "Label": "Back Stairs"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.severnchamber",
+    "Preface": "Abandoned Bedroom",
+    "Label": "Severn Chamber",
+    "ApId": 3092,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.grandascent.2",
+        "Preface": "Grand Ascent - Second Floor",
+        "Label": "Grand Ascent -Second Floor"
+      },
+      {
+        "IdStr": "terrain.violetchamber",
+        "Preface": "Serpent-Haunted Bedroom",
+        "Label": "Violet Chamber"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.shrinetosttentreto",
+    "Preface": "Pulsing Darkness",
+    "Label": "Shrine to St Tentreto",
+    "ApId": 3093,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.silvervault",
+    "Preface": "Sealed Vault",
+    "Label": "Silver Vault",
+    "ApId": 3094,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.smuggler'sden",
+    "Preface": "Wing-Haunted Cave",
+    "Label": "Smuggler's Den",
+    "ApId": 3095,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.hermitcell",
+        "Preface": "Gaping Darkness",
+        "Label": "Hermit Cell"
+      },
+      {
+        "IdStr": "terrain.ourladybeneath",
+        "Preface": "Abandoned Church",
+        "Label": "Our Lady Beneath"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.solarium",
+    "Preface": "Glaring Room",
+    "Label": "Solarium",
+    "ApId": 3096,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.spire",
+    "Preface": "Wyrd-Cursed Spire",
+    "Label": "Spire",
+    "ApId": 3097,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.staff-room",
+    "Preface": "Blackened Staff-Room",
+    "Label": "Staff-Room",
+    "ApId": 3098,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.crucibletower1",
+        "Preface": "Smoky Chamber",
+        "Label": "Crucible Tower: Governor's Office"
+      },
+      {
+        "IdStr": "terrain.gaolyard",
+        "Preface": "Blackened Yard",
+        "Label": "Gaol Yard"
+      },
+      {
+        "IdStr": "terrain.cell-adept",
+        "Preface": "Sealed Cell",
+        "Label": "Cell: Adepts"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.stairtenebrous",
+    "Preface": "Shadowed Stair",
+    "Label": "Stair Tenebrous",
+    "ApId": 3099,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.nightgallery",
+        "Preface": "Shrouded Space",
+        "Label": "Night Gallery"
+      },
+      {
+        "IdStr": "terrain.earthcellar",
+        "Preface": "Collapsed Cellar",
+        "Label": "Earth Cellar"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.stores",
+    "Preface": "Heart-Haunted Room",
+    "Label": "Stores",
+    "ApId": 30100,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.refectory",
+        "Preface": "Rose-Haunted Hall",
+        "Label": "Refectory"
+      },
+      {
+        "IdStr": "terrain.backstairs",
+        "Preface": "Blockaded Stairs",
+        "Label": "Back Stairs"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.upperpumproom",
+    "Preface": "Room of Rusts",
+    "Label": "Upper Pump Room",
+    "ApId": 30101,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.narthex",
+        "Preface": "Slithering Fountain",
+        "Label": "Narthex"
+      },
+      {
+        "IdStr": "terrain.sacredspring",
+        "Preface": "Wheel-Filled Spring",
+        "Label": "Sacred Spring"
+      },
+      {
+        "IdStr": "terrain.rowenarium",
+        "Preface": "Crystallised Chamber",
+        "Label": "Rowenarium"
+      },
+      {
+        "IdStr": "terrain.hallofvoices",
+        "Preface": "Silent Hall",
+        "Label": "Hall of Voices"
+      },
+      {
+        "IdStr": "terrain.lowerpumproom",
+        "Preface": "Flooded Level",
+        "Label": "Lower Pump Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.vestibulumtransitus",
+    "Preface": "Rattling Bridge",
+    "Label": "Vestibulum Transitus",
+    "ApId": 30102,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.ballroomduellinghall",
+        "Preface": "Dim Hall",
+        "Label": "Duelling Hall"
+      },
+      {
+        "IdStr": "terrain.gullscryloggia",
+        "Preface": "Squawkful Loggia",
+        "Label": "Gullscry Loggia"
+      },
+      {
+        "IdStr": "terrain.nightgallery",
+        "Preface": "Shrouded Space",
+        "Label": "Night Gallery"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.violetchamber",
+    "Preface": "Serpent-Haunted Bedroom",
+    "Label": "Violet Chamber",
+    "ApId": 30103,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.severnchamber",
+        "Preface": "Abandoned Bedroom",
+        "Label": "Severn Chamber"
+      },
+      {
+        "IdStr": "terrain.palechamber",
+        "Preface": "Icy Bedroom",
+        "Label": "Pale Chamber"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.watchmanstower1",
+    "Preface": "Gatehouse Stairs",
+    "Label": "Watchman's Tower: First Floor",
+    "ApId": 30104,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.watchmanstower2",
+        "Preface": "Watchman's Tower: Top Floor",
+        "Label": "Watchman's Tower: Observatory"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.watchmanstower2",
+    "Preface": "Watchman's Tower: Top Floor",
+    "Label": "Watchman's Tower: Observatory",
+    "ApId": 30105,
+    "ConnectsTo": []
+  },
+  {
+    "IdStr": "terrain.well",
+    "Preface": "Deserted Well",
+    "Label": "Well",
+    "ApId": 30106,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.foundry",
+        "Preface": "Ravaged Foundry",
+        "Label": "Foundry"
+      },
+      {
+        "IdStr": "terrain.kitchengarden",
+        "Preface": "Overgrown Kitchen Garden",
+        "Label": "Kitchen Garden"
+      },
+      {
+        "IdStr": "terrain.welldescent",
+        "Preface": "Creeper-Crowded Descent",
+        "Label": "Well Descent"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.welldescent",
+    "Preface": "Creeper-Crowded Descent",
+    "Label": "Well Descent",
+    "ApId": 30107,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.well",
+        "Preface": "Deserted Well",
+        "Label": "Well"
+      },
+      {
+        "IdStr": "terrain.deepwelldescent",
+        "Preface": "Root-Thronged Descent",
+        "Label": "Deep Well Descent"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.westcottroom",
+    "Preface": "Smoking-Room",
+    "Label": "Westcott Room",
+    "ApId": 30108,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.grandascent.1",
+        "Preface": "Grand Ascent - First Floor",
+        "Label": "Grand Ascent - First Floor"
+      },
+      {
+        "IdStr": "terrain.mapchamber",
+        "Preface": "Web-Snared Room",
+        "Label": "Map Room"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.whisperingstair",
+    "Preface": "Riddling Stair",
+    "Label": "Whispering Stair",
+    "ApId": 30109,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.hiddenstair",
+        "Preface": "Rustling Stair",
+        "Label": "Hidden Stair"
+      },
+      {
+        "IdStr": "terrain.ourladybeneath",
+        "Preface": "Abandoned Church",
+        "Label": "Our Lady Beneath"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.windlitgallery",
+    "Preface": "Wind-Prowled Gallery",
+    "Label": "Windlit Gallery",
+    "ApId": 30110,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.gloriousstair",
+        "Preface": "Gloomy Stair",
+        "Label": "Glorious Stair"
+      },
+      {
+        "IdStr": "terrain.radiantstair",
+        "Preface": "Shrouded Stair",
+        "Label": "Radiant Stair"
+      },
+      {
+        "IdStr": "terrain.chapterhouse",
+        "Preface": "Echoing Chamber",
+        "Label": "Chapter House"
+      },
+      {
+        "IdStr": "terrain.churchtower1",
+        "Preface": "Ill-Omened Tower",
+        "Label": "Church Tower"
+      }
+    ]
+  },
+  {
+    "IdStr": "terrain.winecellar",
+    "Preface": "Infested Wine-Cellar",
+    "Label": "Wine Cellar",
+    "ApId": 30111,
+    "ConnectsTo": [
+      {
+        "IdStr": "terrain.earthcellar",
+        "Preface": "Collapsed Cellar",
+        "Label": "Earth Cellar"
+      },
+      {
+        "IdStr": "terrain.hiddenstair",
+        "Preface": "Rustling Stair",
+        "Label": "Hidden Stair"
+      },
+      {
+        "IdStr": "terrain.kitchengarden",
+        "Preface": "Overgrown Kitchen Garden",
+        "Label": "Kitchen Garden"
+      },
+      {
+        "IdStr": "terrain.backstairs",
+        "Preface": "Blockaded Stairs",
+        "Label": "Back Stairs"
+      }
+    ]
+  },
+  {
+    "IdStr": "wt.memorylocus",
+    "Label": "The Journal-Root of the Tree of Wisdoms",
+    "ApId": 401
+  },
+  {
+    "IdStr": "wt.bir.1",
+    "Label": "Birdsong 1",
+    "ApId": 402
+  },
+  {
+    "IdStr": "wt.bir.2",
+    "Label": "Birdsong 2",
+    "ApId": 403
+  },
+  {
+    "IdStr": "wt.bir.3",
+    "Label": "Birdsong 3",
+    "ApId": 404
+  },
+  {
+    "IdStr": "wt.bir.4",
+    "Label": "Birdsong 4",
+    "ApId": 405
+  },
+  {
+    "IdStr": "wt.bir.5",
+    "Label": "Birdsong 5",
+    "ApId": 406
+  },
+  {
+    "IdStr": "wt.bir.6",
+    "Label": "Birdsong 6",
+    "ApId": 407
+  },
+  {
+    "IdStr": "wt.bir.7",
+    "Label": "Birdsong 7",
+    "ApId": 408
+  },
+  {
+    "IdStr": "wt.bir.8",
+    "Label": "Birdsong 8",
+    "ApId": 409
+  },
+  {
+    "IdStr": "wt.bir.9",
+    "Label": "Birdsong 9",
+    "ApId": 4010
+  },
+  {
+    "IdStr": "wt.bos.1",
+    "Label": "TheBosk 1",
+    "ApId": 4011
+  },
+  {
+    "IdStr": "wt.bos.2",
+    "Label": "TheBosk 2",
+    "ApId": 4012
+  },
+  {
+    "IdStr": "wt.bos.3",
+    "Label": "TheBosk 3",
+    "ApId": 4013
+  },
+  {
+    "IdStr": "wt.bos.4",
+    "Label": "TheBosk 4",
+    "ApId": 4014
+  },
+  {
+    "IdStr": "wt.bos.5",
+    "Label": "TheBosk 5",
+    "ApId": 4015
+  },
+  {
+    "IdStr": "wt.bos.6",
+    "Label": "TheBosk 6",
+    "ApId": 4016
+  },
+  {
+    "IdStr": "wt.bos.7",
+    "Label": "TheBosk 7",
+    "ApId": 4017
+  },
+  {
+    "IdStr": "wt.bos.8",
+    "Label": "TheBosk 8",
+    "ApId": 4018
+  },
+  {
+    "IdStr": "wt.bos.9",
+    "Label": "TheBosk 9",
+    "ApId": 4019
+  },
+  {
+    "IdStr": "wt.hor.1",
+    "Label": "Horomachistry 1",
+    "ApId": 4020
+  },
+  {
+    "IdStr": "wt.hor.2",
+    "Label": "Horomachistry 2",
+    "ApId": 4021
+  },
+  {
+    "IdStr": "wt.hor.3",
+    "Label": "Horomachistry 3",
+    "ApId": 4022
+  },
+  {
+    "IdStr": "wt.hor.4",
+    "Label": "Horomachistry 4",
+    "ApId": 4023
+  },
+  {
+    "IdStr": "wt.hor.5",
+    "Label": "Horomachistry 5",
+    "ApId": 4024
+  },
+  {
+    "IdStr": "wt.hor.6",
+    "Label": "Horomachistry 6",
+    "ApId": 4025
+  },
+  {
+    "IdStr": "wt.hor.7",
+    "Label": "Horomachistry 7",
+    "ApId": 4026
+  },
+  {
+    "IdStr": "wt.hor.8",
+    "Label": "Horomachistry 8",
+    "ApId": 4027
+  },
+  {
+    "IdStr": "wt.hor.9",
+    "Label": "Horomachistry 9",
+    "ApId": 4028
+  },
+  {
+    "IdStr": "wt.hus.1",
+    "Label": "Hushery 1",
+    "ApId": 4029
+  },
+  {
+    "IdStr": "wt.hus.2",
+    "Label": "Hushery 2",
+    "ApId": 4030
+  },
+  {
+    "IdStr": "wt.hus.3",
+    "Label": "Hushery 3",
+    "ApId": 4031
+  },
+  {
+    "IdStr": "wt.hus.4",
+    "Label": "Hushery 4",
+    "ApId": 4032
+  },
+  {
+    "IdStr": "wt.hus.5",
+    "Label": "Hushery 5",
+    "ApId": 4033
+  },
+  {
+    "IdStr": "wt.hus.6",
+    "Label": "Hushery 6",
+    "ApId": 4034
+  },
+  {
+    "IdStr": "wt.hus.7",
+    "Label": "Hushery 7",
+    "ApId": 4035
+  },
+  {
+    "IdStr": "wt.hus.8",
+    "Label": "Hushery 8",
+    "ApId": 4036
+  },
+  {
+    "IdStr": "wt.hus.9",
+    "Label": "Hushery 9",
+    "ApId": 4037
+  },
+  {
+    "IdStr": "wt.ill.1",
+    "Label": "Illumination 1",
+    "ApId": 4038
+  },
+  {
+    "IdStr": "wt.ill.2",
+    "Label": "Illumination 2",
+    "ApId": 4039
+  },
+  {
+    "IdStr": "wt.ill.3",
+    "Label": "Illumination 3",
+    "ApId": 4040
+  },
+  {
+    "IdStr": "wt.ill.4",
+    "Label": "Illumination 4",
+    "ApId": 4041
+  },
+  {
+    "IdStr": "wt.ill.5",
+    "Label": "Illumination 5",
+    "ApId": 4042
+  },
+  {
+    "IdStr": "wt.ill.6",
+    "Label": "Illumination 6",
+    "ApId": 4043
+  },
+  {
+    "IdStr": "wt.ill.7",
+    "Label": "Illumination 7",
+    "ApId": 4044
+  },
+  {
+    "IdStr": "wt.ill.8",
+    "Label": "Illumination 8",
+    "ApId": 4045
+  },
+  {
+    "IdStr": "wt.ill.9",
+    "Label": "Illumination 9",
+    "ApId": 4046
+  },
+  {
+    "IdStr": "wt.ith.1",
+    "Label": "Ithastry 1",
+    "ApId": 4047
+  },
+  {
+    "IdStr": "wt.ith.2",
+    "Label": "Ithastry 2",
+    "ApId": 4048
+  },
+  {
+    "IdStr": "wt.ith.3",
+    "Label": "Ithastry 3",
+    "ApId": 4049
+  },
+  {
+    "IdStr": "wt.ith.4",
+    "Label": "Ithastry 4",
+    "ApId": 4050
+  },
+  {
+    "IdStr": "wt.ith.5",
+    "Label": "Ithastry 5",
+    "ApId": 4051
+  },
+  {
+    "IdStr": "wt.ith.6",
+    "Label": "Ithastry 6",
+    "ApId": 4052
+  },
+  {
+    "IdStr": "wt.ith.7",
+    "Label": "Ithastry 7",
+    "ApId": 4053
+  },
+  {
+    "IdStr": "wt.ith.8",
+    "Label": "Ithastry 8",
+    "ApId": 4054
+  },
+  {
+    "IdStr": "wt.ith.9",
+    "Label": "Ithastry 9",
+    "ApId": 4055
+  },
+  {
+    "IdStr": "wt.nyc.1",
+    "Label": "Nyctodromy 1",
+    "ApId": 4056
+  },
+  {
+    "IdStr": "wt.nyc.2",
+    "Label": "Nyctodromy 2",
+    "ApId": 4057
+  },
+  {
+    "IdStr": "wt.nyc.3",
+    "Label": "Nyctodromy 3",
+    "ApId": 4058
+  },
+  {
+    "IdStr": "wt.nyc.4",
+    "Label": "Nyctodromy 4",
+    "ApId": 4059
+  },
+  {
+    "IdStr": "wt.nyc.5",
+    "Label": "Nyctodromy 5",
+    "ApId": 4060
+  },
+  {
+    "IdStr": "wt.nyc.6",
+    "Label": "Nyctodromy 6",
+    "ApId": 4061
+  },
+  {
+    "IdStr": "wt.nyc.7",
+    "Label": "Nyctodromy 7",
+    "ApId": 4062
+  },
+  {
+    "IdStr": "wt.nyc.8",
+    "Label": "Nyctodromy 8",
+    "ApId": 4063
+  },
+  {
+    "IdStr": "wt.nyc.9",
+    "Label": "Nyctodromy 9",
+    "ApId": 4064
+  },
+  {
+    "IdStr": "wt.pre.1",
+    "Label": "Perservation 1",
+    "ApId": 4065
+  },
+  {
+    "IdStr": "wt.pre.2",
+    "Label": "Perservation 2",
+    "ApId": 4066
+  },
+  {
+    "IdStr": "wt.pre.3",
+    "Label": "Perservation 3",
+    "ApId": 4067
+  },
+  {
+    "IdStr": "wt.pre.4",
+    "Label": "Perservation 4",
+    "ApId": 4068
+  },
+  {
+    "IdStr": "wt.pre.5",
+    "Label": "Perservation 5",
+    "ApId": 4069
+  },
+  {
+    "IdStr": "wt.pre.6",
+    "Label": "Perservation 6",
+    "ApId": 4070
+  },
+  {
+    "IdStr": "wt.pre.7",
+    "Label": "Perservation 7",
+    "ApId": 4071
+  },
+  {
+    "IdStr": "wt.pre.8",
+    "Label": "Perservation 8",
+    "ApId": 4072
+  },
+  {
+    "IdStr": "wt.pre.9",
+    "Label": "Perservation 9",
+    "ApId": 4073
+  },
+  {
+    "IdStr": "wt.sko.1",
+    "Label": "Skolekosophy 1",
+    "ApId": 4074
+  },
+  {
+    "IdStr": "wt.sko.2",
+    "Label": "Skolekosophy 2",
+    "ApId": 4075
+  },
+  {
+    "IdStr": "wt.sko.3",
+    "Label": "Skolekosophy 3",
+    "ApId": 4076
+  },
+  {
+    "IdStr": "wt.sko.4",
+    "Label": "Skolekosophy 4",
+    "ApId": 4077
+  },
+  {
+    "IdStr": "wt.sko.5",
+    "Label": "Skolekosophy 5",
+    "ApId": 4078
+  },
+  {
+    "IdStr": "wt.sko.6",
+    "Label": "Skolekosophy 6",
+    "ApId": 4079
+  },
+  {
+    "IdStr": "wt.sko.7",
+    "Label": "Skolekosophy 7",
+    "ApId": 4080
+  },
+  {
+    "IdStr": "wt.sko.8",
+    "Label": "Skolekosophy 8",
+    "ApId": 4081
+  },
+  {
+    "IdStr": "wt.sko.9",
+    "Label": "Skolekosophy 9",
+    "ApId": 4082
+  },
+  {
+    "IdStr": "t.acatalogueofunchartedpleasures",
+    "Label": "A Catalogue of Uncharted Pleasures",
+    "ApId": 501
+  },
+  {
+    "IdStr": "t.achildstreasuryofgoldenafternoons",
+    "Label": "A Child's Treasury of Golden Afternoons",
+    "ApId": 502
+  },
+  {
+    "IdStr": "t.adescentoftheshell",
+    "Label": "A Descent of the Shell",
+    "ApId": 503
+  },
+  {
+    "IdStr": "t.adviceoncontainment",
+    "Label": "Advice on Containment",
+    "ApId": 504
+  },
+  {
+    "IdStr": "t.againstthesisterhoodoftheknotandthefoulnessoftheirdepravedcustoms",
+    "Label": "Against the Sisterhood of the Knot and the Foulness of their Depraved Customs",
+    "ApId": 505
+  },
+  {
+    "IdStr": "t.againstvitruvius",
+    "Label": "Against Vitruvius",
+    "ApId": 506
+  },
+  {
+    "IdStr": "t.ajourneytothegrove",
+    "Label": "A Journey to the Grove",
+    "ApId": 507
+  },
+  {
+    "IdStr": "t.alightintheinkwell",
+    "Label": "A Light in the Inkwell",
+    "ApId": 508
+  },
+  {
+    "IdStr": "t.amanualfordeparture",
+    "Label": "A Manual for Departure",
+    "ApId": 509
+  },
+  {
+    "IdStr": "t.ambrosial!",
+    "Label": "Ambrosial!",
+    "ApId": 5010
+  },
+  {
+    "IdStr": "t.amiranisbeteli",
+    "Label": "Amiranis Beteli",
+    "ApId": 5011
+  },
+  {
+    "IdStr": "t.analmanacofentrances",
+    "Label": "An Almanac of Entrances",
+    "ApId": 5012
+  },
+  {
+    "IdStr": "t.anechoofsilence",
+    "Label": "An Echo of Silence",
+    "ApId": 5013
+  },
+  {
+    "IdStr": "t.anexorcistsfieldmanual",
+    "Label": "An Exorcist's Field Manual",
+    "ApId": 5014
+  },
+  {
+    "IdStr": "t.animpertinentvitulation",
+    "Label": "An Impertinent Vitulation",
+    "ApId": 5015
+  },
+  {
+    "IdStr": "t.anintroductiontohistories",
+    "Label": "An Introduction to Histories",
+    "ApId": 5016
+  },
+  {
+    "IdStr": "t.aninvestigationofafounderedcountry",
+    "Label": "An Investigation of A Foundered Country",
+    "ApId": 5017
+  },
+  {
+    "IdStr": "t.annalsofstbrandans",
+    "Label": "Annals of St Brandan's",
+    "ApId": 5018
+  },
+  {
+    "IdStr": "t.anovelmethodforinvocation.contrition",
+    "Label": "A Novel Method for Invocation & Contrition",
+    "ApId": 5019
+  },
+  {
+    "IdStr": "t.apaleladyandaprinceofwines",
+    "Label": "A Pale Lady and a Prince of Wines",
+    "ApId": 5020
+  },
+  {
+    "IdStr": "t.apolloandmarsyas",
+    "Label": "Apollo and Marsyas",
+    "ApId": 5021
+  },
+  {
+    "IdStr": "t.ascitesupplications",
+    "Label": "Ascite Supplications",
+    "ApId": 5022
+  },
+  {
+    "IdStr": "t.asecondglory",
+    "Label": "A Second Glory",
+    "ApId": 5023
+  },
+  {
+    "IdStr": "t.aseventhvoice",
+    "Label": "A Seventh Voice",
+    "ApId": 5024
+  },
+  {
+    "IdStr": "t.ashapeinsmoke",
+    "Label": "A Shape in Smoke",
+    "ApId": 5025
+  },
+  {
+    "IdStr": "t.asthesunhiscourse",
+    "Label": "As The Sun His Course",
+    "ApId": 5026
+  },
+  {
+    "IdStr": "t.atowerfalls",
+    "Label": "A Tower Falls",
+    "ApId": 5027
+  },
+  {
+    "IdStr": "t.atowerrises",
+    "Label": "A Tower Rises",
+    "ApId": 5028
+  },
+  {
+    "IdStr": "t.atrueandcompleteaccountingoftheasclepianmysteriesoftherootsofthehouse",
+    "Label": "A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House",
+    "ApId": 5029
+  },
+  {
+    "IdStr": "t.atruehistoryofvalentinedewulf",
+    "Label": "A True History of Valentine Dewulf",
+    "ApId": 5030
+  },
+  {
+    "IdStr": "t.bancroftdiaries",
+    "Label": "Bancroft Diaries",
+    "ApId": 5031
+  },
+  {
+    "IdStr": "t.blacknephrite",
+    "Label": "Black Nephrite",
+    "ApId": 5032
+  },
+  {
+    "IdStr": "t.bookofmiah",
+    "Label": "Book of Miah",
+    "ApId": 5033
+  },
+  {
+    "IdStr": "t.bookoftrueblood",
+    "Label": "Book of True Blood",
+    "ApId": 5034
+  },
+  {
+    "IdStr": "t.bytheirmarksshallyeknowthem",
+    "Label": "By Their Marks Shall Ye Know them",
+    "ApId": 5035
+  },
+  {
+    "IdStr": "t.calicitesupplications",
+    "Label": "Calicite Supplications",
+    "ApId": 5036
+  },
+  {
+    "IdStr": "t.cardeasdelights",
+    "Label": "Cardea's Delights",
+    "ApId": 5037
+  },
+  {
+    "IdStr": "t.chioneatabydos",
+    "Label": "Chione at Abydos",
+    "ApId": 5038
+  },
+  {
+    "IdStr": "t.codexacephali",
+    "Label": "Codex Acephali",
+    "ApId": 5039
+  },
+  {
+    "IdStr": "t.collectedhushhouselectures",
+    "Label": "Collected Hush House Lectures",
+    "ApId": 5040
+  },
+  {
+    "IdStr": "t.coloursintheliver",
+    "Label": "COLOURS IN THE LIVER",
+    "ApId": 5041
+  },
+  {
+    "IdStr": "t.commandmentsforthepreservationofallthatexists",
+    "Label": "Commandments For the Preservation of All That Exists",
+    "ApId": 5042
+  },
+  {
+    "IdStr": "t.cucurbitprisonerrecords1927",
+    "Label": "Cucurbit Prisoner Records 1927",
+    "ApId": 5043
+  },
+  {
+    "IdStr": "t.cucurbitprisonerrecords1928",
+    "Label": "Cucurbit Prisoner Records 1928",
+    "ApId": 5044
+  },
+  {
+    "IdStr": "t.damascenetraditionsofthehouseoflethe",
+    "Label": "Damascene Traditions of the House of Lethe",
+    "ApId": 5045
+  },
+  {
+    "IdStr": "t.deathsandtheirevasions",
+    "Label": "Deaths and their Evasions",
+    "ApId": 5046
+  },
+  {
+    "IdStr": "t.debellismurorum",
+    "Label": "De Bellis Murorum",
+    "ApId": 5047
+  },
+  {
+    "IdStr": "t.dehorisbook1",
+    "Label": "De Horis book 1",
+    "ApId": 5048
+  },
+  {
+    "IdStr": "t.dehorisbook2",
+    "Label": "De Horis book 2",
+    "ApId": 5049
+  },
+  {
+    "IdStr": "t.dehorisbook3",
+    "Label": "De Horis book 3",
+    "ApId": 5050
+  },
+  {
+    "IdStr": "t.demotucorporumvetitorum",
+    "Label": "De motu corporum vetitorum",
+    "ApId": 5051
+  },
+  {
+    "IdStr": "t.deratioquercuum",
+    "Label": "De Ratio Quercuum",
+    "ApId": 5052
+  },
+  {
+    "IdStr": "t.eachflamehisfuel",
+    "Label": "Each Flame His Fuel",
+    "ApId": 5053
+  },
+  {
+    "IdStr": "t.echidnalia",
+    "Label": "Echidnalia",
+    "ApId": 5054
+  },
+  {
+    "IdStr": "t.enchiridiontragularis",
+    "Label": "Enchiridion Tragularis",
+    "ApId": 5055
+  },
+  {
+    "IdStr": "t.etteryafter",
+    "Label": "Ettery After",
+    "ApId": 5056
+  },
+  {
+    "IdStr": "t.evastreasury",
+    "Label": "Eva's Treasury",
+    "ApId": 5057
+  },
+  {
+    "IdStr": "t.exercisesinthecontinuityofself",
+    "Label": "Exercises in the Continuity of Self",
+    "ApId": 5058
+  },
+  {
+    "IdStr": "t.exorcismforgirls",
+    "Label": "Exorcism for Girls",
+    "ApId": 5059
+  },
+  {
+    "IdStr": "t.experimentbeyondsight",
+    "Label": "EXPERIMENT BEYOND SIGHT",
+    "ApId": 5060
+  },
+  {
+    "IdStr": "t.fekrisherbary",
+    "Label": "Fekri's Herbary",
+    "ApId": 5061
+  },
+  {
+    "IdStr": "t.fivecreations",
+    "Label": "Five Creations",
+    "ApId": 5062
+  },
+  {
+    "IdStr": "t.fromhistorytoeternity",
+    "Label": "From History to Eternity",
+    "ApId": 5063
+  },
+  {
+    "IdStr": "t.glimmerings",
+    "Label": "Glimmerings",
+    "ApId": 5064
+  },
+  {
+    "IdStr": "t.gospelofnicodemus",
+    "Label": "Gospel of Nicodemus",
+    "ApId": 5065
+  },
+  {
+    "IdStr": "t.greenjaspertablet",
+    "Label": "Green Jasper Tablet",
+    "ApId": 5066
+  },
+  {
+    "IdStr": "t.honeythecomprehensiveguide",
+    "Label": "Honey: the Comprehensive Guide",
+    "ApId": 5067
+  },
+  {
+    "IdStr": "t.howtheendwillbegin",
+    "Label": "How the End will Begin",
+    "ApId": 5068
+  },
+  {
+    "IdStr": "t.huntingjournalsofbryandewulf",
+    "Label": "Hunting Journals of Bryan Dewulf",
+    "ApId": 5069
+  },
+  {
+    "IdStr": "t.inaamkapigiginlupirgarkiecryppys",
+    "Label": "Inaam, Kapigiginlupir, Garkie, Cryppys",
+    "ApId": 5070
+  },
+  {
+    "IdStr": "t.inmemoryofgods",
+    "Label": "In Memory of Gods",
+    "ApId": 5071
+  },
+  {
+    "IdStr": "t.inthemalleary",
+    "Label": "In the Malleary",
+    "ApId": 5072
+  },
+  {
+    "IdStr": "t.inthemountainsasupontheplaintheremaynotbeapathwherenonehaspassed",
+    "Label": "In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed",
+    "ApId": 5073
+  },
+  {
+    "IdStr": "t.isaacofkarthshistoryoftheshadowlesskings",
+    "Label": "Isaac of Karth's History of the Shadowless Kings",
+    "ApId": 5074
+  },
+  {
+    "IdStr": "t.itiswritten",
+    "Label": "It Is Written",
+    "ApId": 5075
+  },
+  {
+    "IdStr": "t.journalofsirdavidgreene1903",
+    "Label": "Journal of Sir David Greene, 1903",
+    "ApId": 5076
+  },
+  {
+    "IdStr": "t.journalofthomasdewulf",
+    "Label": "Journal of Thomas Dewulf",
+    "ApId": 5077
+  },
+  {
+    "IdStr": "t.journalofwalterdewulf",
+    "Label": "Journal of Walter Dewulf",
+    "ApId": 5078
+  },
+  {
+    "IdStr": "t.justverse",
+    "Label": "Just Verse",
+    "ApId": 5079
+  },
+  {
+    "IdStr": "t.keyofnight",
+    "Label": "Key of Night",
+    "ApId": 5080
+  },
+  {
+    "IdStr": "t.kitlingripeandthemoldywarpsgraveandotherstories",
+    "Label": "Kitling Ripe and the Moldywarp's Grave (and Other Stories)",
+    "ApId": 5081
+  },
+  {
+    "IdStr": "t.kitlingripestastytreats",
+    "Label": "Kitling Ripe's Tasty Treats",
+    "ApId": 5082
+  },
+  {
+    "IdStr": "t.kopralithomphalos",
+    "Label": "Kopralith Omphalos",
+    "ApId": 5083
+  },
+  {
+    "IdStr": "t.ladyevasrepose",
+    "Label": "Lady Eva's Repose",
+    "ApId": 5084
+  },
+  {
+    "IdStr": "t.lakefucinorecordings",
+    "Label": "Lake Fucino Recordings",
+    "ApId": 5085
+  },
+  {
+    "IdStr": "t.lettersfromafugitive",
+    "Label": "Letters from a Fugitive",
+    "ApId": 5086
+  },
+  {
+    "IdStr": "t.letterstomysuccessor",
+    "Label": "Letters To My Successor",
+    "ApId": 5087
+  },
+  {
+    "IdStr": "t.malachitesupplications",
+    "Label": "Malachite Supplications",
+    "ApId": 5088
+  },
+  {
+    "IdStr": "t.medusancommentaries",
+    "Label": "Medusan Commentaries",
+    "ApId": 5089
+  },
+  {
+    "IdStr": "t.medusaslament",
+    "Label": "Medusa's Lament",
+    "ApId": 5090
+  },
+  {
+    "IdStr": "t.musgravessketches",
+    "Label": "Musgrave's Sketches",
+    "ApId": 5091
+  },
+  {
+    "IdStr": "t.mydeedsmypowersmyachievementsandtheinjusticesperpetratedagainstme",
+    "Label": "My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me",
+    "ApId": 5092
+  },
+  {
+    "IdStr": "t.naeniansketches",
+    "Label": "Naenian Sketches",
+    "ApId": 5093
+  },
+  {
+    "IdStr": "t.nixabolix",
+    "Label": "Nix Abolix",
+    "ApId": 5094
+  },
+  {
+    "IdStr": "t.notesonbindings",
+    "Label": "Notes on Bindings",
+    "ApId": 5095
+  },
+  {
+    "IdStr": "t.nynscagesavignontext",
+    "Label": "Nyn's Cages (Avignon Text)",
+    "ApId": 5096
+  },
+  {
+    "IdStr": "t.nynscagesbrugestextilluminated",
+    "Label": "Nyn's Cages (Bruges Text, Illuminated)",
+    "ApId": 5097
+  },
+  {
+    "IdStr": "t.oblationsiniron",
+    "Label": "Oblations in Iron",
+    "ApId": 5098
+  },
+  {
+    "IdStr": "t.observationsonthepeacockdoor",
+    "Label": "Observations on the Peacock Door",
+    "ApId": 5099
+  },
+  {
+    "IdStr": "t.oghkoroghkortissilakoghkor",
+    "Label": "OGHKOR OGHKOR TISSILAK OGHKOR",
+    "ApId": 50100
+  },
+  {
+    "IdStr": "t.oldcoppernoseandthesoftermetal",
+    "Label": "Old Coppernose and the Softer Metal",
+    "ApId": 50101
+  },
+  {
+    "IdStr": "t.onehundredandeight",
+    "Label": "One Hundred And Eight",
+    "ApId": 50102
+  },
+  {
+    "IdStr": "t.onethousandthreads",
+    "Label": "One Thousand Threads",
+    "ApId": 50103
+  },
+  {
+    "IdStr": "t.onimperfections",
+    "Label": "On Imperfections",
+    "ApId": 50104
+  },
+  {
+    "IdStr": "t.onmatthiasandtheamethystimagoloss",
+    "Label": "On Matthias and the Amethyst Imago: Loss",
+    "ApId": 50105
+  },
+  {
+    "IdStr": "t.onmatthiasandtheamethystimagopursuit",
+    "Label": "On Matthias and the Amethyst Imago: Pursuit",
+    "ApId": 50106
+  },
+  {
+    "IdStr": "t.onmatthiasandtheamethystimagotransformation",
+    "Label": "On Matthias and the Amethyst Imago: Transformation",
+    "ApId": 50107
+  },
+  {
+    "IdStr": "t.onresonance",
+    "Label": "On Resonance",
+    "ApId": 50108
+  },
+  {
+    "IdStr": "t.onthematterandthedeedsofserpents",
+    "Label": "On the Matter and the Deeds of Serpents",
+    "ApId": 50109
+  },
+  {
+    "IdStr": "t.onthewhite",
+    "Label": "On the White",
+    "ApId": 50110
+  },
+  {
+    "IdStr": "t.onthewindingstair",
+    "Label": "On the Winding Stair",
+    "ApId": 50111
+  },
+  {
+    "IdStr": "t.onthirstliesivoriesandlovelies",
+    "Label": "On Thirstlies, Ivories and Lovelies",
+    "ApId": 50112
+  },
+  {
+    "IdStr": "t.onwhatiscontainedbysilver",
+    "Label": "On What is Contained By Silver",
+    "ApId": 50113
+  },
+  {
+    "IdStr": "t.openingthesky",
+    "Label": "Opening the Sky",
+    "ApId": 50114
+  },
+  {
+    "IdStr": "t.operationsofacertainfinality",
+    "Label": "Operations of a Certain Finality",
+    "ApId": 50115
+  },
+  {
+    "IdStr": "t.opusmagnuscaeruleus",
+    "Label": "Opus Magnum Caeruleum",
+    "ApId": 50116
+  },
+  {
+    "IdStr": "t.perugiandiaries",
+    "Label": "Perugian Diaries",
+    "ApId": 50117
+  },
+  {
+    "IdStr": "t.plantagenetmysteries",
+    "Label": "Plantagenet Mysteries",
+    "ApId": 50118
+  },
+  {
+    "IdStr": "t.propheciesofglory",
+    "Label": "Prophecies of Glory",
+    "ApId": 50119
+  },
+  {
+    "IdStr": "t.quirinicmeditations",
+    "Label": "Quirinic Meditations",
+    "ApId": 50120
+  },
+  {
+    "IdStr": "t.raptintheking",
+    "Label": "Rapt in the King",
+    "ApId": 50121
+  },
+  {
+    "IdStr": "t.recordingsfromthealthibanabyss",
+    "Label": "Recordings from the Althiban Abyss",
+    "ApId": 50122
+  },
+  {
+    "IdStr": "t.serpentroot",
+    "Label": "Serpent-Root",
+    "ApId": 50123
+  },
+  {
+    "IdStr": "t.sevenfacesoficarus",
+    "Label": "Seven Faces of Icarus",
+    "ApId": 50124
+  },
+  {
+    "IdStr": "t.sevenshards",
+    "Label": "Seven Shards",
+    "ApId": 50125
+  },
+  {
+    "IdStr": "t.shuriticbookofsuns",
+    "Label": "Shuritic Book of Suns",
+    "ApId": 50126
+  },
+  {
+    "IdStr": "t.singlefootsongs",
+    "Label": "Singlefoot Songs",
+    "ApId": 50127
+  },
+  {
+    "IdStr": "t.skinofsilver",
+    "Label": "Skin of Silver",
+    "ApId": 50128
+  },
+  {
+    "IdStr": "t.snareofthetreecollectedproverbsofauntmopsy",
+    "Label": "Snare of the Tree: Collected Proverbs of Aunt Mopsy",
+    "ApId": 50129
+  },
+  {
+    "IdStr": "t.stolenhistories",
+    "Label": "Stolen Histories",
+    "ApId": 50130
+  },
+  {
+    "IdStr": "t.sunriseawakenings",
+    "Label": "Sunrise Awakenings",
+    "ApId": 50131
+  },
+  {
+    "IdStr": "t.sunsetceliaandtheendofdays",
+    "Label": "Sunset Celia and the End of Days",
+    "ApId": 50132
+  },
+  {
+    "IdStr": "t.sunsetpassages",
+    "Label": "Sunset Passages",
+    "ApId": 50133
+  },
+  {
+    "IdStr": "t.theaccountofkanishkatthespidersdoor",
+    "Label": "The Account of Kanishk at the Spider's Door",
+    "ApId": 50134
+  },
+  {
+    "IdStr": "t.theadmonitoryautomataproject",
+    "Label": "The Admonitory Automata Project",
+    "ApId": 50135
+  },
+  {
+    "IdStr": "t.thealloyofthewhiterose",
+    "Label": "The Alloy of the White Rose",
+    "ApId": 50136
+  },
+  {
+    "IdStr": "t.theamalgamoftheredrose",
+    "Label": "The Amalgam of the Red Rose",
+    "ApId": 50137
+  },
+  {
+    "IdStr": "t.theascendant",
+    "Label": "The Ascendant",
+    "ApId": 50138
+  },
+  {
+    "IdStr": "t.thebarrowchildselegies",
+    "Label": "The Barrowchild's Elegies",
+    "ApId": 50139
+  },
+  {
+    "IdStr": "t.thebeekeepersends",
+    "Label": "The Bee-Keeper's Ends",
+    "ApId": 50140
+  },
+  {
+    "IdStr": "t.theberrybook",
+    "Label": "The Berrybook",
+    "ApId": 50141
+  },
+  {
+    "IdStr": "t.theblackbookofbrittany",
+    "Label": "The Black Book of Brittany",
+    "ApId": 50142
+  },
+  {
+    "IdStr": "t.thebookofcinders",
+    "Label": "The Book of Cinders",
+    "ApId": 50143
+  },
+  {
+    "IdStr": "t.thebookofdissolution",
+    "Label": "The Book of Dissolution",
+    "ApId": 50144
+  },
+  {
+    "IdStr": "t.thebookofmasks",
+    "Label": "The Book of Masks",
+    "ApId": 50145
+  },
+  {
+    "IdStr": "t.thebookofthecentipede",
+    "Label": "The Book of the Centipede",
+    "ApId": 50146
+  },
+  {
+    "IdStr": "t.thebookoftheextinguishedheart",
+    "Label": "The Book of the Extinguished Heart",
+    "ApId": 50147
+  },
+  {
+    "IdStr": "t.thebookofthewhitecat",
+    "Label": "The Book of the White Cat",
+    "ApId": 50148
+  },
+  {
+    "IdStr": "t.thebookofthrones",
+    "Label": "The Book of Thrones",
+    "ApId": 50149
+  },
+  {
+    "IdStr": "t.theburningwoman",
+    "Label": "The Burning Woman",
+    "ApId": 50150
+  },
+  {
+    "IdStr": "t.thecarbonekschism",
+    "Label": "The Carbonek Schism",
+    "ApId": 50151
+  },
+  {
+    "IdStr": "t.thecarminepetalrevised",
+    "Label": "The Carmine Petal: Revised",
+    "ApId": 50152
+  },
+  {
+    "IdStr": "t.thecarminepetalunexpurgated",
+    "Label": "The Carmine Petal: Unexpurgated",
+    "ApId": 50153
+  },
+  {
+    "IdStr": "t.theceaselesstantra",
+    "Label": "The Ceaseless Tantra",
+    "ApId": 50154
+  },
+  {
+    "IdStr": "t.thechandlerswish",
+    "Label": "The Chandler's Wish",
+    "ApId": 50155
+  },
+  {
+    "IdStr": "t.theconcursumdiaries",
+    "Label": "The Concursum Diaries",
+    "ApId": 50156
+  },
+  {
+    "IdStr": "t.thecrossingtonoon",
+    "Label": "The Crossing to Noon",
+    "ApId": 50157
+  },
+  {
+    "IdStr": "t.thedeathsofthemoon",
+    "Label": "The Deaths of the Moon",
+    "ApId": 50158
+  },
+  {
+    "IdStr": "t.thedebateofsevencups",
+    "Label": "The Debate of Seven Cups",
+    "ApId": 50159
+  },
+  {
+    "IdStr": "t.thedeedsofthescarredcaptain",
+    "Label": "The Deeds of the Scarred Captain",
+    "ApId": 50160
+  },
+  {
+    "IdStr": "t.thedevouredtantra",
+    "Label": "The Devoured Tantra",
+    "ApId": 50161
+  },
+  {
+    "IdStr": "t.thedreamoftheconspiracyofthelowerskies",
+    "Label": "The Dream of the Conspiracy of the Lower Skies",
+    "ApId": 50162
+  },
+  {
+    "IdStr": "t.theelationsoflimentinus",
+    "Label": "The Elations of Limentinus",
+    "ApId": 50163
+  },
+  {
+    "IdStr": "t.theencirclingtantra",
+    "Label": "The Encircling Tantra",
+    "ApId": 50164
+  },
+  {
+    "IdStr": "t.thefallencross",
+    "Label": "The Fallen Cross",
+    "ApId": 50165
+  },
+  {
+    "IdStr": "t.thefirecircletantra",
+    "Label": "The Fire-Circle Tantra",
+    "ApId": 50166
+  },
+  {
+    "IdStr": "t.thefivelettersonmemory",
+    "Label": "The Five Letters On Memory",
+    "ApId": 50167
+  },
+  {
+    "IdStr": "t.theflayedtantra",
+    "Label": "The Flayed Tantra",
+    "ApId": 50168
+  },
+  {
+    "IdStr": "t.thefocusofamber",
+    "Label": "The Focus of Amber",
+    "ApId": 50169
+  },
+  {
+    "IdStr": "t.thegeminiadi",
+    "Label": "The Geminiad i",
+    "ApId": 50170
+  },
+  {
+    "IdStr": "t.thegeminiadii",
+    "Label": "The Geminiad ii",
+    "ApId": 50171
+  },
+  {
+    "IdStr": "t.thegeminiadiii",
+    "Label": "The Geminiad iii",
+    "ApId": 50172
+  },
+  {
+    "IdStr": "t.thegospelofzacchaeus",
+    "Label": "The Gospel of Zacchaeus",
+    "ApId": 50173
+  },
+  {
+    "IdStr": "t.thegrandpassageofthehours",
+    "Label": "The Grand Passage of the Hours",
+    "ApId": 50174
+  },
+  {
+    "IdStr": "t.thehighmysteriesoftheinnermostchamberofourchurchsolar",
+    "Label": "The High Mysteries of the Innermost Chamber of our Church Solar",
+    "ApId": 50175
+  },
+  {
+    "IdStr": "t.thehightraditionsofthenobleendeavour",
+    "Label": "The High Traditions of the Noble Endeavour",
+    "ApId": 50176
+  },
+  {
+    "IdStr": "t.thehissingkey",
+    "Label": "The Hissing Key",
+    "ApId": 50177
+  },
+  {
+    "IdStr": "t.thehistoryofinks",
+    "Label": "The History of Inks",
+    "ApId": 50178
+  },
+  {
+    "IdStr": "t.thehumoursofagentleman",
+    "Label": "The Humours of a Gentleman",
+    "ApId": 50179
+  },
+  {
+    "IdStr": "t.theincandescenttantra",
+    "Label": "The Incandescent Tantra",
+    "ApId": 50180
+  },
+  {
+    "IdStr": "t.theinstrumentsoftheheart",
+    "Label": "The Instruments of the Heart",
+    "ApId": 50181
+  },
+  {
+    "IdStr": "t.theintimationsofskin",
+    "Label": "The Intimations of Skin",
+    "ApId": 50182
+  },
+  {
+    "IdStr": "t.theinvisibleoperaunfinishedrecording",
+    "Label": "The Invisible Opera (Unfinished Recording)",
+    "ApId": 50183
+  },
+  {
+    "IdStr": "t.theironbook",
+    "Label": "The Iron Book",
+    "ApId": 50184
+  },
+  {
+    "IdStr": "t.theivorybook",
+    "Label": "The Ivory Book",
+    "ApId": 50185
+  },
+  {
+    "IdStr": "t.thekerishamportolan",
+    "Label": "The Kerisham Portolan",
+    "ApId": 50186
+  },
+  {
+    "IdStr": "t.theknownunknowntantra",
+    "Label": "The Known-Unknown Tantra",
+    "ApId": 50187
+  },
+  {
+    "IdStr": "t.thelarquebinecodex",
+    "Label": "The Larquebine Codex",
+    "ApId": 50188
+  },
+  {
+    "IdStr": "t.theleoninetantra",
+    "Label": "The Leonine Tantra",
+    "ApId": 50189
+  },
+  {
+    "IdStr": "t.thelionandtheglass",
+    "Label": "The Lion and the Glass",
+    "ApId": 50190
+  },
+  {
+    "IdStr": "t.thelocksmithsdreamalightthroughthekeyhole",
+    "Label": "The Locksmith's Dream: a Light through the Keyhole",
+    "ApId": 50191
+  },
+  {
+    "IdStr": "t.thelocksmithsdreamincursus",
+    "Label": "The Locksmith's Dream: Incursus",
+    "ApId": 50192
+  },
+  {
+    "IdStr": "t.thelocksmithsdreamportionsandproportions",
+    "Label": "The Locksmith's Dream: Portions and Proportions",
+    "ApId": 50193
+  },
+  {
+    "IdStr": "t.thelocksmithsdreamstolenreflections",
+    "Label": "The Locksmith's Dream: Stolen Reflections",
+    "ApId": 50194
+  },
+  {
+    "IdStr": "t.thelocksmithsdreamtrespasses",
+    "Label": "The Locksmith's Dream: Trespasses",
+    "ApId": 50195
+  },
+  {
+    "IdStr": "t.themannerinwhichthealchemistwasspared",
+    "Label": "The Manner in which the Alchemist was Spared",
+    "ApId": 50196
+  },
+  {
+    "IdStr": "t.themessengerawaitingherdestination",
+    "Label": "The Messenger Awaiting Her Destination",
+    "ApId": 50197
+  },
+  {
+    "IdStr": "t.themirrorofmelancthe",
+    "Label": "The Mirror of Melancthe",
+    "ApId": 50198
+  },
+  {
+    "IdStr": "t.themoonsegg",
+    "Label": "The Moon's Egg",
+    "ApId": 50199
+  },
+  {
+    "IdStr": "t.themorphycodex",
+    "Label": "The Morphy Codex",
+    "ApId": 50200
+  },
+  {
+    "IdStr": "t.themostsorrowfulendoftheladynonna",
+    "Label": "The Most Sorrowful End of the Lady Nonna",
+    "ApId": 50201
+  },
+  {
+    "IdStr": "t.theopenhead",
+    "Label": "THE OPEN HEAD",
+    "ApId": 50202
+  },
+  {
+    "IdStr": "t.theorchidtransfigurationsabirth",
+    "Label": "The Orchid Transfigurations: a Birth",
+    "ApId": 50203
+  },
+  {
+    "IdStr": "t.theorchidtransfigurationsafeast",
+    "Label": "The Orchid Transfigurations: a Feast",
+    "ApId": 50204
+  },
+  {
+    "IdStr": "t.theorchidtransfigurationsnoon",
+    "Label": "The Orchid Transfigurations: Noon",
+    "ApId": 50205
+  },
+  {
+    "IdStr": "t.theoriginsofhours",
+    "Label": "The Origins of Hours",
+    "ApId": 50206
+  },
+  {
+    "IdStr": "t.theothereyeoftheserpent",
+    "Label": "The Other Eye of the Serpent",
+    "ApId": 50207
+  },
+  {
+    "IdStr": "t.theotherline",
+    "Label": "The Other Line",
+    "ApId": 50208
+  },
+  {
+    "IdStr": "t.thequeensoftherivers",
+    "Label": "The Queens of the Rivers",
+    "ApId": 50209
+  },
+  {
+    "IdStr": "t.thequeensturn",
+    "Label": "The Queen's Turn",
+    "ApId": 50210
+  },
+  {
+    "IdStr": "t.theradicalmeasure",
+    "Label": "The Radical Measure",
+    "ApId": 50211
+  },
+  {
+    "IdStr": "t.theradicalmeasureglossed",
+    "Label": "The Radical Measure (Glossed)",
+    "ApId": 50212
+  },
+  {
+    "IdStr": "t.therapturesofforculus",
+    "Label": "The Raptures of Forculus",
+    "ApId": 50213
+  },
+  {
+    "IdStr": "t.theredbookofbrittany",
+    "Label": "The Red Book of Brittany",
+    "ApId": 50214
+  },
+  {
+    "IdStr": "t.therepublicofteeth",
+    "Label": "The Republic of Teeth",
+    "ApId": 50215
+  },
+  {
+    "IdStr": "t.theroadtojanus",
+    "Label": "The Road to Janus",
+    "ApId": 50216
+  },
+  {
+    "IdStr": "t.theroseofhypatia",
+    "Label": "The Rose of Hypatia",
+    "ApId": 50217
+  },
+  {
+    "IdStr": "t.theroseofnuriel",
+    "Label": "The Rose of Nuriel",
+    "ApId": 50218
+  },
+  {
+    "IdStr": "t.theroseofwaznei",
+    "Label": "The Rose of Waznei",
+    "ApId": 50219
+  },
+  {
+    "IdStr": "t.thescarinthesky",
+    "Label": "The Scar in the Sky",
+    "ApId": 50220
+  },
+  {
+    "IdStr": "t.theseadoesnotregret",
+    "Label": "The Sea Does Not Regret",
+    "ApId": 50221
+  },
+  {
+    "IdStr": "t.thesecretcolours",
+    "Label": "The Secret Colours",
+    "ApId": 50222
+  },
+  {
+    "IdStr": "t.theserenityoftheblackwood",
+    "Label": "The Serenity of the Black Wood",
+    "ApId": 50223
+  },
+  {
+    "IdStr": "t.thesevenfoldslayingofthesevencoiled",
+    "Label": "The Sevenfold Slaying of the Seven-Coiled",
+    "ApId": 50224
+  },
+  {
+    "IdStr": "t.theshadowinthestair",
+    "Label": "The Shadow in the Stair",
+    "ApId": 50225
+  },
+  {
+    "IdStr": "t.theshavenlocktantra",
+    "Label": "The Shaven Lock Tantra",
+    "ApId": 50226
+  },
+  {
+    "IdStr": "t.thesilverbook",
+    "Label": "The Silver Book",
+    "ApId": 50227
+  },
+  {
+    "IdStr": "t.thesixlettersonnecessity",
+    "Label": "The Six Letters on Necessity",
+    "ApId": 50228
+  },
+  {
+    "IdStr": "t.theskeletonsongs",
+    "Label": "The Skeleton Songs",
+    "ApId": 50229
+  },
+  {
+    "IdStr": "t.theskyinthescar",
+    "Label": "The Sky in the Scar",
+    "ApId": 50230
+  },
+  {
+    "IdStr": "t.theskythesoul",
+    "Label": "The Sky, the Soul",
+    "ApId": 50231
+  },
+  {
+    "IdStr": "t.thesongsofthecarapacecross",
+    "Label": "The Songs of the Carapace Cross",
+    "ApId": 50232
+  },
+  {
+    "IdStr": "t.thesundisfigured",
+    "Label": "The Sun Disfigured",
+    "ApId": 50233
+  },
+  {
+    "IdStr": "t.thesunsdesign",
+    "Label": "The Sun's Design",
+    "ApId": 50234
+  },
+  {
+    "IdStr": "t.thesunslament",
+    "Label": "The Sun's Lament",
+    "ApId": 50235
+  },
+  {
+    "IdStr": "t.thetantraofworms",
+    "Label": "The Tantra of Worms",
+    "ApId": 50236
+  },
+  {
+    "IdStr": "t.thetemptationsofarchitecture",
+    "Label": "The Temptations of Architecture",
+    "ApId": 50237
+  },
+  {
+    "IdStr": "t.thethirstingtantra",
+    "Label": "The Thirsting Tantra",
+    "ApId": 50238
+  },
+  {
+    "IdStr": "t.thethreeandthethreekerishammanuscript",
+    "Label": "The Three and the Three (Kerisham Manuscript)",
+    "ApId": 50239
+  },
+  {
+    "IdStr": "t.thethreeandthethreestchiavimanuscript",
+    "Label": "The Three and the Three (St Chiavi Manuscript)",
+    "ApId": 50240
+  },
+  {
+    "IdStr": "t.thethreeandthethreevaticanmanuscript",
+    "Label": "The Three and the Three (Vatican Manuscript)",
+    "ApId": 50241
+  },
+  {
+    "IdStr": "t.thetimeofdivision",
+    "Label": "The Time of Division",
+    "ApId": 50242
+  },
+  {
+    "IdStr": "t.thetreatiseonunderplaces",
+    "Label": "The Treatise on Underplaces",
+    "ApId": 50243
+  },
+  {
+    "IdStr": "t.thetripledheart",
+    "Label": "The Tripled Heart",
+    "ApId": 50244
+  },
+  {
+    "IdStr": "t.theturquoisehand",
+    "Label": "The Turquoise Hand",
+    "ApId": 50245
+  },
+  {
+    "IdStr": "t.thetwelvelettersonconsequence",
+    "Label": "The Twelve Letters On Consequence",
+    "ApId": 50246
+  },
+  {
+    "IdStr": "t.thetwinserpenttantra",
+    "Label": "The Twin-Serpent Tantra",
+    "ApId": 50247
+  },
+  {
+    "IdStr": "t.thevictoryofcrowns",
+    "Label": "The Victory of Crowns",
+    "ApId": 50248
+  },
+  {
+    "IdStr": "t.thevienneseconundra",
+    "Label": "The Viennese Conundra",
+    "ApId": 50249
+  },
+  {
+    "IdStr": "t.thevinzantinscriptions",
+    "Label": "The Vinzant Inscriptions",
+    "ApId": 50250
+  },
+  {
+    "IdStr": "t.thevoyagesofferninshunoforeol",
+    "Label": "The Voyages of Ferninshun of Oreol",
+    "ApId": 50251
+  },
+  {
+    "IdStr": "t.thewaroftheroads14511551",
+    "Label": "The War of the Roads, 1451-1551",
+    "ApId": 50252
+  },
+  {
+    "IdStr": "t.thewatchfultantra",
+    "Label": "The Watchful Tantra",
+    "ApId": 50253
+  },
+  {
+    "IdStr": "t.thewhitebookofbrittany",
+    "Label": "The White Book of Brittany",
+    "ApId": 50254
+  },
+  {
+    "IdStr": "t.thewindsruin",
+    "Label": "The Wind's Ruin",
+    "ApId": 50255
+  },
+  {
+    "IdStr": "t.thewonderfulshape",
+    "Label": "The Wonderful Shape",
+    "ApId": 50256
+  },
+  {
+    "IdStr": "t.theworlddespoild",
+    "Label": "The World Despoil'd",
+    "ApId": 50257
+  },
+  {
+    "IdStr": "t.theworlddoesnotweep",
+    "Label": "The World Does Not Weep",
+    "ApId": 50258
+  },
+  {
+    "IdStr": "t.thewoundwounds",
+    "Label": "The Wound-Wounds",
+    "ApId": 50259
+  },
+  {
+    "IdStr": "t.thewritingonthewall",
+    "Label": "The Writing on the Wall",
+    "ApId": 50260
+  },
+  {
+    "IdStr": "t.thoseindignitiesperpetratedbythedeceitfulfraternityofobliviates",
+    "Label": "Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates",
+    "ApId": 50261
+  },
+  {
+    "IdStr": "t.thosewhodonotsleep",
+    "Label": "Those Who Do Not Sleep",
+    "ApId": 50262
+  },
+  {
+    "IdStr": "t.threeflowershaththetree",
+    "Label": "Three Flowers Hath the Tree",
+    "ApId": 50263
+  },
+  {
+    "IdStr": "t.toapalelady",
+    "Label": "To a Pale Lady",
+    "ApId": 50264
+  },
+  {
+    "IdStr": "t.towardsafundamentalaesthetic",
+    "Label": "Towards a Fundamental Aesthetic",
+    "ApId": 50265
+  },
+  {
+    "IdStr": "t.towardsafundamentalaestheticsecondedition",
+    "Label": "Towards a Fundamental Aesthetic: Second Edition",
+    "ApId": 50266
+  },
+  {
+    "IdStr": "t.travellingatnightvol1",
+    "Label": "Travelling at Night, vol 1",
+    "ApId": 50267
+  },
+  {
+    "IdStr": "t.travellingatnightvol2",
+    "Label": "Travelling at Night, vol 2",
+    "ApId": 50268
+  },
+  {
+    "IdStr": "t.travellingatnightvol3",
+    "Label": "Travelling at Night, vol 3",
+    "ApId": 50269
+  },
+  {
+    "IdStr": "t.twentysixenticementsseventorments",
+    "Label": "Twenty-Six Enticements, Seven Torments",
+    "ApId": 50270
+  },
+  {
+    "IdStr": "t.twowombsoneheart",
+    "Label": "Two Wombs, One Heart",
+    "ApId": 50271
+  },
+  {
+    "IdStr": "t.udrocashaas",
+    "Label": "Ud Rocashaas",
+    "ApId": 50272
+  },
+  {
+    "IdStr": "t.unhatchedhymns",
+    "Label": "Unhatched Hymns",
+    "ApId": 50273
+  },
+  {
+    "IdStr": "t.velletriinterviews",
+    "Label": "Velletri Interviews",
+    "ApId": 50274
+  },
+  {
+    "IdStr": "t.vinzantsminglings",
+    "Label": "Vinzant's Minglings",
+    "ApId": 50275
+  },
+  {
+    "IdStr": "t.wainscothistories",
+    "Label": "Wainscot Histories",
+    "ApId": 50276
+  },
+  {
+    "IdStr": "t.warmingdraughtstouplifttheheart",
+    "Label": "Warming Draughts to Uplift the Heart",
+    "ApId": 50277
+  },
+  {
+    "IdStr": "t.whatdoesnotbark",
+    "Label": "What Does Not Bark",
+    "ApId": 50278
+  },
+  {
+    "IdStr": "t.wherehasshegone",
+    "Label": "Where Has She Gone?",
+    "ApId": 50279
+  },
+  {
+    "IdStr": "t.whitejadetablet",
+    "Label": "White Jade Tablet",
+    "ApId": 50280
+  },
+  {
+    "IdStr": "t.xenodiceneodes",
+    "Label": "Xenodicene Odes",
+    "ApId": 50281
+  },
+  {
+    "IdStr": "x.anbary.lapidary",
+    "Label": "Lesson: Anbary & Lapidary",
+    "ApId": 601
+  },
+  {
+    "IdStr": "x.applebrighteuphonies",
+    "Label": "Lesson: Applebright Euphonies",
+    "ApId": 602
+  },
+  {
+    "IdStr": "x.auroralcontemplations",
+    "Label": "Lesson: Auroral Contemplations",
+    "ApId": 603
+  },
+  {
+    "IdStr": "x.bells.brazieries",
+    "Label": "Lesson: Bells & Brazieries",
+    "ApId": 604
+  },
+  {
+    "IdStr": "x.coil.chasm",
+    "Label": "Lesson: Coil & Chasm",
+    "ApId": 605
+  },
+  {
+    "IdStr": "x.cracktrack",
+    "Label": "Lesson: Cracktrack",
+    "ApId": 606
+  },
+  {
+    "IdStr": "x.desires.dissolutions",
+    "Label": "Lesson: Desires & Dissolutions",
+    "ApId": 607
+  },
+  {
+    "IdStr": "x.disciplines.thehammer",
+    "Label": "Lesson: Disciplines of the Hammer",
+    "ApId": 608
+  },
+  {
+    "IdStr": "x.disciplines.thescar",
+    "Label": "Lesson: Disciplines of the Scar",
+    "ApId": 609
+  },
+  {
+    "IdStr": "x.door.wall",
+    "Label": "Lesson: Door & Wall",
+    "ApId": 6010
+  },
+  {
+    "IdStr": "x.drums.dances",
+    "Label": "Lesson: Drums & Dances",
+    "ApId": 6011
+  },
+  {
+    "IdStr": "x.edictsinviolable",
+    "Label": "Lesson: Edicts Inviolable",
+    "ApId": 6012
+  },
+  {
+    "IdStr": "x.edictsliminal",
+    "Label": "Lesson: Edicts Liminal",
+    "ApId": 6013
+  },
+  {
+    "IdStr": "x.edictsmartial",
+    "Label": "Lesson: Edicts Martial",
+    "ApId": 6014
+  },
+  {
+    "IdStr": "x.ericapaean",
+    "Label": "Lesson: Ericapaean",
+    "ApId": 6015
+  },
+  {
+    "IdStr": "x.fucine",
+    "Label": "Lesson: Fucine",
+    "ApId": 6016
+  },
+  {
+    "IdStr": "x.furs.feathers",
+    "Label": "Lesson: Furs & Feathers",
+    "ApId": 6017
+  },
+  {
+    "IdStr": "x.glassblowing.vesselcrafting",
+    "Label": "Lesson: Glassblowing & Vesselcrafting",
+    "ApId": 6018
+  },
+  {
+    "IdStr": "x.glaziery.lightsmithing",
+    "Label": "Lesson: Glaziery & Lightsmithing",
+    "ApId": 6019
+  },
+  {
+    "IdStr": "x.henavek",
+    "Label": "Lesson: Henavek",
+    "ApId": 6020
+  },
+  {
+    "IdStr": "x.herbs.infusions",
+    "Label": "Lesson: Herbs & Infusions",
+    "ApId": 6021
+  },
+  {
+    "IdStr": "x.hill.hollow",
+    "Label": "Lesson: Hill & Hollow",
+    "ApId": 6022
+  },
+  {
+    "IdStr": "x.horns.ivories",
+    "Label": "Lesson: Horns & Ivories",
+    "ApId": 6023
+  },
+  {
+    "IdStr": "x.hyksos",
+    "Label": "Lesson: Hyksos",
+    "ApId": 6024
+  },
+  {
+    "IdStr": "x.inks.containment",
+    "Label": "Lesson: Inks of Containment",
+    "ApId": 6025
+  },
+  {
+    "IdStr": "x.inks.power",
+    "Label": "Lesson: Inks of Power",
+    "ApId": 6026
+  },
+  {
+    "IdStr": "x.inks.revelation",
+    "Label": "Lesson: Inks of Revelation",
+    "ApId": 6027
+  },
+  {
+    "IdStr": "x.insects.nectars",
+    "Label": "Lesson: Insects & Nectars",
+    "ApId": 6028
+  },
+  {
+    "IdStr": "x.killasimi",
+    "Label": "Lesson: Killasimi",
+    "ApId": 6029
+  },
+  {
+    "IdStr": "x.leaves.thorns",
+    "Label": "Lesson: Leaves & Thorns",
+    "ApId": 6030
+  },
+  {
+    "IdStr": "x.lockworks.clockworks",
+    "Label": "Lesson: Lockworks & Clockworks",
+    "ApId": 6031
+  },
+  {
+    "IdStr": "x.maggephenemysteries",
+    "Label": "Lesson: Maggephene Mysteries",
+    "ApId": 6032
+  },
+  {
+    "IdStr": "x.mandaic",
+    "Label": "Lesson: Deep Mandaic",
+    "ApId": 6033
+  },
+  {
+    "IdStr": "x.meniscatereflections",
+    "Label": "Lesson: Meniscate Reflections",
+    "ApId": 6034
+  },
+  {
+    "IdStr": "x.orchids.narcotics",
+    "Label": "Lesson: Orchids & Narcotics",
+    "ApId": 6035
+  },
+  {
+    "IdStr": "x.ouranoscopy",
+    "Label": "Lesson: Ouranoscopy",
+    "ApId": 6036
+  },
+  {
+    "IdStr": "x.path.pilgrim",
+    "Label": "Lesson: Path & Pilgrim",
+    "ApId": 6037
+  },
+  {
+    "IdStr": "x.pearl.tide",
+    "Label": "Lesson: Pearl & Tide",
+    "ApId": 6038
+  },
+  {
+    "IdStr": "x.pentiments.precursors",
+    "Label": "Lesson: Pentiments & Precursors",
+    "ApId": 6039
+  },
+  {
+    "IdStr": "x.preliminalmeter",
+    "Label": "Lesson: Preliminal Meter",
+    "ApId": 6040
+  },
+  {
+    "IdStr": "x.purifications.exaltations",
+    "Label": "Lesson: Purifications & Exaltations",
+    "ApId": 6041
+  },
+  {
+    "IdStr": "x.putrefactions.calcinations",
+    "Label": "Lesson: Putrefactions & Calcinations",
+    "ApId": 6042
+  },
+  {
+    "IdStr": "x.pyroglyphics",
+    "Label": "Lesson: Pyroglyphics",
+    "ApId": 6043
+  },
+  {
+    "IdStr": "x.quenchings.quellings",
+    "Label": "Lesson: Quenchings & Quellings",
+    "ApId": 6044
+  },
+  {
+    "IdStr": "x.raggedcrossroads",
+    "Label": "Lesson: Ragged Crossroads",
+    "ApId": 6045
+  },
+  {
+    "IdStr": "x.ramsund",
+    "Label": "Lesson: Ramsund",
+    "ApId": 6046
+  },
+  {
+    "IdStr": "x.resurgences.emergences",
+    "Label": "Lesson: Resurgences & Emergences",
+    "ApId": 6047
+  },
+  {
+    "IdStr": "x.rhyme.remembrance",
+    "Label": "Lesson: Rhyme & Remembrance",
+    "ApId": 6048
+  },
+  {
+    "IdStr": "x.rites.theroots",
+    "Label": "Lesson: Rites of the Roots",
+    "ApId": 6049
+  },
+  {
+    "IdStr": "x.sabazine",
+    "Label": "Lesson: Sabazine",
+    "ApId": 6050
+  },
+  {
+    "IdStr": "x.sacralimiae",
+    "Label": "Lesson: Sacra Limiae",
+    "ApId": 6051
+  },
+  {
+    "IdStr": "x.sacrasolisinvicti",
+    "Label": "Lesson: Sacra Solis Invicti",
+    "ApId": 6052
+  },
+  {
+    "IdStr": "x.sandstories",
+    "Label": "Lesson: Sand Stories",
+    "ApId": 6053
+  },
+  {
+    "IdStr": "x.seastories",
+    "Label": "Lesson: Sea Stories",
+    "ApId": 6054
+  },
+  {
+    "IdStr": "x.serpents.venoms",
+    "Label": "Lesson: Serpents & Venoms",
+    "ApId": 6055
+  },
+  {
+    "IdStr": "x.sharps",
+    "Label": "Lesson: Sharps",
+    "ApId": 6056
+  },
+  {
+    "IdStr": "x.sickle.eclipse",
+    "Label": "Lesson: Sickle & Eclipse",
+    "ApId": 6057
+  },
+  {
+    "IdStr": "x.sights.sensations",
+    "Label": "Lesson: Sights & Sensations",
+    "ApId": 6058
+  },
+  {
+    "IdStr": "x.skystories",
+    "Label": "Lesson: Sky Stories",
+    "ApId": 6059
+  },
+  {
+    "IdStr": "x.snowstories",
+    "Label": "Lesson: Snow Stories",
+    "ApId": 6060
+  },
+  {
+    "IdStr": "x.solutions.separations",
+    "Label": "Lesson: Solutions & Separations",
+    "ApId": 6061
+  },
+  {
+    "IdStr": "x.spices.savours",
+    "Label": "Lesson: Spices & Savours",
+    "ApId": 6062
+  },
+  {
+    "IdStr": "x.stitching.binding",
+    "Label": "Lesson: Stitching & Binding",
+    "ApId": 6063
+  },
+  {
+    "IdStr": "x.stonestories",
+    "Label": "Lesson: Stone Stories",
+    "ApId": 6064
+  },
+  {
+    "IdStr": "x.strings.songs",
+    "Label": "Lesson: Strings & Songs",
+    "ApId": 6065
+  },
+  {
+    "IdStr": "x.surgeries.exsanguinations",
+    "Label": "Lesson: Surgeries & Exsanguinations",
+    "ApId": 6066
+  },
+  {
+    "IdStr": "x.thegreatsignsandthegreatscars",
+    "Label": "Lesson: The Great Signs and the Great Scars",
+    "ApId": 6067
+  },
+  {
+    "IdStr": "x.transformations.liberations",
+    "Label": "Lesson: Transformations & Liberations",
+    "ApId": 6068
+  },
+  {
+    "IdStr": "x.tridesmahiera",
+    "Label": "Lesson: Tridesma Hiera",
+    "ApId": 6069
+  },
+  {
+    "IdStr": "x.vak",
+    "Label": "Lesson: Vak",
+    "ApId": 6070
+  },
+  {
+    "IdStr": "x.watchmansparadoxes",
+    "Label": "Lesson: Watchman's Paradoxes",
+    "ApId": 6071
+  },
+  {
+    "IdStr": "x.weaving.knotworking",
+    "Label": "Lesson: Weaving & Knotworking",
+    "ApId": 6072
+  },
+  {
+    "IdStr": "x.wolfstories",
+    "Label": "Lesson: Wolf Stories",
+    "ApId": 6073
+  },
+  {
+    "IdStr": "x.summon.echidna",
+    "Label": "Lesson: Echidna's Prowlings",
+    "ApId": 6074
+  },
+  {
+    "IdStr": "s.anbary.lapidary",
+    "Label": "Anbary & Lapidary",
+    "ApId": 701
+  },
+  {
+    "IdStr": "s.applebrighteuphonies",
+    "Label": "Applebright Euphonies",
+    "ApId": 702
+  },
+  {
+    "IdStr": "s.auroralcontemplations",
+    "Label": "Auroral Contemplations",
+    "ApId": 703
+  },
+  {
+    "IdStr": "s.bells.brazieries",
+    "Label": "Bells & Brazieries",
+    "ApId": 704
+  },
+  {
+    "IdStr": "s.coil.chasm",
+    "Label": "Coil & Chasm",
+    "ApId": 705
+  },
+  {
+    "IdStr": "s.cracktrack",
+    "Label": "Cracktrack",
+    "ApId": 706
+  },
+  {
+    "IdStr": "s.desires.dissolutions",
+    "Label": "Desires & Dissolutions",
+    "ApId": 707
+  },
+  {
+    "IdStr": "s.disciplines.thehammer",
+    "Label": "Disciplines of the Hammer",
+    "ApId": 708
+  },
+  {
+    "IdStr": "s.disciplines.thescar",
+    "Label": "Disciplines of the Scar",
+    "ApId": 709
+  },
+  {
+    "IdStr": "s.door.wall",
+    "Label": "Door & Wall",
+    "ApId": 7010
+  },
+  {
+    "IdStr": "s.drums.dances",
+    "Label": "Drums & Dances",
+    "ApId": 7011
+  },
+  {
+    "IdStr": "s.edictsinviolable",
+    "Label": "Edicts Inviolable",
+    "ApId": 7012
+  },
+  {
+    "IdStr": "s.edictsliminal",
+    "Label": "Edicts Liminal",
+    "ApId": 7013
+  },
+  {
+    "IdStr": "s.edictsmartial",
+    "Label": "Edicts Martial",
+    "ApId": 7014
+  },
+  {
+    "IdStr": "s.ericapaean",
+    "Label": "Ericapaean",
+    "ApId": 7015
+  },
+  {
+    "IdStr": "s.fucine",
+    "Label": "Fucine",
+    "ApId": 7016
+  },
+  {
+    "IdStr": "s.furs.feathers",
+    "Label": "Furs & Feathers",
+    "ApId": 7017
+  },
+  {
+    "IdStr": "s.glassblowing.vesselcrafting",
+    "Label": "Glassblowing & Vesselcrafting",
+    "ApId": 7018
+  },
+  {
+    "IdStr": "s.glaziery.lightsmithing",
+    "Label": "Glaziery & Lightsmithing",
+    "ApId": 7019
+  },
+  {
+    "IdStr": "s.henavek",
+    "Label": "Henavek",
+    "ApId": 7020
+  },
+  {
+    "IdStr": "s.herbs.infusions",
+    "Label": "Herbs & Infusions",
+    "ApId": 7021
+  },
+  {
+    "IdStr": "s.hill.hollow",
+    "Label": "Hill & Hollow",
+    "ApId": 7022
+  },
+  {
+    "IdStr": "s.horns.ivories",
+    "Label": "Horns & Ivories",
+    "ApId": 7023
+  },
+  {
+    "IdStr": "s.hyksos",
+    "Label": "Hyksos",
+    "ApId": 7024
+  },
+  {
+    "IdStr": "s.inks.containment",
+    "Label": "Inks of Containment",
+    "ApId": 7025
+  },
+  {
+    "IdStr": "s.inks.power",
+    "Label": "Inks of Power",
+    "ApId": 7026
+  },
+  {
+    "IdStr": "s.inks.revelation",
+    "Label": "Inks of Revelation",
+    "ApId": 7027
+  },
+  {
+    "IdStr": "s.insects.nectars",
+    "Label": "Insects & Nectars",
+    "ApId": 7028
+  },
+  {
+    "IdStr": "s.killasimi",
+    "Label": "Killasimi",
+    "ApId": 7029
+  },
+  {
+    "IdStr": "s.leaves.thorns",
+    "Label": "Leaves & Thorns",
+    "ApId": 7030
+  },
+  {
+    "IdStr": "s.lockworks.clockworks",
+    "Label": "Lockworks & Clockworks",
+    "ApId": 7031
+  },
+  {
+    "IdStr": "s.maggephenemysteries",
+    "Label": "Maggephene Mysteries",
+    "ApId": 7032
+  },
+  {
+    "IdStr": "s.mandaic",
+    "Label": "Deep Mandaic",
+    "ApId": 7033
+  },
+  {
+    "IdStr": "s.meniscatereflections",
+    "Label": "Meniscate Reflections",
+    "ApId": 7034
+  },
+  {
+    "IdStr": "s.orchids.narcotics",
+    "Label": "Orchids & Narcotics",
+    "ApId": 7035
+  },
+  {
+    "IdStr": "s.ouranoscopy",
+    "Label": "Ouranoscopy",
+    "ApId": 7036
+  },
+  {
+    "IdStr": "s.path.pilgrim",
+    "Label": "Path & Pilgrim",
+    "ApId": 7037
+  },
+  {
+    "IdStr": "s.pearl.tide",
+    "Label": "Pearl & Tide",
+    "ApId": 7038
+  },
+  {
+    "IdStr": "s.pentiments.precursors",
+    "Label": "Pentiments & Precursors",
+    "ApId": 7039
+  },
+  {
+    "IdStr": "s.preliminalmeter",
+    "Label": "Preliminal Meter",
+    "ApId": 7040
+  },
+  {
+    "IdStr": "s.purifications.exaltations",
+    "Label": "Purifications & Exaltations",
+    "ApId": 7041
+  },
+  {
+    "IdStr": "s.putrefactions.calcinations",
+    "Label": "Putrefactions & Calcinations",
+    "ApId": 7042
+  },
+  {
+    "IdStr": "s.pyroglyphics",
+    "Label": "Pyroglyphics",
+    "ApId": 7043
+  },
+  {
+    "IdStr": "s.quenchings.quellings",
+    "Label": "Quenchings & Quellings",
+    "ApId": 7044
+  },
+  {
+    "IdStr": "s.raggedcrossroads",
+    "Label": "Ragged Crossroads",
+    "ApId": 7045
+  },
+  {
+    "IdStr": "s.ramsund",
+    "Label": "Ramsund",
+    "ApId": 7046
+  },
+  {
+    "IdStr": "s.resurgences.emergences",
+    "Label": "Resurgences & Emergences",
+    "ApId": 7047
+  },
+  {
+    "IdStr": "s.rhyme.remembrance",
+    "Label": "Rhyme & Remembrance",
+    "ApId": 7048
+  },
+  {
+    "IdStr": "s.rites.theroots",
+    "Label": "Rites of the Roots",
+    "ApId": 7049
+  },
+  {
+    "IdStr": "s.sabazine",
+    "Label": "Sabazine",
+    "ApId": 7050
+  },
+  {
+    "IdStr": "s.sacralimiae",
+    "Label": "Sacra Limiae",
+    "ApId": 7051
+  },
+  {
+    "IdStr": "s.sacrasolisinvicti",
+    "Label": "Sacra Solis Invicti",
+    "ApId": 7052
+  },
+  {
+    "IdStr": "s.sandstories",
+    "Label": "Sand Stories",
+    "ApId": 7053
+  },
+  {
+    "IdStr": "s.seastories",
+    "Label": "Sea Stories",
+    "ApId": 7054
+  },
+  {
+    "IdStr": "s.serpents.venoms",
+    "Label": "Serpents & Venoms",
+    "ApId": 7055
+  },
+  {
+    "IdStr": "s.sharps",
+    "Label": "Sharps",
+    "ApId": 7056
+  },
+  {
+    "IdStr": "s.sickle.eclipse",
+    "Label": "Sickle & Eclipse",
+    "ApId": 7057
+  },
+  {
+    "IdStr": "s.sights.sensations",
+    "Label": "Sights & Sensations",
+    "ApId": 7058
+  },
+  {
+    "IdStr": "s.skystories",
+    "Label": "Sky Stories",
+    "ApId": 7059
+  },
+  {
+    "IdStr": "s.snowstories",
+    "Label": "Snow Stories",
+    "ApId": 7060
+  },
+  {
+    "IdStr": "s.solutions.separations",
+    "Label": "Solutions & Separations",
+    "ApId": 7061
+  },
+  {
+    "IdStr": "s.spices.savours",
+    "Label": "Spices & Savours",
+    "ApId": 7062
+  },
+  {
+    "IdStr": "s.stitching.binding",
+    "Label": "Stitching & Binding",
+    "ApId": 7063
+  },
+  {
+    "IdStr": "s.stonestories",
+    "Label": "Stone Stories",
+    "ApId": 7064
+  },
+  {
+    "IdStr": "s.strings.songs",
+    "Label": "Strings & Songs",
+    "ApId": 7065
+  },
+  {
+    "IdStr": "s.surgeries.exsanguinations",
+    "Label": "Surgeries & Exsanguinations",
+    "ApId": 7066
+  },
+  {
+    "IdStr": "s.thegreatsignsandthegreatscars",
+    "Label": "The Great Signs and the Great Scars",
+    "ApId": 7067
+  },
+  {
+    "IdStr": "s.transformations.liberations",
+    "Label": "Transformations & Liberations",
+    "ApId": 7068
+  },
+  {
+    "IdStr": "s.tridesmahiera",
+    "Label": "Tridesma Hiera",
+    "ApId": 7069
+  },
+  {
+    "IdStr": "s.vak",
+    "Label": "Vak",
+    "ApId": 7070
+  },
+  {
+    "IdStr": "s.watchmansparadoxes",
+    "Label": "Watchman's Paradoxes",
+    "ApId": 7071
+  },
+  {
+    "IdStr": "s.weaving.knotworking",
+    "Label": "Weaving & Knotworking",
+    "ApId": 7072
+  },
+  {
+    "IdStr": "s.wolfstories",
+    "Label": "Wolf Stories",
+    "ApId": 7073
+  }
+]
