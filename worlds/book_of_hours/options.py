@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 
-from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle
+from schema import Schema, And
+
+from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle, OptionDict
 
 from .jsondump import terrains
 
@@ -32,18 +34,66 @@ class Goal(Choice):
 
 class Memories(Toggle):
     """
-    Adds up to X additional locations for acquiring memories; They only proc if you get them by yourself; AP rewards will be ignored.
-    Tweaked by xxx
+    Add 'acquiring memories' as locations.
     """
     display_name = "MemorInsanity"
 
 
+class MemoriesAllowArchipelago(Toggle):
+    """
+    If true, memories received through the Multiworld count for checks; This can happen repeatedly, and will speed up checks.
+    If false, you have to get memories the normal way: Through 'Consider' or reading or weather.
+    Does nothing if MemorInsanity is not enabled.
+    """
+
+
+class MemoriesWeather(Toggle):
+    """
+    If true, adds the different weather memories as locations.
+    You are at the mercy of rng.
+    Does nothing if MemorInsanity is not enabled.
+    Adds 9 locations.
+    """
+
+
+class MemoriesWeatherNuma(Toggle):
+    """
+    If true, Numa is a location.
+    """
+
+
 class SoulParts(Toggle):
     """
-    Enables up to X additional locations by collecting parts of the human soul.
-    Tweaked by xxx
+    Add 'collecting parts of the human soul' as locations.
+    Added locations depend on "Soul tier rewards" and "Soul parts individual".
     """
     display_name = "InSoulnity"
+
+
+class SoulRewardPerTier(OptionDict):
+    """
+    Adjust the amount of locations per soul tier.
+    Does nothing if InSoulnity is not enabled.
+    Adds n locations per tier.
+    """
+    display_name = "Soul tier rewards"
+    default = {"Soul": 1, "+Soul": 1, "++Soul": 1, "+++Soul": 1}
+    schema = Schema(
+        {
+            str: And(int, lambda n: n >= 0,
+                     error="amount of soul rewards has to be >= 0")
+        }
+    )
+
+
+class SoulRewardPerTierIndividualParts(Toggle):
+    """
+    If true, +Health is a different location than +Chor, +Ereb, etc.
+    If false, each Tier will only have its own 'Tier achieved' location.
+    Will do nothing if InSoulnity is not enabled.
+    Adds nine times the sum of SoulRewards as locations.
+    """
+    display_name = "Soul parts individual?"
 
 
 class TreeOfWisdom(Toggle):
@@ -55,12 +105,12 @@ class TreeOfWisdom(Toggle):
 
 
 # generate the room choices cuz I ain't typing 110 lines by hand
-rooms = {f"option_{a["IdStr"].replace("terrain","").replace("-","").replace(".","").replace("'","")}":a["ApId"]
+rooms = {f"option_{a["IdStr"].replace("terrain", "").replace("-", "").replace(".", "").replace("'", "")}": a["ApId"]
          for a in terrains.values()}
-rooms = {k:v for k,v in rooms.items() if "brancrug" not in k}
+rooms = {k: v for k, v in rooms.items() if "brancrug" not in k}
 
 RoomGoal = type("RoomGoal", (Choice,), {
-     "__module__": __name__,
+    "__module__": __name__,
     "auto_display_name": False,
     "display_name": "Room Goal",
     "__doc__": "Choose your start location. "
@@ -68,6 +118,8 @@ RoomGoal = type("RoomGoal", (Choice,), {
     **rooms,
     "default": 3060
 })
+
+
 #del rooms
 
 @dataclass
