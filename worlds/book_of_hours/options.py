@@ -42,46 +42,57 @@ class MemoriesAsLocations(Toggle):
 
 class MemoriesAsLocationsAllowArchipelago(Toggle):
     """
+    Does nothing if 'MemorInsanity' is not enabled.
     If true, Memories received through the multiworld count for checks; This can trigger repeatedly and can speed up your playthrough.
     If false, you have to get memories the normal way: Through 'Consider' or reading or weather.
-    Does nothing if MemorInsanity is not enabled.
     """
+    display_name = "Allow multiworld to check location?"
+
+class MemoriesAsLocationsIncludeWeathers(Toggle):
+    """
+    If true, adds the different weather memories as locations.
+    You are at the mercy of rng.
+    Does nothing if 'MemorInsanity' is not enabled.
+    Adds 9 locations.
+    """
+    display_name = "Include Wheater?"
+
+class MemoriesAsLocationsIncludeWeathersIncludeNuma(Toggle):
+    """
+    If true, Numa is a location.
+    Does nothing if 'Include Wheater' is disabled.
+    """
+    display_name = "Include Numa in wheather?"
 
 
-class MemoriesAsRewards(OptionList):
+class MemoriesAsItems(OptionList):
     """
+    Insert memories into the itempool.
+    Does not care about 'MemorInsanity'.
     Can fail generation if not enough locations.
     If "MemorInsanity" is enabled, ItemClassification will be (ignored and) forced to "Progression".
     """
-    verify_item_name = False # Use own validation in 'generate_early(self)'
+    display_name = "Add Memories to itempool?"
+    verify_item_name = False  # Use own validation in 'generate_early(self)'
     default = [
-        "any__all<2__filler__50",           # apply to all memories                                         __ all aspects must be < 2 __ set classification to 'filler' __ add 50 into draw-pool
-        "knock__all<4__filler__20",         # apply to all memories where it can find "knock"               __ all aspects must be < 4 __ set classification to 'filler' __ add 10 into draw-pool
-        "persistent__any>2__useful__5",     # apply to all memories where it can find "persistent"          __ any aspect  must be > 2 __ set classification to 'useful' __ add  5 into draw-pool
-        "persistent__any<3__useful__10",    # apply to all memories where it can find "persistent"          __ any aspect  must be < 3 __ set classification to 'useful' __ add 10 into draw-pool
-        "hindsight,salt__any>0__trap__30"   # apply to all memories where it can find "hindsight" OR "salt" __ any aspect  must be > 0 __ set classification to 'trap'   __ add 30 into draw-pool
+        "any__all<2__filler__50",
+        # apply to all memories                                         __ all aspects must be < 2 __ set classification to 'filler' __ add 50 into draw-pool
+        "knock__all<4__filler__20",
+        # apply to all memories where it can find "knock"               __ all aspects must be < 4 __ set classification to 'filler' __ add 10 into draw-pool
+        "persistent__any>2__useful__5",
+        # apply to all memories where it can find "persistent"          __ any aspect  must be > 2 __ set classification to 'useful' __ add  5 into draw-pool
+        "persistent__any<3__useful__10",
+        # apply to all memories where it can find "persistent"          __ any aspect  must be < 3 __ set classification to 'useful' __ add 10 into draw-pool
+        "hindsight,salt__any>0__trap__30"
+        # apply to all memories where it can find "hindsight" OR "salt" __ any aspect  must be > 0 __ set classification to 'trap'   __ add 30 into draw-pool
     ]
     total = 30
+
 # Adds everything into the draw-pool and draw {total} times.
 # The list will go from top to bottom "first-come-first-serverd; If the "memory-key" (as above, "persistent") was already processed,
 # "apply to all memories ... where it can find" :: searches the id-string, the label, and its aspects
 # Aspect "memory:1" will be ignored, since the jsondump can already provide a list with only memories
 # any>0 is a formality so that I can make a generic '[any|all] [<|>] int' pattern
-
-
-class MemoriesWeathersAsLocations(Toggle):
-    """
-    If true, adds the different weather memories as locations.
-    You are at the mercy of rng.
-    Does nothing if MemorInsanity is not enabled.
-    Adds 9 locations.
-    """
-
-
-class MemoriesWeathersAsLocationsIncludeNuma(Toggle):
-    """
-    If true, Numa is a location.
-    """
 
 
 class SoulParts(Toggle):
@@ -184,9 +195,16 @@ class TreeOfWisdomsSplit(Toggle):
     display_name = "Split Wisdoms"
 
 
-class BooksCatalog(OptionDict):
+class Books(DefaultOnToggle):
+    """
+    Enables every subsetting concerning books.
+    """
+    display_name = "Booksanity"
+
+class BooksCatalogue(OptionDict):
     """
     How often cataloguing is a location.
+    Does nothing if 'Booksanity' is not enabled.
     Overlap is possible; For example, with "Any:4" and "Curia:2",
     if you catalogue 1 Curia and 1 Baronial,
       you check the locations "Catalogue any 1 book", "... any 2 books", and "... 1 Curia"
@@ -213,11 +231,12 @@ class BooksCatalog(OptionDict):
     #   !! validate in generate_early !!
 
 
-class BooksCatalogRewards(OptionDict):
+class BooksCatalogueRewards(OptionDict):
     """
     How many rewards after cataloging a book.
+    Does not care about 'Booksanity'.
     """
-    display_name = "Catalog Locations Reward Amount"  # no wordplay w insanity :(
+    display_name = "Catalogue Locations Reward Amount"  # no wordplay w insanity :(
     default = {
         "Any": 0,
         "Dawn": 2,
@@ -234,59 +253,111 @@ class BooksCatalogRewards(OptionDict):
     )
 
 
-class BooksMasterAny(Range):
+class BooksMaster(OptionDict):
     """
     How often mastering a book is a location.
+    Does nothing if 'Booksanity' is not enabled.
     """
-    display_name = "Master __ books"
-    range_end = 99
-    ## there's 281 uniques, but via defaultcard, could be inf
-    # for sanity, limit to 99 (tho even 50 could be too much?)
+    display_name = "Master n books from ___ period"  # no wordplay w insanity :(
+    default = {
+        "Any": 20,
+        "Dawn": 4,
+        "Solar": 4,
+        "Baronial": 8,
+        "Curia": 8,
+        "Nocturnal": 8
+    }
+    schema = Schema(
+        {
+            str: And(int, lambda n: n >= 0,
+                     error="amount of book-mastery locations has to be >= 0")
+        }
+    )
 
 
-class BooksRequirementsRandom(Toggle):
-    """"""
-
+class BooksMasterRequirementsRandom(Toggle):
+    """
+    Does nothing if 'Booksanity' is not enabled.
+    """
+    display_name = "Book RandoMysteries"
 
 class BooksMasterSplit(Toggle):
     """
     Every single book gets its own location.
+    Does nothing if 'Booksanity' is not enabled.
     Adds 281 locations.
+    Overlaps with any 'Master n books' setting.
     """
-
+    display_name = "Book Splitsanity"
 
 class BooksMasterSplitStyle(Choice):
     """
     Modify BookSplit: Decides randomly if a book has a 'Mastered' location.
+    Does nothing if 'Booksanity' is not enabled.
     """
+    display_name = "Book Splitsanity - Split Style"
     option_set_for_all = 0
     option_scaling = 1
     option_scale_inverse = 10
     default = option_set_for_all
 
+
 class BooksMasterSplitChance(Range):
     """
     Set the chance of a book becoming a location.
+    Does nothing if 'Booksanity' is not enabled.
     Does nothing if BooksMasterSplitStyle is not 'Set for all'
     """
+    display_name = "Split Style SetAll - Chance"
     range_end = 100
 
+
 class BooksRewardRandom(Toggle):
-    """"""
-
-
-class Lessons(Toggle):
     """
-    Receiving lessons become a location.
+    Does nothing if 'Booksanity' is not enabled.
+    """
+    display_name = "Book Random Reward"
+
+
+class LessonsAsLocations(Range):
+    """
+    'Receiving a lesson' becomes a location.
+    Rolls each lesson against this chance.
+    Adds up to 74 locations.
     """
     display_name = "Lesssanity"
 
-class SkillsLocationChance(Range):
+
+class LessonAsLocationAllowArchipelago(Toggle):
+    """
+    Does nothing if 'Lesssanity' is not enabled.
+    If true, items received through the multiworld count for checks; This can trigger repeatedly and can speed up your playthrough.
+    If false, you have to get lessons the normal way: mastering books (or maybe saloons if you own House of Light)
+    """
+
+
+class LessonsAsItems(OptionList):
+    """
+    Does not care about 'MemorInsanity'.
+    If total is higher than 74, it will randomly duplicate items until full.
+    Can fail generation if not enough locations.
+    If "Lesssanity" is enabled, ItemClassification will be (ignored and) forced to "Progression".
+    """
+    display_name = "Add Lessons to itempool?"
+    verify_item_name = False    # Use own validation in 'generate_early(self)'
+    default = [
+        "any__any>0__useful__50",
+    ]
+    total = 30                  # max can not exceed 74, validate in 'generate_early(self)'
+
+
+class SkillAsLocationChance(Range):
     """
     Learning a skill becomes a location.
     Rolls each skill against this chance.
     Adds up to 73 locations.
     """
+    display_name = "Skillsanity"
     range_end = 100
 
 
@@ -312,6 +383,37 @@ class BoHOptions(PerGameCommonOptions):
     goal: Goal
     room_goal: RoomGoal
     memorinsanity: MemoriesAsLocations
+    memorinsanity_allow_ap: MemoriesAsLocationsAllowArchipelago     # can only be implemented/tested client-side
+    memorinsanity_weathers: MemoriesAsLocationsIncludeWeathers
+    memorinsanity_weathers_numa: MemoriesAsLocationsIncludeWeathersIncludeNuma
+    memories_as_items: MemoriesAsItems
+
     insoulnity: SoulParts
+    insoulnity_tier_rewards: SoulPartsRewardPerTier
+    insoulnity_split: SoulPartsRewardPerTierSplit
+
+    terrainsanity: Terrains
+    terrainsanity_randomconnection: TerrainsConnectRandom
+    terrainsanity_randomconnections_min: TerrainsConnectRandomMinimum
+    terrainsanity_randomconnections_max: TerrainsConnectRandomMaximum
+    terrainsanity_randomconnection_consideration: TerrainsConnectRandomConsideration
+
     insanitree: TreeOfWisdoms
+    insanitree_split: TreeOfWisdomsSplit
+
+    booksanity: Books
+    booksanity_catalogue: BooksCatalogue
+    books_catalogue_rewards: BooksCatalogueRewards
+    booksanity_master: BooksMaster
+    booksanity_master_randomise_requirements: BooksMasterRequirementsRandom
+    #some consideration setting?
+    booksanity_master_split: BooksMasterSplit
+    booksanity_master_splitstyle: BooksMasterSplitStyle
+    booksanity_master_splitstyle_all_chance: BooksMasterSplitChance
+    books_randomise_rewards: BooksRewardRandom
+
+    lesssanity: LessonsAsLocations
+    lessons_as_items: LessonsAsItems
+
+
     #NOT ALL HERE YET!!
