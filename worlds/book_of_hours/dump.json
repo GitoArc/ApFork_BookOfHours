@@ -2,422 +2,1329 @@
   {
     "IdStr": "ascendant.harmony",
     "Label": "Ascendant Harmony",
+    "Aspects": {
+      "sound": 1,
+      "e.birdsong": 1,
+      "sky": 4,
+      "lantern": 2,
+      "boost.sky": 4,
+      "boost.lantern": 2,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 101
   },
   {
     "IdStr": "bittersweet.certainty",
     "Label": "Bittersweet Certainty",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "boost.winter": 2,
+      "sound": 1,
+      "winter": 2,
+      "memory": 1
+    },
     "ApId": 102
   },
   {
     "IdStr": "confounding.parable",
     "Label": "Confounding Parable",
+    "Aspects": {
+      "moon": 2,
+      "boost.moon": 2,
+      "rose": 2,
+      "sky": 2,
+      "boost.rose": 2,
+      "boost.sky": 2,
+      "memory": 1
+    },
     "ApId": 103
   },
   {
     "IdStr": "curious.hunch",
     "Label": "Curious Hunch",
+    "Aspects": {
+      "boost.moth": 3,
+      "knock": 4,
+      "heart": 3,
+      "boost.knock": 4,
+      "omen": 1,
+      "boost.heart": 3,
+      "lantern": 3,
+      "e.nyctodromy": 1,
+      "boost.lantern": 3,
+      "moth": 3,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 104
   },
   {
     "IdStr": "didumos",
     "Label": "Didumos",
+    "Aspects": {
+      "boost.winter": 3,
+      "winter": 3,
+      "knock": 3,
+      "boost.knock": 3,
+      "e.hushery": 1,
+      "e.horomachistry": 1,
+      "sky": 6,
+      "lantern": 3,
+      "boost.sky": 6,
+      "boost.lantern": 3,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 105
   },
   {
     "IdStr": "earthsign",
     "Label": "Earth-Sign",
+    "Aspects": {
+      "boost.nectar": 2,
+      "scale": 2,
+      "boost.scale": 2,
+      "e.skolekosophy": 1,
+      "omen": 1,
+      "nectar": 2,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 106
   },
   {
     "IdStr": "enduring.reflection",
     "Label": "Enduring Reflection",
+    "Aspects": {
+      "rose": 3,
+      "knock": 1,
+      "heart": 1,
+      "boost.knock": 1,
+      "boost.heart": 1,
+      "boost.rose": 3,
+      "e.nyctodromy": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 107
   },
   {
     "IdStr": "forbidden.epic",
     "Label": "Forbidden Epic",
+    "Aspects": {
+      "moon": 4,
+      "boost.moon": 4,
+      "boost.edge": 6,
+      "e.birdsong": 1,
+      "e.horomachistry": 1,
+      "boost.rose": 4,
+      "edge": 6,
+      "rose": 4,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 108
   },
   {
     "IdStr": "horizonsight",
     "Label": "Horizon-Sight",
+    "Aspects": {
+      "e.hushery": 1,
+      "boost.rose": 4,
+      "rose": 4,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 109
   },
   {
     "IdStr": "invincible.audacity",
     "Label": "Invincible Audacity",
+    "Aspects": {
+      "e.ithastry": 1,
+      "forge": 3,
+      "boost.lantern": 3,
+      "boost.edge": 6,
+      "e.illumination": 1,
+      "lantern": 3,
+      "boost.forge": 3,
+      "edge": 6,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 1010
   },
   {
     "IdStr": "mem.contradiction",
     "Label": "Memory: Contradiction",
+    "Aspects": {
+      "boost.edge": 2,
+      "boost.moon": 1,
+      "edge": 2,
+      "moon": 1,
+      "memory": 1
+    },
     "ApId": 1011
   },
   {
     "IdStr": "mem.dreamt",
     "Label": "Memory: A Stolen Secret",
+    "Aspects": {
+      "knock": 1,
+      "boost.moon": 2,
+      "moon": 2,
+      "boost.knock": 1,
+      "memory": 1
+    },
     "ApId": 1012
   },
   {
     "IdStr": "mem.fear",
     "Label": "Memory: Fear",
+    "Aspects": {
+      "scale": 2,
+      "boost.edge": 1,
+      "edge": 1,
+      "boost.scale": 2,
+      "memory": 1
+    },
     "ApId": 1013
   },
   {
     "IdStr": "mem.foresight",
     "Label": "Memory: Foresight",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "forge": 2,
+      "boost.forge": 2,
+      "memory": 1
+    },
     "ApId": 1014
   },
   {
     "IdStr": "mem.gossip",
     "Label": "Memory: Gossip",
+    "Aspects": {
+      "boost.grail": 1,
+      "boost.rose": 2,
+      "grail": 1,
+      "rose": 2,
+      "memory": 1
+    },
     "ApId": 1015
   },
   {
     "IdStr": "mem.hindsight",
     "Label": "Memory: Hindsight",
+    "Aspects": {
+      "boost.winter": 2,
+      "scale": 1,
+      "boost.scale": 1,
+      "winter": 2,
+      "memory": 1
+    },
     "ApId": 1016
   },
   {
     "IdStr": "mem.impulse",
     "Label": "Memory: Impulse",
+    "Aspects": {
+      "moth": 2,
+      "nectar": 1,
+      "boost.moth": 2,
+      "boost.nectar": 1,
+      "memory": 1
+    },
     "ApId": 1017
   },
   {
     "IdStr": "mem.intuition",
     "Label": "Memory: Intuition",
+    "Aspects": {
+      "boost.rose": 2,
+      "boost.moon": 2,
+      "rose": 2,
+      "moon": 2,
+      "memory": 1
+    },
     "ApId": 1018
   },
   {
     "IdStr": "mem.loss",
     "Label": "Memory: Loss",
+    "Aspects": {
+      "boost.winter": 1,
+      "boost.edge": 1,
+      "edge": 1,
+      "winter": 1,
+      "memory": 1
+    },
     "ApId": 1019
   },
   {
     "IdStr": "mem.regret",
     "Label": "Memory: Regret",
+    "Aspects": {
+      "boost.winter": 2,
+      "forge": 1,
+      "boost.forge": 1,
+      "winter": 2,
+      "memory": 1
+    },
     "ApId": 1020
   },
   {
     "IdStr": "mem.revelation",
     "Label": "Memory: Revelation",
+    "Aspects": {
+      "boost.lantern": 2,
+      "lantern": 2,
+      "memory": 1
+    },
     "ApId": 1021
   },
   {
     "IdStr": "mem.salt",
     "Label": "Memory: Salt",
+    "Aspects": {
+      "moon": 1,
+      "winter": 1,
+      "knock": 1,
+      "boost.moon": 1,
+      "boost.knock": 1,
+      "boost.winter": 1,
+      "memory": 1
+    },
     "ApId": 1022
   },
   {
     "IdStr": "mem.satisfaction",
     "Label": "Memory: Satisfaction",
+    "Aspects": {
+      "boost.grail": 2,
+      "heart": 1,
+      "grail": 2,
+      "boost.heart": 1,
+      "memory": 1
+    },
     "ApId": 1023
   },
   {
     "IdStr": "mem.scent",
     "Label": "Memory: Scent",
+    "Aspects": {
+      "boost.nectar": 1,
+      "nectar": 1,
+      "memory": 1
+    },
     "ApId": 1024
   },
   {
     "IdStr": "mem.sight",
     "Label": "Memory: Sight",
+    "Aspects": {
+      "boost.lantern": 1,
+      "lantern": 1,
+      "memory": 1
+    },
     "ApId": 1025
   },
   {
     "IdStr": "mem.solace",
     "Label": "Memory: Solace",
+    "Aspects": {
+      "boost.sky": 1,
+      "sky": 1,
+      "heart": 2,
+      "boost.heart": 2,
+      "memory": 1
+    },
     "ApId": 1026
   },
   {
     "IdStr": "mem.sound",
     "Label": "Memory: Sound",
+    "Aspects": {
+      "heart": 1,
+      "boost.heart": 1,
+      "memory": 1
+    },
     "ApId": 1027
   },
   {
     "IdStr": "mem.storm",
     "Label": "Memory: Storm",
+    "Aspects": {
+      "boost.sky": 2,
+      "sky": 2,
+      "heart": 2,
+      "boost.heart": 2,
+      "memory": 1
+    },
     "ApId": 1028
   },
   {
     "IdStr": "mem.taste",
     "Label": "Memory: Taste",
+    "Aspects": {
+      "grail": 1,
+      "boost.grail": 1,
+      "memory": 1
+    },
     "ApId": 1029
   },
   {
     "IdStr": "mem.touch",
     "Label": "Memory: Touch",
+    "Aspects": {
+      "forge": 1,
+      "boost.forge": 1,
+      "memory": 1
+    },
     "ApId": 1030
   },
   {
     "IdStr": "music.beguiling",
     "Label": "Beguiling Melody",
+    "Aspects": {
+      "boost.sky": 2,
+      "boost.grail": 2,
+      "sky": 2,
+      "grail": 2,
+      "sound": 1,
+      "memory": 1
+    },
     "ApId": 1031
   },
   {
     "IdStr": "music.cheerful",
     "Label": "Cheerful Ditty",
+    "Aspects": {
+      "boost.sky": 1,
+      "boost.heart": 2,
+      "sky": 1,
+      "heart": 2,
+      "sound": 1,
+      "memory": 1
+    },
     "ApId": 1032
   },
   {
     "IdStr": "music.hive",
     "Label": "Hive's Lament",
+    "Aspects": {
+      "boost.moth": 2,
+      "winter": 2,
+      "e.bosk": 1,
+      "sound": 1,
+      "boost.nectar": 4,
+      "boost.winter": 2,
+      "nectar": 4,
+      "moth": 2,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 1033
   },
   {
     "IdStr": "music.savage",
     "Label": "Savage Hymn",
+    "Aspects": {
+      "boost.sky": 2,
+      "scale": 2,
+      "sky": 2,
+      "sound": 1,
+      "boost.scale": 2,
+      "memory": 1
+    },
     "ApId": 1034
   },
   {
     "IdStr": "music.thunderskin",
     "Label": "Thunderskin's Paean",
+    "Aspects": {
+      "scale": 1,
+      "boost.grail": 1,
+      "heart": 4,
+      "grail": 1,
+      "sound": 1,
+      "boost.scale": 1,
+      "e.preservation": 1,
+      "boost.heart": 4,
+      "memory": 1
+    },
     "ApId": 1035
   },
   {
     "IdStr": "music.wistful",
     "Label": "Wistful Air",
+    "Aspects": {
+      "boost.sky": 2,
+      "rose": 2,
+      "boost.rose": 2,
+      "sky": 2,
+      "sound": 1,
+      "memory": 1
+    },
     "ApId": 1036
   },
   {
     "IdStr": "name.earthquake",
     "Label": "Earthquake Name",
+    "Aspects": {
+      "e.ithastry": 1,
+      "scale": 6,
+      "forge": 3,
+      "e.skolekosophy": 1,
+      "boost.scale": 6,
+      "omen": 1,
+      "boost.forge": 3,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 1037
   },
   {
     "IdStr": "occult.scrap",
     "Label": "Occult Scrap",
+    "Aspects": {
+      "boost.moth": 2,
+      "rose": 2,
+      "knock": 2,
+      "boost.knock": 2,
+      "omen": 1,
+      "e.horomachistry": 1,
+      "boost.rose": 2,
+      "moth": 2,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 1038
   },
   {
     "IdStr": "old.moment",
     "Label": "Old Moment",
+    "Aspects": {
+      "boost.moth": 2,
+      "scale": 4,
+      "boost.scale": 4,
+      "boost.lantern": 2,
+      "e.preservation": 1,
+      "lantern": 2,
+      "moth": 2,
+      "memory": 1
+    },
     "ApId": 1039
   },
   {
     "IdStr": "old.wound",
     "Label": "Old Wound",
+    "Aspects": {
+      "moon": 2,
+      "winter": 3,
+      "boost.winter": 3,
+      "boost.moon": 2,
+      "boost.edge": 1,
+      "edge": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 1040
   },
   {
     "IdStr": "riddle.nameday",
     "Label": "Nameday Riddle",
+    "Aspects": {
+      "moth": 3,
+      "knock": 2,
+      "boost.moth": 3,
+      "boost.knock": 2,
+      "memory": 1
+    },
     "ApId": 1041
   },
   {
     "IdStr": "secret.threshold",
     "Label": "Secret Threshold",
+    "Aspects": {
+      "boost.rose": 1,
+      "knock": 2,
+      "rose": 1,
+      "boost.knock": 2,
+      "memory": 1
+    },
     "ApId": 1042
+  },
+  {
+    "IdStr": "weather.clouds",
+    "Label": "Clouds",
+    "Aspects": {
+      "moth": 1,
+      "boost.moon": 1,
+      "boost.moth": 1,
+      "moon": 1,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1043
+  },
+  {
+    "IdStr": "weather.earthquake",
+    "Label": "Earthquake",
+    "Aspects": {
+      "scale": 5,
+      "boost.edge": 5,
+      "edge": 5,
+      "boost.scale": 5,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1044
+  },
+  {
+    "IdStr": "weather.fog",
+    "Label": "Fog",
+    "Aspects": {
+      "knock": 3,
+      "boost.moon": 3,
+      "boost.knock": 3,
+      "moon": 3,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1045
+  },
+  {
+    "IdStr": "weather.gale",
+    "Label": "Gale",
+    "Aspects": {
+      "boost.sky": 3,
+      "sky": 3,
+      "heart": 3,
+      "boost.heart": 3,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1046
+  },
+  {
+    "IdStr": "weather.hail",
+    "Label": "Hail",
+    "Aspects": {
+      "sky": 3,
+      "boost.edge": 3,
+      "edge": 3,
+      "boost.sky": 3,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1047
+  },
+  {
+    "IdStr": "weather.numa",
+    "Label": "Nume-Brume",
+    "Aspects": {
+      "moon": 5,
+      "winter": 5,
+      "knock": 5,
+      "boost.moon": 5,
+      "rose": 5,
+      "boost.knock": 5,
+      "boost.winter": 5,
+      "boost.rose": 5,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1048
+  },
+  {
+    "IdStr": "weather.rain",
+    "Label": "Rain",
+    "Aspects": {
+      "boost.grail": 2,
+      "nectar": 2,
+      "grail": 2,
+      "boost.nectar": 2,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1049
+  },
+  {
+    "IdStr": "weather.snow",
+    "Label": "Snow",
+    "Aspects": {
+      "boost.winter": 3,
+      "sky": 3,
+      "boost.sky": 3,
+      "winter": 3,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1050
+  },
+  {
+    "IdStr": "weather.storm",
+    "Label": "Storm",
+    "Aspects": {
+      "boost.sky": 4,
+      "sky": 4,
+      "heart": 4,
+      "boost.heart": 4,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1051
+  },
+  {
+    "IdStr": "weather.sunny",
+    "Label": "Sunny",
+    "Aspects": {
+      "lantern": 2,
+      "sky": 2,
+      "boost.lantern": 2,
+      "boost.sky": 2,
+      "memory": 1,
+      "weather": 1
+    },
+    "ApId": 1052
   },
   {
     "IdStr": "wild.surmise",
     "Label": "Wild Surmise",
-    "ApId": 1043
+    "Aspects": {
+      "boost.moth": 3,
+      "boost.sky": 3,
+      "boost.lantern": 3,
+      "sky": 3,
+      "lantern": 3,
+      "moth": 3,
+      "e.ithastry": 1,
+      "memory": 1
+    },
+    "ApId": 1053
   },
   {
     "IdStr": "windinwaiting",
     "Label": "Wind-in-Waiting",
-    "ApId": 1044
+    "Aspects": {
+      "boost.moth": 3,
+      "boost.grail": 3,
+      "boost.sky": 6,
+      "e.bosk": 1,
+      "scale": 3,
+      "grail": 3,
+      "boost.scale": 3,
+      "e.birdsong": 1,
+      "sky": 6,
+      "moth": 3,
+      "persistent": 1,
+      "memory": 1
+    },
+    "ApId": 1054
   },
   {
     "IdStr": "windrumour",
     "Label": "Wind-Rumour",
-    "ApId": 1045
+    "Aspects": {
+      "heart": 1,
+      "e.birdsong": 1,
+      "omen": 1,
+      "boost.heart": 1,
+      "sky": 2,
+      "boost.sky": 2,
+      "memory": 1
+    },
+    "ApId": 1055
   },
   {
     "IdStr": "winning.move",
     "Label": "Winning Move",
-    "ApId": 1046
+    "Aspects": {
+      "boost.edge": 3,
+      "e.illumination": 1,
+      "edge": 3,
+      "memory": 1
+    },
+    "ApId": 1056
   },
   {
     "IdStr": "wormwood.dream",
     "Label": "Wormwood Dream",
-    "ApId": 1047
+    "Aspects": {
+      "moon": 6,
+      "winter": 6,
+      "boost.winter": 6,
+      "boost.moon": 6,
+      "boost.edge": 3,
+      "e.skolekosophy": 1,
+      "omen": 1,
+      "e.nyctodromy": 1,
+      "edge": 3,
+      "persistent": 1,
+      "memory": 1
+    },
+    "ApId": 1057
   },
   {
     "IdStr": "xcho",
     "Label": "Chor",
+    "Aspects": {
+      ".cho": 1,
+      "boost.grail": 1,
+      "rank": 12,
+      "heart": 2,
+      "grail": 1,
+      "ability": 1,
+      "campable": 1,
+      "boost.heart": 2
+    },
     "ApId": 201
   },
   {
     "IdStr": "xcho2",
     "Label": "+Chor",
+    "Aspects": {
+      ".cho": 1,
+      "boost.grail": 2,
+      "rank": 22,
+      "heart": 3,
+      "grail": 2,
+      "ability": 1,
+      "campable": 1,
+      "boost.heart": 3
+    },
     "ApId": 202
   },
   {
     "IdStr": "xcho3",
     "Label": "++Chor",
+    "Aspects": {
+      ".cho": 1,
+      "boost.grail": 3,
+      "rank": 33,
+      "heart": 4,
+      "grail": 3,
+      "ability": 1,
+      "campable": 1,
+      "boost.heart": 4
+    },
     "ApId": 203
   },
   {
     "IdStr": "xcho4",
     "Label": "+++Chor",
+    "Aspects": {
+      ".cho": 1,
+      "boost.grail": 4,
+      "rank": 42,
+      "heart": 5,
+      "grail": 4,
+      "ability": 1,
+      "campable": 1,
+      "boost.heart": 5
+    },
     "ApId": 204
   },
   {
     "IdStr": "xere",
     "Label": "Ereb",
+    "Aspects": {
+      "boost.grail": 2,
+      "rank": 12,
+      "grail": 2,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 1,
+      "edge": 1,
+      ".ere": 1
+    },
     "ApId": 205
   },
   {
     "IdStr": "xere2",
     "Label": "+Ereb",
+    "Aspects": {
+      "boost.grail": 3,
+      "rank": 22,
+      "grail": 3,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 2,
+      "edge": 2,
+      ".ere": 1
+    },
     "ApId": 206
   },
   {
     "IdStr": "xere3",
     "Label": "++Ereb",
+    "Aspects": {
+      "boost.grail": 4,
+      "rank": 33,
+      "grail": 4,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 3,
+      "edge": 3,
+      ".ere": 1
+    },
     "ApId": 207
   },
   {
     "IdStr": "xere4",
     "Label": "+++Ereb",
+    "Aspects": {
+      "boost.grail": 5,
+      "rank": 42,
+      "grail": 5,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 4,
+      "edge": 4,
+      ".ere": 1
+    },
     "ApId": 208
   },
   {
     "IdStr": "xfet",
     "Label": "Fet",
+    "Aspects": {
+      "boost.moth": 1,
+      "rose": 2,
+      "rank": 12,
+      "ability": 1,
+      "campable": 1,
+      "boost.rose": 2,
+      "moth": 1,
+      ".fet": 1
+    },
     "ApId": 209
   },
   {
     "IdStr": "xfet2",
     "Label": "+Fet",
+    "Aspects": {
+      "boost.moth": 2,
+      "rose": 3,
+      "rank": 22,
+      "ability": 1,
+      "campable": 1,
+      "boost.rose": 3,
+      "moth": 2,
+      ".fet": 1
+    },
     "ApId": 2010
   },
   {
     "IdStr": "xfet3",
     "Label": "++Fet",
+    "Aspects": {
+      "boost.moth": 3,
+      "rose": 4,
+      "rank": 33,
+      "ability": 1,
+      "campable": 1,
+      "boost.rose": 4,
+      "moth": 3,
+      ".fet": 1
+    },
     "ApId": 2011
   },
   {
     "IdStr": "xfet4",
     "Label": "+++Fet",
+    "Aspects": {
+      "boost.moth": 4,
+      "rose": 5,
+      "rank": 42,
+      "ability": 1,
+      "campable": 1,
+      "boost.rose": 5,
+      "moth": 4,
+      ".fet": 1
+    },
     "ApId": 2012
   },
   {
     "IdStr": "xhea",
     "Label": "Health",
+    "Aspects": {
+      "scale": 1,
+      "rank": 12,
+      ".hea": 1,
+      "heart": 1,
+      "boost.scale": 1,
+      "ability": 1,
+      "campable": 1,
+      "boost.nectar": 1,
+      "boost.heart": 1,
+      "nectar": 1
+    },
     "ApId": 2013
   },
   {
     "IdStr": "xhea2",
     "Label": "+Health",
+    "Aspects": {
+      "scale": 1,
+      "rank": 22,
+      ".hea": 1,
+      "heart": 2,
+      "boost.scale": 1,
+      "ability": 1,
+      "campable": 1,
+      "boost.nectar": 2,
+      "boost.heart": 2,
+      "nectar": 2
+    },
     "ApId": 2014
   },
   {
     "IdStr": "xhea3",
     "Label": "++Health",
+    "Aspects": {
+      "scale": 2,
+      "rank": 33,
+      ".hea": 1,
+      "heart": 3,
+      "boost.scale": 2,
+      "ability": 1,
+      "campable": 1,
+      "boost.nectar": 3,
+      "boost.heart": 3,
+      "nectar": 3
+    },
     "ApId": 2015
   },
   {
     "IdStr": "xhea4",
     "Label": "+++Health",
+    "Aspects": {
+      "scale": 3,
+      "rank": 42,
+      ".hea": 1,
+      "heart": 4,
+      "boost.scale": 3,
+      "ability": 1,
+      "campable": 1,
+      "boost.nectar": 4,
+      "boost.heart": 4,
+      "nectar": 4
+    },
     "ApId": 2016
   },
   {
     "IdStr": "xmet",
     "Label": "Mettle",
+    "Aspects": {
+      "rank": 12,
+      "forge": 2,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 1,
+      ".met": 1,
+      "boost.forge": 2,
+      "edge": 1
+    },
     "ApId": 2017
   },
   {
     "IdStr": "xmet2",
     "Label": "+Mettle",
+    "Aspects": {
+      "rank": 22,
+      "forge": 3,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 2,
+      ".met": 1,
+      "boost.forge": 3,
+      "edge": 2
+    },
     "ApId": 2018
   },
   {
     "IdStr": "xmet3",
     "Label": "++Mettle",
+    "Aspects": {
+      "rank": 33,
+      "forge": 4,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 3,
+      ".met": 1,
+      "boost.forge": 4,
+      "edge": 3
+    },
     "ApId": 2019
   },
   {
     "IdStr": "xmet4",
     "Label": "+++Mettle",
+    "Aspects": {
+      "rank": 42,
+      "forge": 5,
+      "ability": 1,
+      "campable": 1,
+      "boost.edge": 4,
+      ".met": 1,
+      "boost.forge": 5,
+      "edge": 4
+    },
     "ApId": 2020
   },
   {
     "IdStr": "xpho",
     "Label": "Phost",
+    "Aspects": {
+      "rank": 12,
+      ".pho": 1,
+      "ability": 1,
+      "campable": 1,
+      "sky": 1,
+      "lantern": 2,
+      "boost.sky": 1,
+      "boost.lantern": 2
+    },
     "ApId": 2021
   },
   {
     "IdStr": "xpho2",
     "Label": "+Phost",
+    "Aspects": {
+      "rank": 22,
+      ".pho": 1,
+      "ability": 1,
+      "campable": 1,
+      "sky": 2,
+      "lantern": 3,
+      "boost.sky": 2,
+      "boost.lantern": 3
+    },
     "ApId": 2022
   },
   {
     "IdStr": "xpho3",
     "Label": "++Phost",
+    "Aspects": {
+      "rank": 33,
+      ".pho": 1,
+      "ability": 1,
+      "campable": 1,
+      "sky": 3,
+      "lantern": 4,
+      "boost.sky": 3,
+      "boost.lantern": 4
+    },
     "ApId": 2023
   },
   {
     "IdStr": "xpho4",
     "Label": "+++Phost",
+    "Aspects": {
+      "rank": 42,
+      ".pho": 1,
+      "ability": 1,
+      "campable": 1,
+      "sky": 4,
+      "lantern": 5,
+      "boost.sky": 4,
+      "boost.lantern": 5
+    },
     "ApId": 2024
   },
   {
     "IdStr": "xsha",
     "Label": "Shapt",
+    "Aspects": {
+      ".sha": 1,
+      "rank": 12,
+      "knock": 2,
+      "forge": 1,
+      "ability": 1,
+      "campable": 1,
+      "boost.forge": 1,
+      "boost.knock": 2
+    },
     "ApId": 2025
   },
   {
     "IdStr": "xsha2",
     "Label": "+Shapt",
+    "Aspects": {
+      ".sha": 1,
+      "rank": 22,
+      "knock": 3,
+      "forge": 2,
+      "ability": 1,
+      "campable": 1,
+      "boost.forge": 2,
+      "boost.knock": 3
+    },
     "ApId": 2026
   },
   {
     "IdStr": "xsha3",
     "Label": "++Shapt",
+    "Aspects": {
+      ".sha": 1,
+      "rank": 33,
+      "knock": 4,
+      "forge": 3,
+      "ability": 1,
+      "campable": 1,
+      "boost.forge": 3,
+      "boost.knock": 4
+    },
     "ApId": 2027
   },
   {
     "IdStr": "xsha4",
     "Label": "+++Shapt",
+    "Aspects": {
+      ".sha": 1,
+      "rank": 42,
+      "knock": 5,
+      "forge": 4,
+      "ability": 1,
+      "campable": 1,
+      "boost.forge": 4,
+      "boost.knock": 5
+    },
     "ApId": 2028
   },
   {
     "IdStr": "xtri",
     "Label": "Trist",
+    "Aspects": {
+      "boost.moth": 2,
+      "moon": 1,
+      "rank": 12,
+      "boost.moon": 1,
+      "ability": 1,
+      "campable": 1,
+      ".tri": 1,
+      "moth": 2
+    },
     "ApId": 2029
   },
   {
     "IdStr": "xtri2",
     "Label": "+Trist",
+    "Aspects": {
+      "boost.moth": 3,
+      "moon": 2,
+      "rank": 22,
+      "boost.moon": 2,
+      "ability": 1,
+      "campable": 1,
+      ".tri": 1,
+      "moth": 3
+    },
     "ApId": 2030
   },
   {
     "IdStr": "xtri3",
     "Label": "++Trist",
+    "Aspects": {
+      "boost.moth": 4,
+      "moon": 3,
+      "rank": 33,
+      "boost.moon": 3,
+      "ability": 1,
+      "campable": 1,
+      ".tri": 1,
+      "moth": 4
+    },
     "ApId": 2031
   },
   {
     "IdStr": "xtri4",
     "Label": "+++Trist",
+    "Aspects": {
+      "boost.moth": 5,
+      "moon": 4,
+      "rank": 42,
+      "boost.moon": 4,
+      "ability": 1,
+      "campable": 1,
+      ".tri": 1,
+      "moth": 5
+    },
     "ApId": 2032
   },
   {
     "IdStr": "xwis",
     "Label": "Wist",
+    "Aspects": {
+      "rank": 12,
+      "boost.winter": 2,
+      "ability": 1,
+      "campable": 1,
+      "winter": 2,
+      "lantern": 1,
+      "boost.lantern": 1,
+      ".wis": 1
+    },
     "ApId": 2033
   },
   {
     "IdStr": "xwis2",
     "Label": "+Wist",
+    "Aspects": {
+      "rank": 22,
+      "boost.winter": 3,
+      "ability": 1,
+      "campable": 1,
+      "winter": 3,
+      "lantern": 2,
+      "boost.lantern": 2,
+      ".wis": 1
+    },
     "ApId": 2034
   },
   {
     "IdStr": "xwis3",
     "Label": "++Wist",
+    "Aspects": {
+      "rank": 33,
+      "boost.winter": 4,
+      "ability": 1,
+      "campable": 1,
+      "winter": 4,
+      "lantern": 3,
+      "boost.lantern": 3,
+      ".wis": 1
+    },
     "ApId": 2035
   },
   {
     "IdStr": "xwis4",
     "Label": "+++Wist",
+    "Aspects": {
+      "rank": 42,
+      "boost.winter": 5,
+      "ability": 1,
+      "campable": 1,
+      "winter": 5,
+      "lantern": 4,
+      "boost.lantern": 4,
+      ".wis": 1
+    },
     "ApId": 2036
   },
   {
     "IdStr": "terrain.atrium",
     "Preface": "Shadowed Atrium",
     "Label": "Atrium",
+    "Requires": {
+      "knock": 5,
+      "lantern": 5
+    },
     "ApId": 301,
     "ConnectsTo": [
       {
@@ -441,6 +1348,14 @@
     "IdStr": "terrain.backstairs",
     "Preface": "Blockaded Stairs",
     "Label": "Back Stairs",
+    "Requires": {
+      "scale": 9,
+      "moon": 9,
+      "knock": 9,
+      "heart": 9,
+      "rose": 9,
+      "lantern": 9
+    },
     "ApId": 302,
     "ConnectsTo": [
       {
@@ -474,6 +1389,10 @@
     "IdStr": "terrain.ballroomduellinghall",
     "Preface": "Dim Hall",
     "Label": "Duelling Hall",
+    "Requires": {
+      "grail": 8,
+      "edge": 8
+    },
     "ApId": 303,
     "ConnectsTo": [
       {
@@ -492,6 +1411,11 @@
     "IdStr": "terrain.bells",
     "Preface": "Fallen Bells",
     "Label": "Bells",
+    "Requires": {
+      "sky": 11,
+      "heart": 11,
+      "forge": 11
+    },
     "ApId": 304,
     "ConnectsTo": [
       {
@@ -505,6 +1429,10 @@
     "IdStr": "terrain.boathouse",
     "Preface": "Perilous Path",
     "Label": "Boathouse",
+    "Requires": {
+      "moon": 13,
+      "rose": 13
+    },
     "ApId": 305,
     "ConnectsTo": [
       {
@@ -528,6 +1456,7 @@
     "IdStr": "terrain.brancrug",
     "Preface": "Brancrug Village",
     "Label": "Brancrug Village",
+    "Requires": {},
     "ApId": 306,
     "ConnectsTo": [
       {
@@ -546,6 +1475,7 @@
     "IdStr": "terrain.brancrugbeach",
     "Preface": "",
     "Label": "St Brandan’s Cove",
+    "Requires": {},
     "ApId": 307,
     "ConnectsTo": [
       {
@@ -559,6 +1489,10 @@
     "IdStr": "terrain.catacombs",
     "Preface": "Rattling Tunnels",
     "Label": "Catacombs",
+    "Requires": {
+      "grail": 15,
+      "winter": 15
+    },
     "ApId": 308,
     "ConnectsTo": [
       {
@@ -577,6 +1511,10 @@
     "IdStr": "terrain.cell-adept",
     "Preface": "Sealed Cell",
     "Label": "Cell: Adepts",
+    "Requires": {
+      "forge": 12,
+      "knock": 12
+    },
     "ApId": 309,
     "ConnectsTo": [
       {
@@ -595,6 +1533,10 @@
     "IdStr": "terrain.cell-long",
     "Preface": "Trapped Cell",
     "Label": "Cell: Long",
+    "Requires": {
+      "knock": 13,
+      "edge": 13
+    },
     "ApId": 3010,
     "ConnectsTo": [
       {
@@ -608,6 +1550,11 @@
     "IdStr": "terrain.cell-unknown",
     "Preface": "Mazed Cell",
     "Label": "Cell: ?",
+    "Requires": {
+      "moth": 14,
+      "grail": 14,
+      "scale": 14
+    },
     "ApId": 3011,
     "ConnectsTo": [
       {
@@ -626,6 +1573,11 @@
     "IdStr": "terrain.cell-worm-inhabited",
     "Preface": "Impermeable Cell",
     "Label": "Cell: Worm-Inhabited",
+    "Requires": {
+      "sky": 15,
+      "knock": 15,
+      "forge": 15
+    },
     "ApId": 3012,
     "ConnectsTo": [
       {
@@ -644,6 +1596,12 @@
     "IdStr": "terrain.chancel",
     "Preface": "Veiled Chamber",
     "Label": "Chancel of the Abbey Church",
+    "Requires": {
+      "lantern": 9,
+      "winter": 9,
+      "heart": 9,
+      "moon": 9
+    },
     "ApId": 3013,
     "ConnectsTo": [
       {
@@ -662,6 +1620,10 @@
     "IdStr": "terrain.chapelascite",
     "Preface": "A Wintry Forbidding",
     "Label": "Chapel Ascite",
+    "Requires": {
+      "knock": 14,
+      "edge": 14
+    },
     "ApId": 3014,
     "ConnectsTo": [
       {
@@ -680,6 +1642,10 @@
     "IdStr": "terrain.chapelcalicite",
     "Preface": "A Red Forbidding",
     "Label": "Chapel Calicite",
+    "Requires": {
+      "grail": 14,
+      "nectar": 14
+    },
     "ApId": 3015,
     "ConnectsTo": [
       {
@@ -698,6 +1664,10 @@
     "IdStr": "terrain.chapelmalachite",
     "Preface": "A Honeyed Forbidding",
     "Label": "Chapel Malachite",
+    "Requires": {
+      "heart": 14,
+      "nectar": 14
+    },
     "ApId": 3016,
     "ConnectsTo": [
       {
@@ -716,6 +1686,11 @@
     "IdStr": "terrain.chapterhouse",
     "Preface": "Echoing Chamber",
     "Label": "Chapter House",
+    "Requires": {
+      "lantern": 9,
+      "moon": 9,
+      "winter": 9
+    },
     "ApId": 3017,
     "ConnectsTo": []
   },
@@ -723,6 +1698,11 @@
     "IdStr": "terrain.churchtower1",
     "Preface": "Ill-Omened Tower",
     "Label": "Church Tower",
+    "Requires": {
+      "lantern": 9,
+      "sky": 9,
+      "forge": 9
+    },
     "ApId": 3018,
     "ConnectsTo": [
       {
@@ -741,6 +1721,11 @@
     "IdStr": "terrain.churchtower2",
     "Preface": "Stopped Clock",
     "Label": "Tower Clock",
+    "Requires": {
+      "sky": 10,
+      "forge": 10,
+      "winter": 10
+    },
     "ApId": 3019,
     "ConnectsTo": [
       {
@@ -754,6 +1739,10 @@
     "IdStr": "terrain.cloister",
     "Preface": "Cloistered Garden",
     "Label": "St Brandan’s Cloister",
+    "Requires": {
+      "nectar": 2,
+      "lantern": 2
+    },
     "ApId": 3020,
     "ConnectsTo": [
       {
@@ -777,6 +1766,10 @@
     "IdStr": "terrain.columbiccrypt",
     "Preface": "Fluttering Crypt",
     "Label": "Columbic Crypt",
+    "Requires": {
+      "winter": 15,
+      "moon": 15
+    },
     "ApId": 3021,
     "ConnectsTo": [
       {
@@ -795,6 +1788,10 @@
     "IdStr": "terrain.crucibletower1",
     "Preface": "Smoky Chamber",
     "Label": "Crucible Tower: Governor's Office",
+    "Requires": {
+      "forge": 12,
+      "heart": 12
+    },
     "ApId": 3022,
     "ConnectsTo": [
       {
@@ -813,6 +1810,10 @@
     "IdStr": "terrain.crucibletower2",
     "Preface": "Stifling Chamber",
     "Label": "Crucible Tower: Governor's Quarters",
+    "Requires": {
+      "forge": 13,
+      "winter": 13
+    },
     "ApId": 3023,
     "ConnectsTo": [
       {
@@ -826,6 +1827,11 @@
     "IdStr": "terrain.crucibletower3",
     "Preface": "Charred Chamber",
     "Label": "Crucible Tower: Interview Laboratory",
+    "Requires": {
+      "moth": 14,
+      "knock": 14,
+      "winter": 14
+    },
     "ApId": 3024,
     "ConnectsTo": []
   },
@@ -833,6 +1839,11 @@
     "IdStr": "terrain.cucurbitbridge",
     "Preface": "Mist-Cloaked Bridge",
     "Label": "Cucurbit Bridge",
+    "Requires": {
+      "lantern": 1,
+      "sky": 1,
+      "forge": 1
+    },
     "ApId": 3025,
     "ConnectsTo": [
       {
@@ -851,6 +1862,10 @@
     "IdStr": "terrain.deeplightcaves",
     "Preface": "Menacing Phosphorescence",
     "Label": "Deeplight Caves",
+    "Requires": {
+      "nectar": 14,
+      "moon": 14
+    },
     "ApId": 3026,
     "ConnectsTo": [
       {
@@ -864,6 +1879,11 @@
     "IdStr": "terrain.deepwelldescent",
     "Preface": "Root-Thronged Descent",
     "Label": "Deep Well Descent",
+    "Requires": {
+      "scale": 9,
+      "heart": 9,
+      "nectar": 9
+    },
     "ApId": 3027,
     "ConnectsTo": [
       {
@@ -882,6 +1902,11 @@
     "IdStr": "terrain.earlbrian'sfield",
     "Preface": "Mist-Sunk Meadow",
     "Label": "Earl Brian's Field",
+    "Requires": {
+      "sky": 11,
+      "nectar": 11,
+      "rose": 11
+    },
     "ApId": 3028,
     "ConnectsTo": [
       {
@@ -900,6 +1925,11 @@
     "IdStr": "terrain.earthcellar",
     "Preface": "Collapsed Cellar",
     "Label": "Earth Cellar",
+    "Requires": {
+      "scale": 11,
+      "heart": 11,
+      "nectar": 11
+    },
     "ApId": 3029,
     "ConnectsTo": [
       {
@@ -923,6 +1953,10 @@
     "IdStr": "terrain.entrancehall",
     "Preface": "The First True Threshold",
     "Label": "Entrance Hall",
+    "Requires": {
+      "knock": 3,
+      "rose": 3
+    },
     "ApId": 3030,
     "ConnectsTo": [
       {
@@ -951,6 +1985,10 @@
     "IdStr": "terrain.fluddgallery",
     "Preface": "Despoiled Laboratory",
     "Label": "Fludd Gallery",
+    "Requires": {
+      "forge": 6,
+      "winter": 6
+    },
     "ApId": 3031,
     "ConnectsTo": [
       {
@@ -969,6 +2007,10 @@
     "IdStr": "terrain.foundry",
     "Preface": "Ravaged Foundry",
     "Label": "Foundry",
+    "Requires": {
+      "forge": 6,
+      "scale": 6
+    },
     "ApId": 3032,
     "ConnectsTo": [
       {
@@ -982,6 +2024,11 @@
     "IdStr": "terrain.gaolbridge",
     "Preface": "Broken Bridge",
     "Label": "Lesser Bridge",
+    "Requires": {
+      "knock": 9,
+      "forge": 9,
+      "edge": 9
+    },
     "ApId": 3033,
     "ConnectsTo": [
       {
@@ -1000,6 +2047,11 @@
     "IdStr": "terrain.gaolcellar",
     "Preface": "Ravaged Cellar",
     "Label": "Gaol Cellar",
+    "Requires": {
+      "scale": 13,
+      "forge": 13,
+      "winter": 13
+    },
     "ApId": 3034,
     "ConnectsTo": [
       {
@@ -1018,6 +2070,11 @@
     "IdStr": "terrain.gaolhall",
     "Preface": "Worm-Eaten Hall",
     "Label": "Gaol Hall",
+    "Requires": {
+      "moth": 11,
+      "forge": 11,
+      "winter": 11
+    },
     "ApId": 3035,
     "ConnectsTo": [
       {
@@ -1036,6 +2093,11 @@
     "IdStr": "terrain.gaolkitchen",
     "Preface": "Worm-Gnawed Kitchen",
     "Label": "Gaol Kitchen",
+    "Requires": {
+      "heart": 12,
+      "grail": 12,
+      "winter": 12
+    },
     "ApId": 3036,
     "ConnectsTo": [
       {
@@ -1054,6 +2116,11 @@
     "IdStr": "terrain.gaolyard",
     "Preface": "Blackened Yard",
     "Label": "Gaol Yard",
+    "Requires": {
+      "heart": 10,
+      "grail": 10,
+      "winter": 10
+    },
     "ApId": 3037,
     "ConnectsTo": [
       {
@@ -1072,6 +2139,9 @@
     "IdStr": "terrain.gatehouse",
     "Preface": "The great gate of the House",
     "Label": "Watchman's Tower: Gatehouse",
+    "Requires": {
+      "knock": 2
+    },
     "ApId": 3038,
     "ConnectsTo": [
       {
@@ -1090,6 +2160,11 @@
     "IdStr": "terrain.gloriousstair",
     "Preface": "Gloomy Stair",
     "Label": "Glorious Stair",
+    "Requires": {
+      "forge": 6,
+      "edge": 6,
+      "winter": 6
+    },
     "ApId": 3039,
     "ConnectsTo": [
       {
@@ -1108,6 +2183,12 @@
     "IdStr": "terrain.grandascent.1",
     "Preface": "Grand Ascent - First Floor",
     "Label": "Grand Ascent - First Floor",
+    "Requires": {
+      "sky": 4,
+      "heart": 4,
+      "forge": 4,
+      "winter": 4
+    },
     "ApId": 3040,
     "ConnectsTo": [
       {
@@ -1136,6 +2217,12 @@
     "IdStr": "terrain.grandascent.2",
     "Preface": "Grand Ascent - Second Floor",
     "Label": "Grand Ascent -Second Floor",
+    "Requires": {
+      "knock": 5,
+      "nectar": 5,
+      "grail": 4,
+      "winter": 5
+    },
     "ApId": 3041,
     "ConnectsTo": [
       {
@@ -1164,6 +2251,12 @@
     "IdStr": "terrain.grandascent.3",
     "Preface": "Grand Ascent - Third Floor",
     "Label": "Grand Ascent -Third Floor",
+    "Requires": {
+      "knock": 5,
+      "forge": 4,
+      "edge": 5,
+      "winter": 5
+    },
     "ApId": 3042,
     "ConnectsTo": [
       {
@@ -1192,6 +2285,12 @@
     "IdStr": "terrain.grandascent.g",
     "Preface": "Grand Ascent - Ground Floor",
     "Label": "Grand Ascent - Ground Floor",
+    "Requires": {
+      "moon": 4,
+      "heart": 4,
+      "edge": 4,
+      "winter": 4
+    },
     "ApId": 3043,
     "ConnectsTo": [
       {
@@ -1225,6 +2324,10 @@
     "IdStr": "terrain.gullcolony",
     "Preface": "Shrieking Gull-Cloud",
     "Label": "Gull Colony",
+    "Requires": {
+      "edge": 12,
+      "sky": 12
+    },
     "ApId": 3044,
     "ConnectsTo": [
       {
@@ -1243,6 +2346,10 @@
     "IdStr": "terrain.gullscryloggia",
     "Preface": "Squawkful Loggia",
     "Label": "Gullscry Loggia",
+    "Requires": {
+      "rose": 9,
+      "sky": 9
+    },
     "ApId": 3045,
     "ConnectsTo": [
       {
@@ -1266,6 +2373,11 @@
     "IdStr": "terrain.gullscrytower1",
     "Preface": "Weeping Chamber",
     "Label": "Gullscry Tower: Valentine's Room",
+    "Requires": {
+      "sky": 10,
+      "heart": 10,
+      "forge": 10
+    },
     "ApId": 3046,
     "ConnectsTo": [
       {
@@ -1284,6 +2396,11 @@
     "IdStr": "terrain.gullscrytower2",
     "Preface": "Howling Chamber",
     "Label": "Gullscry Tower: Eales' Room",
+    "Requires": {
+      "sky": 11,
+      "knock": 11,
+      "winter": 11
+    },
     "ApId": 3047,
     "ConnectsTo": [
       {
@@ -1302,6 +2419,11 @@
     "IdStr": "terrain.gullscrytower3",
     "Preface": "Screaming Summit",
     "Label": "Gullscry Tower: Summit",
+    "Requires": {
+      "sky": 12,
+      "rose": 12,
+      "winter": 12
+    },
     "ApId": 3048,
     "ConnectsTo": []
   },
@@ -1309,6 +2431,10 @@
     "IdStr": "terrain.hallofmirrors",
     "Preface": "Silvered Snares",
     "Label": "Hall of Division",
+    "Requires": {
+      "edge": 8,
+      "winter": 8
+    },
     "ApId": 3049,
     "ConnectsTo": [
       {
@@ -1322,6 +2448,10 @@
     "IdStr": "terrain.hallofvoices",
     "Preface": "Silent Hall",
     "Label": "Hall of Voices",
+    "Requires": {
+      "moth": 15,
+      "rose": 15
+    },
     "ApId": 3050,
     "ConnectsTo": [
       {
@@ -1340,6 +2470,10 @@
     "IdStr": "terrain.hermitcell",
     "Preface": "Gaping Darkness",
     "Label": "Hermit Cell",
+    "Requires": {
+      "heart": 12,
+      "moth": 12
+    },
     "ApId": 3051,
     "ConnectsTo": [
       {
@@ -1363,6 +2497,10 @@
     "IdStr": "terrain.hiddenstair",
     "Preface": "Rustling Stair",
     "Label": "Hidden Stair",
+    "Requires": {
+      "scale": 11,
+      "moon": 11
+    },
     "ApId": 3052,
     "ConnectsTo": [
       {
@@ -1381,6 +2519,10 @@
     "IdStr": "terrain.infirmary1a",
     "Preface": "Gloomy Room",
     "Label": "Examination Room",
+    "Requires": {
+      "heart": 5,
+      "edge": 5
+    },
     "ApId": 3053,
     "ConnectsTo": [
       {
@@ -1399,6 +2541,10 @@
     "IdStr": "terrain.infirmary1b",
     "Preface": "Neglected Room",
     "Label": "Patients' Lounge",
+    "Requires": {
+      "grail": 5,
+      "heart": 5
+    },
     "ApId": 3054,
     "ConnectsTo": [
       {
@@ -1412,6 +2558,10 @@
     "IdStr": "terrain.infirmaryg",
     "Preface": "Infirmary",
     "Label": "Infirmary",
+    "Requires": {
+      "heart": 4,
+      "rose": 4
+    },
     "ApId": 3055,
     "ConnectsTo": [
       {
@@ -1435,6 +2585,10 @@
     "IdStr": "terrain.ironvault",
     "Preface": "Sealed Vault",
     "Label": "Iron Vault",
+    "Requires": {
+      "knock": 16,
+      "edge": 16
+    },
     "ApId": 3056,
     "ConnectsTo": []
   },
@@ -1442,6 +2596,10 @@
     "IdStr": "terrain.ivoryvault",
     "Preface": "Sealed Vault",
     "Label": "Ivory Vault",
+    "Requires": {
+      "scale": 14,
+      "knock": 14
+    },
     "ApId": 3057,
     "ConnectsTo": []
   },
@@ -1449,6 +2607,10 @@
     "IdStr": "terrain.kitchen",
     "Preface": "Ruined Kitchen",
     "Label": "Kitchen",
+    "Requires": {
+      "forge": 6,
+      "sky": 6
+    },
     "ApId": 3058,
     "ConnectsTo": [
       {
@@ -1472,6 +2634,10 @@
     "IdStr": "terrain.kitchengarden",
     "Preface": "Overgrown Kitchen Garden",
     "Label": "Kitchen Garden",
+    "Requires": {
+      "grail": 9,
+      "nectar": 9
+    },
     "ApId": 3059,
     "ConnectsTo": [
       {
@@ -1500,6 +2666,12 @@
     "IdStr": "terrain.librarianquarters",
     "Preface": "Abandoned Librarian's Quarters",
     "Label": "Librarian's Quarters",
+    "Requires": {
+      "lantern": 3,
+      "scale": 3,
+      "heart": 3,
+      "forge": 3
+    },
     "ApId": 3060,
     "ConnectsTo": []
   },
@@ -1507,6 +2679,10 @@
     "IdStr": "terrain.loadingdock",
     "Preface": "Sagging Dock",
     "Label": "Loading Dock",
+    "Requires": {
+      "moon": 14,
+      "rose": 14
+    },
     "ApId": 3061,
     "ConnectsTo": [
       {
@@ -1520,6 +2696,11 @@
     "IdStr": "terrain.lodge",
     "Preface": "Lodge at the Gate",
     "Label": "Keeper's Lodge",
+    "Requires": {
+      "heart": 1,
+      "knock": 1,
+      "forge": 2
+    },
     "ApId": 3062,
     "ConnectsTo": [
       {
@@ -1533,6 +2714,10 @@
     "IdStr": "terrain.longtower1",
     "Preface": "Long Tower: First Floor",
     "Label": "Long Tower: Solomon's Study",
+    "Requires": {
+      "winter": 3,
+      "lantern": 3
+    },
     "ApId": 3063,
     "ConnectsTo": [
       {
@@ -1546,6 +2731,10 @@
     "IdStr": "terrain.longtower2",
     "Preface": "Long Tower: Second Floor",
     "Label": "Long Tower: Solomon's Quarters",
+    "Requires": {
+      "winter": 4,
+      "lantern": 4
+    },
     "ApId": 3064,
     "ConnectsTo": []
   },
@@ -1553,6 +2742,10 @@
     "IdStr": "terrain.lowerpumproom",
     "Preface": "Flooded Level",
     "Label": "Lower Pump Room",
+    "Requires": {
+      "forge": 3,
+      "knock": 3
+    },
     "ApId": 3065,
     "ConnectsTo": [
       {
@@ -1576,6 +2769,11 @@
     "IdStr": "terrain.mapchamber",
     "Preface": "Web-Snared Room",
     "Label": "Map Room",
+    "Requires": {
+      "sky": 6,
+      "heart": 6,
+      "rose": 6
+    },
     "ApId": 3066,
     "ConnectsTo": [
       {
@@ -1594,6 +2792,10 @@
     "IdStr": "terrain.mazarineroom",
     "Preface": "Reeking Chamber",
     "Label": "Mazarine Room",
+    "Requires": {
+      "heart": 6,
+      "sky": 6
+    },
     "ApId": 3067,
     "ConnectsTo": [
       {
@@ -1612,6 +2814,10 @@
     "IdStr": "terrain.motleytower1",
     "Preface": "Motley Tower: First Floor",
     "Label": "Motley Tower: Illopoly's Nook",
+    "Requires": {
+      "heart": 5,
+      "moth": 5
+    },
     "ApId": 3068,
     "ConnectsTo": [
       {
@@ -1625,6 +2831,10 @@
     "IdStr": "terrain.motleytower2",
     "Preface": "Motley Tower: Second Floor",
     "Label": "Motley Tower: Dispensary",
+    "Requires": {
+      "heart": 6,
+      "moth": 6
+    },
     "ApId": 3069,
     "ConnectsTo": [
       {
@@ -1638,6 +2848,10 @@
     "IdStr": "terrain.motleytower3",
     "Preface": "Motley Tower: Third Floor",
     "Label": "Motley Tower: Regensburg Room",
+    "Requires": {
+      "heart": 6,
+      "sky": 6
+    },
     "ApId": 3070,
     "ConnectsTo": []
   },
@@ -1645,6 +2859,11 @@
     "IdStr": "terrain.narthex",
     "Preface": "Slithering Fountain",
     "Label": "Narthex",
+    "Requires": {
+      "scale": 14,
+      "knock": 14,
+      "edge": 14
+    },
     "ApId": 3071,
     "ConnectsTo": [
       {
@@ -1663,6 +2882,10 @@
     "IdStr": "terrain.nave",
     "Preface": "Darkened Church",
     "Label": "Nave of the Abbey Church",
+    "Requires": {
+      "heart": 6,
+      "lantern": 6
+    },
     "ApId": 3072,
     "ConnectsTo": [
       {
@@ -1681,6 +2904,10 @@
     "IdStr": "terrain.nightgallery",
     "Preface": "Shrouded Space",
     "Label": "Night Gallery",
+    "Requires": {
+      "moon": 10,
+      "winter": 10
+    },
     "ApId": 3073,
     "ConnectsTo": [
       {
@@ -1709,6 +2936,7 @@
     "IdStr": "terrain.ocean",
     "Preface": "",
     "Label": "The Atlantic Ocean",
+    "Requires": {},
     "ApId": 3074,
     "ConnectsTo": []
   },
@@ -1716,6 +2944,11 @@
     "IdStr": "terrain.oubliette",
     "Preface": "Incandescent Hollow",
     "Label": "Oubliette",
+    "Requires": {
+      "knock": 15,
+      "forge": 15,
+      "winter": 15
+    },
     "ApId": 3075,
     "ConnectsTo": [
       {
@@ -1729,6 +2962,12 @@
     "IdStr": "terrain.ourladybeneath",
     "Preface": "Abandoned Church",
     "Label": "Our Lady Beneath",
+    "Requires": {
+      "moth": 4,
+      "knock": 4,
+      "nectar": 4,
+      "winter": 4
+    },
     "ApId": 3076,
     "ConnectsTo": [
       {
@@ -1752,6 +2991,10 @@
     "IdStr": "terrain.palechamber",
     "Preface": "Icy Bedroom",
     "Label": "Pale Chamber",
+    "Requires": {
+      "moth": 7,
+      "winter": 7
+    },
     "ApId": 3077,
     "ConnectsTo": [
       {
@@ -1770,6 +3013,10 @@
     "IdStr": "terrain.pantry",
     "Preface": "Wrecked Pantry",
     "Label": "Pantry",
+    "Requires": {
+      "heart": 7,
+      "nectar": 7
+    },
     "ApId": 3078,
     "ConnectsTo": [
       {
@@ -1793,6 +3040,10 @@
     "IdStr": "terrain.physicgarden",
     "Preface": "Weed-Choked Garden",
     "Label": "Physic Garden",
+    "Requires": {
+      "heart": 3,
+      "nectar": 3
+    },
     "ApId": 3079,
     "ConnectsTo": [
       {
@@ -1811,6 +3062,10 @@
     "IdStr": "terrain.practicgarden",
     "Preface": "Walled Garden",
     "Label": "Practic Garden",
+    "Requires": {
+      "edge": 4,
+      "nectar": 4
+    },
     "ApId": 3080,
     "ConnectsTo": [
       {
@@ -1829,6 +3084,12 @@
     "IdStr": "terrain.radiantstair",
     "Preface": "Shrouded Stair",
     "Label": "Radiant Stair",
+    "Requires": {
+      "lantern": 6,
+      "knock": 6,
+      "forge": 6,
+      "edge": 6
+    },
     "ApId": 3081,
     "ConnectsTo": [
       {
@@ -1847,6 +3108,10 @@
     "IdStr": "terrain.readingroom",
     "Preface": "Dimly Lit Chamber",
     "Label": "Reading Room",
+    "Requires": {
+      "lantern": 5,
+      "rose": 5
+    },
     "ApId": 3082,
     "ConnectsTo": [
       {
@@ -1865,6 +3130,10 @@
     "IdStr": "terrain.refectory",
     "Preface": "Rose-Haunted Hall",
     "Label": "Refectory",
+    "Requires": {
+      "grail": 7,
+      "nectar": 7
+    },
     "ApId": 3083,
     "ConnectsTo": [
       {
@@ -1883,6 +3152,10 @@
     "IdStr": "terrain.rowenarium",
     "Preface": "Crystallised Chamber",
     "Label": "Rowenarium",
+    "Requires": {
+      "winter": 13,
+      "rose": 13
+    },
     "ApId": 3084,
     "ConnectsTo": [
       {
@@ -1896,6 +3169,10 @@
     "IdStr": "terrain.sacredspring",
     "Preface": "Wheel-Filled Spring",
     "Label": "Sacred Spring",
+    "Requires": {
+      "moon": 10,
+      "nectar": 10
+    },
     "ApId": 3085,
     "ConnectsTo": [
       {
@@ -1919,6 +3196,10 @@
     "IdStr": "terrain.scentgarden",
     "Preface": "Tangle of Thorns",
     "Label": "Scent Garden",
+    "Requires": {
+      "grail": 4,
+      "nectar": 4
+    },
     "ApId": 3086,
     "ConnectsTo": [
       {
@@ -1942,6 +3223,10 @@
     "IdStr": "terrain.seacaves",
     "Preface": "Submerged Sea-Caves",
     "Label": "Sea-Caves",
+    "Requires": {
+      "scale": 3,
+      "moon": 3
+    },
     "ApId": 3087,
     "ConnectsTo": [
       {
@@ -1960,6 +3245,10 @@
     "IdStr": "terrain.secondbeach",
     "Preface": "Tidal Flats",
     "Label": "Crowcross Sands",
+    "Requires": {
+      "moon": 2,
+      "winter": 2
+    },
     "ApId": 3088,
     "ConnectsTo": []
   },
@@ -1967,6 +3256,10 @@
     "IdStr": "terrain.servantshall",
     "Preface": "Ruinous Hall",
     "Label": "Servants' Hall",
+    "Requires": {
+      "scale": 5,
+      "heart": 5
+    },
     "ApId": 3089,
     "ConnectsTo": [
       {
@@ -1990,6 +3283,10 @@
     "IdStr": "terrain.servantsquarters1",
     "Preface": "Maze-Crazed Room",
     "Label": "Servants' Quarters - South",
+    "Requires": {
+      "heart": 8,
+      "rose": 8
+    },
     "ApId": 3090,
     "ConnectsTo": [
       {
@@ -2013,6 +3310,10 @@
     "IdStr": "terrain.servantsquarters2",
     "Preface": "Wounded Room",
     "Label": "Servants' Quarters - North",
+    "Requires": {
+      "knock": 8,
+      "heart": 8
+    },
     "ApId": 3091,
     "ConnectsTo": [
       {
@@ -2036,6 +3337,10 @@
     "IdStr": "terrain.severnchamber",
     "Preface": "Abandoned Bedroom",
     "Label": "Severn Chamber",
+    "Requires": {
+      "moon": 5,
+      "rose": 5
+    },
     "ApId": 3092,
     "ConnectsTo": [
       {
@@ -2054,6 +3359,10 @@
     "IdStr": "terrain.shrinetosttentreto",
     "Preface": "Pulsing Darkness",
     "Label": "Shrine to St Tentreto",
+    "Requires": {
+      "scale": 15,
+      "moth": 15
+    },
     "ApId": 3093,
     "ConnectsTo": []
   },
@@ -2061,6 +3370,10 @@
     "IdStr": "terrain.silvervault",
     "Preface": "Sealed Vault",
     "Label": "Silver Vault",
+    "Requires": {
+      "grail": 14,
+      "knock": 14
+    },
     "ApId": 3094,
     "ConnectsTo": []
   },
@@ -2068,6 +3381,10 @@
     "IdStr": "terrain.smuggler'sden",
     "Preface": "Wing-Haunted Cave",
     "Label": "Smuggler's Den",
+    "Requires": {
+      "grail": 12,
+      "forge": 12
+    },
     "ApId": 3095,
     "ConnectsTo": [
       {
@@ -2086,6 +3403,11 @@
     "IdStr": "terrain.solarium",
     "Preface": "Glaring Room",
     "Label": "Solarium",
+    "Requires": {
+      "lantern": 10,
+      "heart": 10,
+      "winter": 10
+    },
     "ApId": 3096,
     "ConnectsTo": []
   },
@@ -2093,6 +3415,11 @@
     "IdStr": "terrain.spire",
     "Preface": "Wyrd-Cursed Spire",
     "Label": "Spire",
+    "Requires": {
+      "moth": 12,
+      "sky": 12,
+      "lantern": 12
+    },
     "ApId": 3097,
     "ConnectsTo": []
   },
@@ -2100,6 +3427,10 @@
     "IdStr": "terrain.staff-room",
     "Preface": "Blackened Staff-Room",
     "Label": "Staff-Room",
+    "Requires": {
+      "grail": 11,
+      "heart": 11
+    },
     "ApId": 3098,
     "ConnectsTo": [
       {
@@ -2123,6 +3454,15 @@
     "IdStr": "terrain.stairtenebrous",
     "Preface": "Shadowed Stair",
     "Label": "Stair Tenebrous",
+    "Requires": {
+      "moon": 3,
+      "winter": 3,
+      "heart": 3,
+      "rose": 3,
+      "sky": 3,
+      "lantern": 3,
+      "edge": 3
+    },
     "ApId": 3099,
     "ConnectsTo": [
       {
@@ -2141,6 +3481,11 @@
     "IdStr": "terrain.stores",
     "Preface": "Heart-Haunted Room",
     "Label": "Stores",
+    "Requires": {
+      "heart": 8,
+      "grail": 8,
+      "moon": 8
+    },
     "ApId": 30100,
     "ConnectsTo": [
       {
@@ -2159,6 +3504,10 @@
     "IdStr": "terrain.upperpumproom",
     "Preface": "Room of Rusts",
     "Label": "Upper Pump Room",
+    "Requires": {
+      "forge": 11,
+      "scale": 11
+    },
     "ApId": 30101,
     "ConnectsTo": [
       {
@@ -2192,6 +3541,15 @@
     "IdStr": "terrain.vestibulumtransitus",
     "Preface": "Rattling Bridge",
     "Label": "Vestibulum Transitus",
+    "Requires": {
+      "scale": 2,
+      "moon": 2,
+      "winter": 2,
+      "knock": 2,
+      "heart": 2,
+      "lantern": 2,
+      "edge": 2
+    },
     "ApId": 30102,
     "ConnectsTo": [
       {
@@ -2215,6 +3573,10 @@
     "IdStr": "terrain.violetchamber",
     "Preface": "Serpent-Haunted Bedroom",
     "Label": "Violet Chamber",
+    "Requires": {
+      "scale": 6,
+      "knock": 6
+    },
     "ApId": 30103,
     "ConnectsTo": [
       {
@@ -2233,6 +3595,10 @@
     "IdStr": "terrain.watchmanstower1",
     "Preface": "Gatehouse Stairs",
     "Label": "Watchman's Tower: First Floor",
+    "Requires": {
+      "forge": 2,
+      "lantern": 2
+    },
     "ApId": 30104,
     "ConnectsTo": [
       {
@@ -2246,6 +3612,10 @@
     "IdStr": "terrain.watchmanstower2",
     "Preface": "Watchman's Tower: Top Floor",
     "Label": "Watchman's Tower: Observatory",
+    "Requires": {
+      "grail": 2,
+      "sky": 2
+    },
     "ApId": 30105,
     "ConnectsTo": []
   },
@@ -2253,6 +3623,10 @@
     "IdStr": "terrain.well",
     "Preface": "Deserted Well",
     "Label": "Well",
+    "Requires": {
+      "moon": 7,
+      "nectar": 7
+    },
     "ApId": 30106,
     "ConnectsTo": [
       {
@@ -2276,6 +3650,11 @@
     "IdStr": "terrain.welldescent",
     "Preface": "Creeper-Crowded Descent",
     "Label": "Well Descent",
+    "Requires": {
+      "scale": 8,
+      "nectar": 8,
+      "moon": 8
+    },
     "ApId": 30107,
     "ConnectsTo": [
       {
@@ -2294,6 +3673,10 @@
     "IdStr": "terrain.westcottroom",
     "Preface": "Smoking-Room",
     "Label": "Westcott Room",
+    "Requires": {
+      "forge": 5,
+      "lantern": 5
+    },
     "ApId": 30108,
     "ConnectsTo": [
       {
@@ -2312,6 +3695,10 @@
     "IdStr": "terrain.whisperingstair",
     "Preface": "Riddling Stair",
     "Label": "Whispering Stair",
+    "Requires": {
+      "moon": 12,
+      "rose": 12
+    },
     "ApId": 30109,
     "ConnectsTo": [
       {
@@ -2330,6 +3717,11 @@
     "IdStr": "terrain.windlitgallery",
     "Preface": "Wind-Prowled Gallery",
     "Label": "Windlit Gallery",
+    "Requires": {
+      "lantern": 8,
+      "sky": 8,
+      "forge": 8
+    },
     "ApId": 30110,
     "ConnectsTo": [
       {
@@ -2358,6 +3750,10 @@
     "IdStr": "terrain.winecellar",
     "Preface": "Infested Wine-Cellar",
     "Label": "Wine Cellar",
+    "Requires": {
+      "grail": 10,
+      "moth": 10
+    },
     "ApId": 30111,
     "ConnectsTo": [
       {
@@ -2795,2141 +4191,6315 @@
   {
     "IdStr": "t.acatalogueofunchartedpleasures",
     "Label": "A Catalogue of Uncharted Pleasures",
+    "Aspects": {
+      "w.phrygian": 1,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "mystery.grail": 12,
+      "r.orchids.narcotics": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 501
   },
   {
     "IdStr": "t.achildstreasuryofgoldenafternoons",
     "Label": "A Child's Treasury of Golden Afternoons",
+    "Aspects": {
+      "soph": 10,
+      "period.baronial": 1,
+      "cost.tally": 8,
+      "mystery.edge": 10,
+      "codex": 1,
+      "w.hyksos": 1,
+      "r.sharps": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 502
   },
   {
     "IdStr": "t.adescentoftheshell",
     "Label": "A Descent of the Shell",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "r.purifications.exaltations": 1,
+      "mystery.forge": 14,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 503
   },
   {
     "IdStr": "t.adviceoncontainment",
     "Label": "Advice on Containment",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "r.glassblowing.vesselcrafting": 1,
+      "mystery.knock": 4,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 504
   },
   {
     "IdStr": "t.againstthesisterhoodoftheknotandthefoulnessoftheirdepravedcustoms",
     "Label": "Against the Sisterhood of the Knot and the Foulness of their Depraved Customs",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "w.greek": 1,
+      "period.curia": 1,
+      "r.skystories": 1,
+      "mystery.sky": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 505
   },
   {
     "IdStr": "t.againstvitruvius",
     "Label": "Against Vitruvius",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 4,
+      "r.lockworks.clockworks": 1,
+      "mystery.sky": 6,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 506
   },
   {
     "IdStr": "t.ajourneytothegrove",
     "Label": "A Journey to the Grove",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 4,
+      "mystery.grail": 10,
+      "r.orchids.narcotics": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 507
   },
   {
     "IdStr": "t.alightintheinkwell",
     "Label": "A Light in the Inkwell",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 8,
+      "codex": 1,
+      "r.inks.revelation": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 508
   },
   {
     "IdStr": "t.amanualfordeparture",
     "Label": "A Manual for Departure",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "mystery.knock": 14,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 509
   },
   {
     "IdStr": "t.ambrosial!",
     "Label": "Ambrosial!",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "r.spices.savours": 1,
+      "mystery.forge": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5010
   },
   {
     "IdStr": "t.amiranisbeteli",
     "Label": "Amiranis Beteli",
+    "Aspects": {
+      "period.dawn": 1,
+      "soph": 10,
+      "cost.tally": 8,
+      "w.fucine": 1,
+      "r.bells.brazieries": 1,
+      "mystery.forge": 10,
+      "tablet": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5011
   },
   {
     "IdStr": "t.analmanacofentrances",
     "Label": "An Almanac of Entrances",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "r.edictsliminal": 1,
+      "period.curia": 1,
+      "mystery.knock": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5012
   },
   {
     "IdStr": "t.anechoofsilence",
     "Label": "An Echo of Silence",
+    "Aspects": {
+      "mystery.moth": 10,
+      "soph": 10,
+      "cost.tally": 4,
+      "w.sabazine": 1,
+      "r.sacralimiae": 1,
+      "codex": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5013
   },
   {
     "IdStr": "t.anexorcistsfieldmanual",
     "Label": "An Exorcist's Field Manual",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "mystery.moon": 6,
+      "r.edictsmartial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5014
   },
   {
     "IdStr": "t.animpertinentvitulation",
     "Label": "An Impertinent Vitulation",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.grail": 6,
+      "codex": 1,
+      "r.leaves.thorns": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5015
   },
   {
     "IdStr": "t.anintroductiontohistories",
     "Label": "An Introduction to Histories",
+    "Aspects": {
+      "soph": 4,
+      "mystery.winter": 4,
+      "cost.tally": 3,
+      "r.snowstories": 1,
+      "codex": 1,
+      "period.baronial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5016
   },
   {
     "IdStr": "t.aninvestigationofafounderedcountry",
     "Label": "An Investigation of A Foundered Country",
+    "Aspects": {
+      "record.phonograph": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "mystery.moon": 4,
+      "r.hill.hollow": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5017
   },
   {
     "IdStr": "t.annalsofstbrandans",
     "Label": "Annals of St Brandan's",
+    "Aspects": {
+      "soph": 4,
+      "r.inks.containment": 1,
+      "mystery.winter": 4,
+      "cost.tally": 4,
+      "w.latin": 1,
+      "codex": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5018
   },
   {
     "IdStr": "t.anovelmethodforinvocation.contrition",
     "Label": "A Novel Method for Invocation & Contrition",
+    "Aspects": {
+      "mystery.rose": 14,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 2,
+      "w.ericapaean": 1,
+      "r.preliminalmeter": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5019
   },
   {
     "IdStr": "t.apaleladyandaprinceofwines",
     "Label": "A Pale Lady and a Prince of Wines",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.moon": 4,
+      "r.seastories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5020
   },
   {
     "IdStr": "t.apolloandmarsyas",
     "Label": "Apollo and Marsyas",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "r.surgeries.exsanguinations": 1,
+      "mystery.heart": 4,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5021
   },
   {
     "IdStr": "t.ascitesupplications",
     "Label": "Ascite Supplications",
+    "Aspects": {
+      "mystery.scale": 8,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 4,
+      "r.stonestories": 1,
+      "w.greek": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5022
   },
   {
     "IdStr": "t.asecondglory",
     "Label": "A Second Glory",
+    "Aspects": {
+      "soph": 12,
+      "mystery.winter": 12,
+      "cost.tally": 4,
+      "r.snowstories": 1,
+      "codex": 1,
+      "w.mandaic": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5023
   },
   {
     "IdStr": "t.aseventhvoice",
     "Label": "A Seventh Voice",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.preliminalmeter": 1,
+      "mystery.sky": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5024
   },
   {
     "IdStr": "t.ashapeinsmoke",
     "Label": "A Shape in Smoke",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.forge": 8,
+      "r.pyroglyphics": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5025
   },
   {
     "IdStr": "t.asthesunhiscourse",
     "Label": "As The Sun His Course",
+    "Aspects": {
+      "w.aramaic": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 5,
+      "mystery.edge": 8,
+      "r.sickle.eclipse": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5026
   },
   {
     "IdStr": "t.atowerfalls",
     "Label": "A Tower Falls",
+    "Aspects": {
+      "record.phonograph": 1,
+      "soph": 16,
+      "cost.tally": 1,
+      "mystery.knock": 16,
+      "period.nocturnal": 1,
+      "w.vak": 1,
+      "r.preliminalmeter": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5027
   },
   {
     "IdStr": "t.atowerrises",
     "Label": "A Tower Rises",
+    "Aspects": {
+      "record.phonograph": 1,
+      "mystery.rose": 18,
+      "soph": 18,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "w.vak": 1,
+      "r.preliminalmeter": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5028
   },
   {
     "IdStr": "t.atrueandcompleteaccountingoftheasclepianmysteriesoftherootsofthehouse",
     "Label": "A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House",
+    "Aspects": {
+      "soph": 4,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "w.greek": 1,
+      "codex": 1,
+      "mystery.heart": 4,
+      "r.weaving.knotworking": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5029
   },
   {
     "IdStr": "t.atruehistoryofvalentinedewulf",
     "Label": "A True History of Valentine Dewulf",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.furs.feathers": 1,
+      "mystery.sky": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5030
   },
   {
     "IdStr": "t.bancroftdiaries",
     "Label": "Bancroft Diaries",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "mystery.lantern": 4,
+      "w.latin": 1,
+      "period.curia": 1,
+      "r.pyroglyphics": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5031
   },
   {
     "IdStr": "t.blacknephrite",
     "Label": "Black Nephrite",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.wolfstories": 1,
+      "codex": 1,
+      "mystery.moon": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5032
   },
   {
     "IdStr": "t.bookofmiah",
     "Label": "Book of Miah",
+    "Aspects": {
+      "mystery.rose": 10,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 5,
+      "w.hyksos": 1,
+      "period.dawn": 1,
+      "r.sandstories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5033
   },
   {
     "IdStr": "t.bookoftrueblood",
     "Label": "Book of True Blood",
+    "Aspects": {
+      "r.meniscatereflections": 1,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "w.latin": 1,
+      "mystery.edge": 14,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5034
   },
   {
     "IdStr": "t.bytheirmarksshallyeknowthem",
     "Label": "By Their Marks Shall Ye Know them",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "mystery.knock": 6,
+      "r.surgeries.exsanguinations": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5035
   },
   {
     "IdStr": "t.calicitesupplications",
     "Label": "Calicite Supplications",
+    "Aspects": {
+      "r.tridesmahiera": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 4,
+      "mystery.grail": 8,
+      "w.greek": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5036
   },
   {
     "IdStr": "t.cardeasdelights",
     "Label": "Cardea's Delights",
+    "Aspects": {
+      "r.thegreatsignsandthegreatscars": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 4,
+      "mystery.knock": 8,
+      "w.latin": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5037
   },
   {
     "IdStr": "t.chioneatabydos",
     "Label": "Chione at Abydos",
+    "Aspects": {
+      "soph": 6,
+      "mystery.winter": 6,
+      "cost.tally": 3,
+      "r.snowstories": 1,
+      "codex": 1,
+      "period.baronial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5038
   },
   {
     "IdStr": "t.codexacephali",
     "Label": "Codex Acephali",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "r.snowstories": 1,
+      "w.latin": 1,
+      "period.curia": 1,
+      "mystery.moon": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5039
   },
   {
     "IdStr": "t.collectedhushhouselectures",
     "Label": "Collected Hush House Lectures",
+    "Aspects": {
+      "soph": 4,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "codex": 1,
+      "r.sickle.eclipse": 1,
+      "mystery.moon": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5040
   },
   {
     "IdStr": "t.coloursintheliver",
     "Label": "COLOURS IN THE LIVER",
+    "Aspects": {
+      "soph": 6,
+      "cost.tally": 1,
+      "mystery.grail": 6,
+      "period.nocturnal": 1,
+      "film": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5041
   },
   {
     "IdStr": "t.commandmentsforthepreservationofallthatexists",
     "Label": "Commandments For the Preservation of All That Exists",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "r.stitching.binding": 1,
+      "mystery.heart": 14,
+      "w.mandaic": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5042
   },
   {
     "IdStr": "t.cucurbitprisonerrecords1927",
     "Label": "Cucurbit Prisoner Records 1927",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.insects.nectars": 1,
+      "mystery.nectar": 12,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5043
   },
   {
     "IdStr": "t.cucurbitprisonerrecords1928",
     "Label": "Cucurbit Prisoner Records 1928",
+    "Aspects": {
+      "mystery.scale": 12,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.hill.hollow": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5044
   },
   {
     "IdStr": "t.damascenetraditionsofthehouseoflethe",
     "Label": "Damascene Traditions of the House of Lethe",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 4,
+      "r.sacralimiae": 1,
+      "mystery.sky": 8,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5045
   },
   {
     "IdStr": "t.deathsandtheirevasions",
     "Label": "Deaths and their Evasions",
+    "Aspects": {
+      "soph": 14,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.knock": 14,
+      "w.fucine": 1,
+      "codex": 1,
+      "r.edictsliminal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5046
   },
   {
     "IdStr": "t.debellismurorum",
     "Label": "De Bellis Murorum",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "r.disciplines.thescar": 1,
+      "w.latin": 1,
+      "mystery.edge": 6,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5047
   },
   {
     "IdStr": "t.dehorisbook1",
     "Label": "De Horis book 1",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.rites.theroots": 1,
+      "w.latin": 1,
+      "codex": 1,
+      "mystery.nectar": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5048
   },
   {
     "IdStr": "t.dehorisbook2",
     "Label": "De Horis book 2",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "w.latin": 1,
+      "mystery.edge": 4,
+      "codex": 1,
+      "r.disciplines.thehammer": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5049
   },
   {
     "IdStr": "t.dehorisbook3",
     "Label": "De Horis book 3",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.disciplines.thescar": 1,
+      "w.latin": 1,
+      "mystery.edge": 4,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5050
   },
   {
     "IdStr": "t.demotucorporumvetitorum",
     "Label": "De motu corporum vetitorum",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "r.ouranoscopy": 1,
+      "period.curia": 1,
+      "mystery.sky": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5051
   },
   {
     "IdStr": "t.deratioquercuum",
     "Label": "De Ratio Quercuum",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "mystery.nectar": 8,
+      "r.rites.theroots": 1,
+      "w.latin": 1,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5052
   },
   {
     "IdStr": "t.eachflamehisfuel",
     "Label": "Each Flame His Fuel",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "mystery.sky": 14,
+      "r.glaziery.lightsmithing": 1,
+      "period.dawn": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5053
   },
   {
     "IdStr": "t.echidnalia",
     "Label": "Echidnalia",
+    "Aspects": {
+      "mystery.scale": 21,
+      "codex": 1,
+      "soph": 21,
+      "cost.tally": 2,
+      "r.stonestories": 1,
+      "period.curia": 1,
+      "w.cracktrack": 1,
+      "infinitereadable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5054
   },
   {
     "IdStr": "t.enchiridiontragularis",
     "Label": "Enchiridion Tragularis",
+    "Aspects": {
+      "r.serpents.venoms": 1,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "w.greek": 1,
+      "mystery.moon": 14,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5055
   },
   {
     "IdStr": "t.etteryafter",
     "Label": "Ettery After",
+    "Aspects": {
+      "soph": 8,
+      "r.inks.containment": 1,
+      "mystery.winter": 8,
+      "cost.tally": 3,
+      "codex": 1,
+      "period.baronial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5056
   },
   {
     "IdStr": "t.evastreasury",
     "Label": "Eva's Treasury",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.anbary.lapidary": 1,
+      "mystery.sky": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5057
   },
   {
     "IdStr": "t.exercisesinthecontinuityofself",
     "Label": "Exercises in the Continuity of Self",
+    "Aspects": {
+      "r.rhyme.remembrance": 1,
+      "soph": 8,
+      "mystery.winter": 8,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5058
   },
   {
     "IdStr": "t.exorcismforgirls",
     "Label": "Exorcism for Girls",
+    "Aspects": {
+      "soph": 6,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "mystery.edge": 6,
+      "codex": 1,
+      "r.sickle.eclipse": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5059
   },
   {
     "IdStr": "t.experimentbeyondsight",
     "Label": "EXPERIMENT BEYOND SIGHT",
+    "Aspects": {
+      "soph": 8,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "film": 1,
+      "mystery.moon": 8,
+      "r.edictsinviolable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5060
   },
   {
     "IdStr": "t.fekrisherbary",
     "Label": "Fekri's Herbary",
+    "Aspects": {
+      "w.aramaic": 1,
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.herbs.infusions": 1,
+      "codex": 1,
+      "mystery.nectar": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5061
   },
   {
     "IdStr": "t.fivecreations",
     "Label": "Five Creations",
+    "Aspects": {
+      "mystery.moth": 14,
+      "soph": 14,
+      "cost.tally": 5,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "r.resurgences.emergences": 1,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5062
   },
   {
     "IdStr": "t.fromhistorytoeternity",
     "Label": "From History to Eternity",
+    "Aspects": {
+      "mystery.moth": 10,
+      "soph": 10,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "codex": 1,
+      "r.inks.revelation": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5063
   },
   {
     "IdStr": "t.glimmerings",
     "Label": "Glimmerings",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.sights.sensations": 1,
+      "mystery.forge": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5064
   },
   {
     "IdStr": "t.gospelofnicodemus",
     "Label": "Gospel of Nicodemus",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 4,
+      "mystery.lantern": 6,
+      "r.sacrasolisinvicti": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5065
   },
   {
     "IdStr": "t.greenjaspertablet",
     "Label": "Green Jasper Tablet",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 5,
+      "r.rites.theroots": 1,
+      "w.cracktrack": 1,
+      "period.dawn": 1,
+      "mystery.nectar": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5066
   },
   {
     "IdStr": "t.honeythecomprehensiveguide",
     "Label": "Honey: the Comprehensive Guide",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.insects.nectars": 1,
+      "mystery.nectar": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5067
   },
   {
     "IdStr": "t.howtheendwillbegin",
     "Label": "How the End will Begin",
+    "Aspects": {
+      "r.raggedcrossroads": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "mystery.edge": 14,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5068
   },
   {
     "IdStr": "t.huntingjournalsofbryandewulf",
     "Label": "Hunting Journals of Bryan Dewulf",
+    "Aspects": {
+      "mystery.scale": 8,
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.furs.feathers": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5069
   },
   {
     "IdStr": "t.inaamkapigiginlupirgarkiecryppys",
     "Label": "Inaam, Kapigiginlupir, Garkie, Cryppys",
+    "Aspects": {
+      "w.phrygian": 1,
+      "mystery.moth": 14,
+      "soph": 14,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "r.transformations.liberations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5070
   },
   {
     "IdStr": "t.inmemoryofgods",
     "Label": "In Memory of Gods",
+    "Aspects": {
+      "soph": 12,
+      "r.raggedcrossroads": 1,
+      "mystery.winter": 12,
+      "cost.tally": 5,
+      "w.fucine": 1,
+      "codex": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5071
   },
   {
     "IdStr": "t.inthemalleary",
     "Label": "In the Malleary",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 4,
+      "codex": 1,
+      "r.anbary.lapidary": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5072
   },
   {
     "IdStr": "t.inthemountainsasupontheplaintheremaynotbeapathwherenonehaspassed",
     "Label": "In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed",
+    "Aspects": {
+      "codex": 1,
+      "soph": 18,
+      "cost.tally": 5,
+      "w.vak": 1,
+      "r.skystories": 1,
+      "period.dawn": 1,
+      "mystery.sky": 18,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5073
   },
   {
     "IdStr": "t.isaacofkarthshistoryoftheshadowlesskings",
     "Label": "Isaac of Karth's History of the Shadowless Kings",
+    "Aspects": {
+      "w.aramaic": 1,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "mystery.rose": 14,
+      "period.dawn": 1,
+      "r.sandstories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5074
   },
   {
     "IdStr": "t.itiswritten",
     "Label": "It Is Written",
+    "Aspects": {
+      "mystery.scale": 8,
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.inks.power": 1,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5075
   },
   {
     "IdStr": "t.journalofsirdavidgreene1903",
     "Label": "Journal of Sir David Greene, 1903",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "period.nocturnal": 1,
+      "mystery.edge": 14,
+      "w.hyksos": 1,
+      "r.sharps": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5076
   },
   {
     "IdStr": "t.journalofthomasdewulf",
     "Label": "Journal of Thomas Dewulf",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.ouranoscopy": 1,
+      "mystery.sky": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5077
   },
   {
     "IdStr": "t.journalofwalterdewulf",
     "Label": "Journal of Walter Dewulf",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.forge": 6,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5078
   },
   {
     "IdStr": "t.justverse",
     "Label": "Just Verse",
+    "Aspects": {
+      "mystery.rose": 6,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.preliminalmeter": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5079
   },
   {
     "IdStr": "t.keyofnight",
     "Label": "Key of Night",
+    "Aspects": {
+      "mystery.scale": 6,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.pentiments.precursors": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5080
   },
   {
     "IdStr": "t.kitlingripeandthemoldywarpsgraveandotherstories",
     "Label": "Kitling Ripe and the Moldywarp's Grave (and Other Stories)",
+    "Aspects": {
+      "mystery.moth": 6,
+      "soph": 6,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5081
   },
   {
     "IdStr": "t.kitlingripestastytreats",
     "Label": "Kitling Ripe's Tasty Treats",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.spices.savours": 1,
+      "mystery.nectar": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5082
   },
   {
     "IdStr": "t.kopralithomphalos",
     "Label": "Kopralith Omphalos",
+    "Aspects": {
+      "mystery.moth": 10,
+      "soph": 10,
+      "cost.tally": 8,
+      "tablet": 1,
+      "r.weaving.knotworking": 1,
+      "period.dawn": 1,
+      "w.killasimi": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5083
   },
   {
     "IdStr": "t.ladyevasrepose",
     "Label": "Lady Eva's Repose",
+    "Aspects": {
+      "r.rhyme.remembrance": 1,
+      "soph": 4,
+      "mystery.winter": 4,
+      "cost.tally": 3,
+      "codex": 1,
+      "period.baronial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5084
   },
   {
     "IdStr": "t.lakefucinorecordings",
     "Label": "Lake Fucino Recordings",
+    "Aspects": {
+      "record.phonograph": 1,
+      "soph": 12,
+      "r.drums.dances": 1,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "mystery.heart": 12,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5085
   },
   {
     "IdStr": "t.lettersfromafugitive",
     "Label": "Letters from a Fugitive",
+    "Aspects": {
+      "w.phrygian": 1,
+      "mystery.rose": 6,
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.path.pilgrim": 1,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5086
   },
   {
     "IdStr": "t.letterstomysuccessor",
     "Label": "Letters To My Successor",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 1,
+      "mystery.lantern": 8,
+      "period.nocturnal": 1,
+      "r.inks.revelation": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5087
   },
   {
     "IdStr": "t.malachitesupplications",
     "Label": "Malachite Supplications",
+    "Aspects": {
+      "r.tridesmahiera": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 4,
+      "w.greek": 1,
+      "mystery.moon": 8,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5088
   },
   {
     "IdStr": "t.medusancommentaries",
     "Label": "Medusan Commentaries",
+    "Aspects": {
+      "r.pentiments.precursors": 1,
+      "soph": 21,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.grail": 21,
+      "codex": 1,
+      "w.killasimi": 1,
+      "infinitereadable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5089
   },
   {
     "IdStr": "t.medusaslament",
     "Label": "Medusa's Lament",
+    "Aspects": {
+      "mystery.scale": 14,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "w.greek": 1,
+      "r.horns.ivories": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5090
   },
   {
     "IdStr": "t.musgravessketches",
     "Label": "Musgrave's Sketches",
+    "Aspects": {
+      "soph": 8,
+      "mystery.winter": 8,
+      "cost.tally": 2,
+      "r.sights.sensations": 1,
+      "codex": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5091
   },
   {
     "IdStr": "t.mydeedsmypowersmyachievementsandtheinjusticesperpetratedagainstme",
     "Label": "My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 4,
+      "r.transformations.liberations": 1,
+      "mystery.forge": 16,
+      "w.mandaic": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5092
   },
   {
     "IdStr": "t.naeniansketches",
     "Label": "Naenian Sketches",
+    "Aspects": {
+      "soph": 21,
+      "mystery.winter": 21,
+      "cost.tally": 1,
+      "w.sabazine": 1,
+      "period.nocturnal": 1,
+      "codex": 1,
+      "r.sights.sensations": 1,
+      "infinitereadable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5093
   },
   {
     "IdStr": "t.nixabolix",
     "Label": "Nix Abolix",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "r.wolfstories": 1,
+      "w.fucine": 1,
+      "mystery.moon": 16,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5094
   },
   {
     "IdStr": "t.notesonbindings",
     "Label": "Notes on Bindings",
+    "Aspects": {
+      "soph": 10,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.stitching.binding": 1,
+      "codex": 1,
+      "mystery.heart": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5095
   },
   {
     "IdStr": "t.nynscagesavignontext",
     "Label": "Nyn's Cages (Avignon Text)",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 4,
+      "w.ericapaean": 1,
+      "mystery.heart": 16,
+      "r.quenchings.quellings": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5096
   },
   {
     "IdStr": "t.nynscagesbrugestextilluminated",
     "Label": "Nyn's Cages (Bruges Text, Illuminated)",
+    "Aspects": {
+      "soph": 10,
+      "mystery.winter": 10,
+      "cost.tally": 4,
+      "w.ericapaean": 1,
+      "codex": 1,
+      "r.quenchings.quellings": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5097
   },
   {
     "IdStr": "t.oblationsiniron",
     "Label": "Oblations in Iron",
+    "Aspects": {
+      "soph": 6,
+      "r.inks.containment": 1,
+      "mystery.winter": 6,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5098
   },
   {
     "IdStr": "t.observationsonthepeacockdoor",
     "Label": "Observations on the Peacock Door",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 4,
+      "w.vak": 1,
+      "r.sickle.eclipse": 1,
+      "mystery.moon": 10,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 5099
   },
   {
     "IdStr": "t.oghkoroghkortissilakoghkor",
     "Label": "OGHKOR OGHKOR TISSILAK OGHKOR",
+    "Aspects": {
+      "r.thegreatsignsandthegreatscars": 1,
+      "soph": 12,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.knock": 12,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50100
   },
   {
     "IdStr": "t.oldcoppernoseandthesoftermetal",
     "Label": "Old Coppernose and the Softer Metal",
+    "Aspects": {
+      "r.bells.brazieries": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.forge": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50101
   },
   {
     "IdStr": "t.onehundredandeight",
     "Label": "One Hundred And Eight",
+    "Aspects": {
+      "mystery.scale": 4,
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.pentiments.precursors": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50102
   },
   {
     "IdStr": "t.onethousandthreads",
     "Label": "One Thousand Threads",
+    "Aspects": {
+      "r.tridesmahiera": 1,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "mystery.grail": 12,
+      "period.dawn": 1,
+      "w.killasimi": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50103
   },
   {
     "IdStr": "t.onimperfections",
     "Label": "On Imperfections",
+    "Aspects": {
+      "soph": 10,
+      "period.baronial": 1,
+      "r.glassblowing.vesselcrafting": 1,
+      "mystery.knock": 10,
+      "codex": 1,
+      "cost.tally": 3,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50104
   },
   {
     "IdStr": "t.onmatthiasandtheamethystimagoloss",
     "Label": "On Matthias and the Amethyst Imago: Loss",
+    "Aspects": {
+      "r.solutions.separations": 1,
+      "w.aramaic": 1,
+      "mystery.moth": 6,
+      "soph": 6,
+      "cost.tally": 5,
+      "codex": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50105
   },
   {
     "IdStr": "t.onmatthiasandtheamethystimagopursuit",
     "Label": "On Matthias and the Amethyst Imago: Pursuit",
+    "Aspects": {
+      "w.aramaic": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 5,
+      "mystery.grail": 6,
+      "r.desires.dissolutions": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50106
   },
   {
     "IdStr": "t.onmatthiasandtheamethystimagotransformation",
     "Label": "On Matthias and the Amethyst Imago: Transformation",
+    "Aspects": {
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 5,
+      "r.spices.savours": 1,
+      "w.aramaic": 1,
+      "mystery.forge": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50107
   },
   {
     "IdStr": "t.onresonance",
     "Label": "On Resonance",
+    "Aspects": {
+      "r.bells.brazieries": 1,
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.sky": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50108
   },
   {
     "IdStr": "t.onthematterandthedeedsofserpents",
     "Label": "On the Matter and the Deeds of Serpents",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 2,
+      "r.edictsliminal": 1,
+      "w.vak": 1,
+      "period.curia": 1,
+      "mystery.knock": 12,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50109
   },
   {
     "IdStr": "t.onthewhite",
     "Label": "On the White",
+    "Aspects": {
+      "soph": 6,
+      "mystery.winter": 6,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "r.quenchings.quellings": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50110
   },
   {
     "IdStr": "t.onthewindingstair",
     "Label": "On the Winding Stair",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "mystery.knock": 8,
+      "period.curia": 1,
+      "r.door.wall": 1,
+      "w.ramsund": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50111
   },
   {
     "IdStr": "t.onthirstliesivoriesandlovelies",
     "Label": "On Thirstlies, Ivories and Lovelies",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "mystery.grail": 10,
+      "period.curia": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50112
   },
   {
     "IdStr": "t.onwhatiscontainedbysilver",
     "Label": "On What is Contained By Silver",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "w.greek": 1,
+      "codex": 1,
+      "mystery.sky": 6,
+      "r.glassblowing.vesselcrafting": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50113
   },
   {
     "IdStr": "t.openingthesky",
     "Label": "Opening the Sky",
+    "Aspects": {
+      "record.phonograph": 1,
+      "soph": 10,
+      "r.strings.songs": 1,
+      "mystery.sky": 10,
+      "period.nocturnal": 1,
+      "cost.tally": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50114
   },
   {
     "IdStr": "t.operationsofacertainfinality",
     "Label": "Operations of a Certain Finality",
+    "Aspects": {
+      "soph": 8,
+      "mystery.winter": 8,
+      "cost.tally": 2,
+      "r.putrefactions.calcinations": 1,
+      "codex": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50115
   },
   {
     "IdStr": "t.opusmagnuscaeruleus",
     "Label": "Opus Magnum Caeruleum",
+    "Aspects": {
+      "soph": 14,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 14,
+      "codex": 1,
+      "r.pyroglyphics": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50116
   },
   {
     "IdStr": "t.perugiandiaries",
     "Label": "Perugian Diaries",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "r.strings.songs": 1,
+      "mystery.sky": 4,
+      "period.nocturnal": 1,
+      "cost.tally": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50117
   },
   {
     "IdStr": "t.plantagenetmysteries",
     "Label": "Plantagenet Mysteries",
+    "Aspects": {
+      "soph": 21,
+      "mystery.moth": 21,
+      "period.baronial": 1,
+      "cost.tally": 2,
+      "codex": 1,
+      "r.transformations.liberations": 1,
+      "infinitereadable": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50118
   },
   {
     "IdStr": "t.propheciesofglory",
     "Label": "Prophecies of Glory",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 8,
+      "codex": 1,
+      "r.watchmansparadoxes": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50119
   },
   {
     "IdStr": "t.quirinicmeditations",
     "Label": "Quirinic Meditations",
+    "Aspects": {
+      "w.ericapaean": 1,
+      "codex": 1,
+      "soph": 21,
+      "cost.tally": 4,
+      "mystery.lantern": 21,
+      "period.solar": 1,
+      "infinitereadable": 1,
+      "r.auroralcontemplations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50120
   },
   {
     "IdStr": "t.raptintheking",
     "Label": "Rapt in the King",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.heart": 8,
+      "r.drums.dances": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50121
   },
   {
     "IdStr": "t.recordingsfromthealthibanabyss",
     "Label": "Recordings from the Althiban Abyss",
+    "Aspects": {
+      "mystery.scale": 4,
+      "soph": 4,
+      "cost.tally": 1,
+      "r.stonestories": 1,
+      "period.nocturnal": 1,
+      "record.phonograph": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50122
   },
   {
     "IdStr": "t.serpentroot",
     "Label": "Serpent-Root",
+    "Aspects": {
+      "soph": 10,
+      "cost.tally": 8,
+      "r.rites.theroots": 1,
+      "tablet": 1,
+      "w.cracktrack": 1,
+      "period.dawn": 1,
+      "mystery.nectar": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50123
   },
   {
     "IdStr": "t.sevenfacesoficarus",
     "Label": "Seven Faces of Icarus",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.furs.feathers": 1,
+      "mystery.sky": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50124
   },
   {
     "IdStr": "t.sevenshards",
     "Label": "Seven Shards",
+    "Aspects": {
+      "soph": 10,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "mystery.edge": 10,
+      "codex": 1,
+      "r.disciplines.thehammer": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50125
   },
   {
     "IdStr": "t.shuriticbookofsuns",
     "Label": "Shuritic Book of Suns",
+    "Aspects": {
+      "scroll": 1,
+      "soph": 10,
+      "cost.tally": 8,
+      "mystery.sky": 10,
+      "period.dawn": 1,
+      "r.sacrasolisinvicti": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50126
   },
   {
     "IdStr": "t.singlefootsongs",
     "Label": "Singlefoot Songs",
+    "Aspects": {
+      "mystery.scale": 6,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.hill.hollow": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50127
   },
   {
     "IdStr": "t.skinofsilver",
     "Label": "Skin of Silver",
+    "Aspects": {
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 5,
+      "r.disciplines.thehammer": 1,
+      "mystery.forge": 10,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50128
   },
   {
     "IdStr": "t.snareofthetreecollectedproverbsofauntmopsy",
     "Label": "Snare of the Tree: Collected Proverbs of Aunt Mopsy",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 1,
+      "mystery.grail": 8,
+      "period.nocturnal": 1,
+      "r.applebrighteuphonies": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50129
   },
   {
     "IdStr": "t.stolenhistories",
     "Label": "Stolen Histories",
+    "Aspects": {
+      "mystery.scale": 4,
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.coil.chasm": 1,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50130
   },
   {
     "IdStr": "t.sunriseawakenings",
     "Label": "Sunrise Awakenings",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 4,
+      "codex": 1,
+      "r.auroralcontemplations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50131
   },
   {
     "IdStr": "t.sunsetceliaandtheendofdays",
     "Label": "Sunset Celia and the End of Days",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.sky": 10,
+      "r.sacralimiae": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50132
   },
   {
     "IdStr": "t.sunsetpassages",
     "Label": "Sunset Passages",
+    "Aspects": {
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 5,
+      "w.latin": 1,
+      "mystery.forge": 4,
+      "r.sacrasolisinvicti": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50133
   },
   {
     "IdStr": "t.theaccountofkanishkatthespidersdoor",
     "Label": "The Account of Kanishk at the Spider's Door",
+    "Aspects": {
+      "w.aramaic": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 5,
+      "r.sharps": 1,
+      "mystery.moon": 6,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50134
   },
   {
     "IdStr": "t.theadmonitoryautomataproject",
     "Label": "The Admonitory Automata Project",
+    "Aspects": {
+      "soph": 10,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "film": 1,
+      "r.lockworks.clockworks": 1,
+      "mystery.forge": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50135
   },
   {
     "IdStr": "t.thealloyofthewhiterose",
     "Label": "The Alloy of the White Rose",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 4,
+      "r.purifications.exaltations": 1,
+      "mystery.lantern": 10,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50136
   },
   {
     "IdStr": "t.theamalgamoftheredrose",
     "Label": "The Amalgam of the Red Rose",
+    "Aspects": {
+      "r.meniscatereflections": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.forge": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50137
   },
   {
     "IdStr": "t.theascendant",
     "Label": "The Ascendant",
+    "Aspects": {
+      "soph": 10,
+      "r.edictsmartial": 1,
+      "w.hyksos": 1,
+      "mystery.edge": 10,
+      "codex": 1,
+      "cost.tally": 4,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50138
   },
   {
     "IdStr": "t.thebarrowchildselegies",
     "Label": "The Barrowchild's Elegies",
+    "Aspects": {
+      "r.rhyme.remembrance": 1,
+      "soph": 10,
+      "mystery.winter": 10,
+      "cost.tally": 3,
+      "w.latin": 1,
+      "codex": 1,
+      "period.baronial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50139
   },
   {
     "IdStr": "t.thebeekeepersends",
     "Label": "The Bee-Keeper's Ends",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.insects.nectars": 1,
+      "mystery.nectar": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50140
   },
   {
     "IdStr": "t.theberrybook",
     "Label": "The Berrybook",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "mystery.nectar": 8,
+      "period.curia": 1,
+      "r.leaves.thorns": 1,
+      "w.killasimi": 1,
+      "cost.tally": 2,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50141
   },
   {
     "IdStr": "t.theblackbookofbrittany",
     "Label": "The Black Book of Brittany",
+    "Aspects": {
+      "r.inks.containment": 1,
+      "soph": 12,
+      "cost.tally": 4,
+      "codex": 1,
+      "mystery.moon": 12,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50142
   },
   {
     "IdStr": "t.thebookofcinders",
     "Label": "The Book of Cinders",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.forge": 6,
+      "r.pyroglyphics": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50143
   },
   {
     "IdStr": "t.thebookofdissolution",
     "Label": "The Book of Dissolution",
+    "Aspects": {
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "r.transformations.liberations": 1,
+      "mystery.forge": 12,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50144
   },
   {
     "IdStr": "t.thebookofmasks",
     "Label": "The Book of Masks",
+    "Aspects": {
+      "w.phrygian": 1,
+      "mystery.moth": 14,
+      "soph": 14,
+      "cost.tally": 5,
+      "codex": 1,
+      "r.weaving.knotworking": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50145
   },
   {
     "IdStr": "t.thebookofthecentipede",
     "Label": "The Book of the Centipede",
+    "Aspects": {
+      "mystery.rose": 6,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "w.greek": 1,
+      "period.curia": 1,
+      "r.sandstories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50146
   },
   {
     "IdStr": "t.thebookoftheextinguishedheart",
     "Label": "The Book of the Extinguished Heart",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "mystery.heart": 16,
+      "r.quenchings.quellings": 1,
+      "period.dawn": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50147
   },
   {
     "IdStr": "t.thebookofthewhitecat",
     "Label": "The Book of the White Cat",
+    "Aspects": {
+      "w.phrygian": 1,
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "period.dawn": 1,
+      "r.watchmansparadoxes": 1,
+      "mystery.sky": 16,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50148
   },
   {
     "IdStr": "t.thebookofthrones",
     "Label": "The Book of Thrones",
+    "Aspects": {
+      "w.phrygian": 1,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 2,
+      "mystery.edge": 12,
+      "period.curia": 1,
+      "r.auroralcontemplations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50149
   },
   {
     "IdStr": "t.theburningwoman",
     "Label": "The Burning Woman",
+    "Aspects": {
+      "w.phrygian": 1,
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "r.transformations.liberations": 1,
+      "mystery.forge": 14,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50150
   },
   {
     "IdStr": "t.thecarbonekschism",
     "Label": "The Carbonek Schism",
+    "Aspects": {
+      "soph": 6,
+      "mystery.moth": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "w.sabazine": 1,
+      "codex": 1,
+      "r.sacralimiae": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50151
   },
   {
     "IdStr": "t.thecarminepetalrevised",
     "Label": "The Carmine Petal: Revised",
+    "Aspects": {
+      "soph": 12,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.disciplines.thehammer": 1,
+      "mystery.forge": 12,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50152
   },
   {
     "IdStr": "t.thecarminepetalunexpurgated",
     "Label": "The Carmine Petal: Unexpurgated",
+    "Aspects": {
+      "soph": 18,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.disciplines.thehammer": 1,
+      "mystery.forge": 18,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50153
   },
   {
     "IdStr": "t.theceaselesstantra",
     "Label": "The Ceaseless Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "soph": 6,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "codex": 1,
+      "mystery.heart": 6,
+      "r.weaving.knotworking": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50154
   },
   {
     "IdStr": "t.thechandlerswish",
     "Label": "The Chandler's Wish",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 2,
+      "mystery.lantern": 12,
+      "r.inks.revelation": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50155
   },
   {
     "IdStr": "t.theconcursumdiaries",
     "Label": "The Concursum Diaries",
+    "Aspects": {
+      "w.phrygian": 1,
+      "mystery.rose": 8,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 5,
+      "r.path.pilgrim": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50156
   },
   {
     "IdStr": "t.thecrossingtonoon",
     "Label": "The Crossing to Noon",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "w.latin": 1,
+      "period.curia": 1,
+      "mystery.moon": 8,
+      "r.seastories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50157
   },
   {
     "IdStr": "t.thedeathsofthemoon",
     "Label": "The Deaths of the Moon",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "r.snowstories": 1,
+      "codex": 1,
+      "mystery.moon": 8,
+      "w.killasimi": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50158
   },
   {
     "IdStr": "t.thedebateofsevencups",
     "Label": "The Debate of Seven Cups",
+    "Aspects": {
+      "r.solutions.separations": 1,
+      "mystery.moth": 10,
+      "soph": 10,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50159
   },
   {
     "IdStr": "t.thedeedsofthescarredcaptain",
     "Label": "The Deeds of the Scarred Captain",
+    "Aspects": {
+      "w.greek": 1,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 4,
+      "mystery.edge": 12,
+      "r.sharps": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50160
   },
   {
     "IdStr": "t.thedevouredtantra",
     "Label": "The Devoured Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "soph": 6,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "mystery.grail": 6,
+      "codex": 1,
+      "r.applebrighteuphonies": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50161
   },
   {
     "IdStr": "t.thedreamoftheconspiracyofthelowerskies",
     "Label": "The Dream of the Conspiracy of the Lower Skies",
+    "Aspects": {
+      "r.thegreatsignsandthegreatscars": 1,
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "mystery.grail": 16,
+      "w.phrygian": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50162
   },
   {
     "IdStr": "t.theelationsoflimentinus",
     "Label": "The Elations of Limentinus",
+    "Aspects": {
+      "r.thegreatsignsandthegreatscars": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 4,
+      "mystery.knock": 6,
+      "w.latin": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50163
   },
   {
     "IdStr": "t.theencirclingtantra",
     "Label": "The Encircling Tantra",
+    "Aspects": {
+      "mystery.scale": 6,
+      "w.sanskrit": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "r.horns.ivories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50164
   },
   {
     "IdStr": "t.thefallencross",
     "Label": "The Fallen Cross",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.ouranoscopy": 1,
+      "mystery.sky": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50165
   },
   {
     "IdStr": "t.thefirecircletantra",
     "Label": "The Fire-Circle Tantra",
+    "Aspects": {
+      "r.solutions.separations": 1,
+      "w.sanskrit": 1,
+      "mystery.moth": 8,
+      "soph": 8,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "scroll": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50166
   },
   {
     "IdStr": "t.thefivelettersonmemory",
     "Label": "The Five Letters On Memory",
+    "Aspects": {
+      "r.rhyme.remembrance": 1,
+      "soph": 6,
+      "mystery.winter": 6,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50167
   },
   {
     "IdStr": "t.theflayedtantra",
     "Label": "The Flayed Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "mystery.heart": 8,
+      "period.curia": 1,
+      "scroll": 1,
+      "r.maggephenemysteries": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50168
   },
   {
     "IdStr": "t.thefocusofamber",
     "Label": "The Focus of Amber",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "mystery.sky": 16,
+      "r.glaziery.lightsmithing": 1,
+      "period.dawn": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50169
   },
   {
     "IdStr": "t.thegeminiadi",
     "Label": "The Geminiad i",
+    "Aspects": {
+      "soph": 10,
+      "period.curia": 1,
+      "cost.tally": 2,
+      "w.fucine": 1,
+      "codex": 1,
+      "mystery.heart": 10,
+      "r.weaving.knotworking": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50170
   },
   {
     "IdStr": "t.thegeminiadii",
     "Label": "The Geminiad ii",
+    "Aspects": {
+      "r.pentiments.precursors": 1,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "mystery.grail": 10,
+      "w.fucine": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50171
   },
   {
     "IdStr": "t.thegeminiadiii",
     "Label": "The Geminiad iii",
+    "Aspects": {
+      "mystery.moth": 12,
+      "soph": 12,
+      "cost.tally": 2,
+      "w.fucine": 1,
+      "codex": 1,
+      "period.curia": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50172
   },
   {
     "IdStr": "t.thegospelofzacchaeus",
     "Label": "The Gospel of Zacchaeus",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 4,
+      "mystery.knock": 8,
+      "w.greek": 1,
+      "r.horns.ivories": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50173
   },
   {
     "IdStr": "t.thegrandpassageofthehours",
     "Label": "The Grand Passage of the Hours",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "mystery.knock": 12,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50174
   },
   {
     "IdStr": "t.thehighmysteriesoftheinnermostchamberofourchurchsolar",
     "Label": "The High Mysteries of the Innermost Chamber of our Church Solar",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "mystery.lantern": 14,
+      "w.fucine": 1,
+      "r.sacrasolisinvicti": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50175
   },
   {
     "IdStr": "t.thehightraditionsofthenobleendeavour",
     "Label": "The High Traditions of the Noble Endeavour",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "w.latin": 1,
+      "mystery.edge": 6,
+      "codex": 1,
+      "r.disciplines.thehammer": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50176
   },
   {
     "IdStr": "t.thehissingkey",
     "Label": "The Hissing Key",
+    "Aspects": {
+      "r.serpents.venoms": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 5,
+      "w.greek": 1,
+      "mystery.scale": 8,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50177
   },
   {
     "IdStr": "t.thehistoryofinks",
     "Label": "The History of Inks",
+    "Aspects": {
+      "mystery.rose": 14,
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "r.inks.power": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50178
   },
   {
     "IdStr": "t.thehumoursofagentleman",
     "Label": "The Humours of a Gentleman",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.skystories": 1,
+      "mystery.sky": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50179
   },
   {
     "IdStr": "t.theincandescenttantra",
     "Label": "The Incandescent Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "r.transformations.liberations": 1,
+      "period.curia": 1,
+      "scroll": 1,
+      "mystery.forge": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50180
   },
   {
     "IdStr": "t.theinstrumentsoftheheart",
     "Label": "The Instruments of the Heart",
+    "Aspects": {
+      "soph": 10,
+      "r.drums.dances": 1,
+      "cost.tally": 4,
+      "codex": 1,
+      "mystery.heart": 10,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50181
   },
   {
     "IdStr": "t.theintimationsofskin",
     "Label": "The Intimations of Skin",
+    "Aspects": {
+      "r.desires.dissolutions": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 1,
+      "mystery.grail": 8,
+      "period.nocturnal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50182
   },
   {
     "IdStr": "t.theinvisibleoperaunfinishedrecording",
     "Label": "The Invisible Opera (Unfinished Recording)",
+    "Aspects": {
+      "record.phonograph": 1,
+      "soph": 12,
+      "r.strings.songs": 1,
+      "mystery.sky": 12,
+      "period.nocturnal": 1,
+      "cost.tally": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50183
   },
   {
     "IdStr": "t.theironbook",
     "Label": "The Iron Book",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 5,
+      "mystery.edge": 8,
+      "w.fucine": 1,
+      "r.disciplines.thehammer": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50184
   },
   {
     "IdStr": "t.theivorybook",
     "Label": "The Ivory Book",
+    "Aspects": {
+      "soph": 8,
+      "mystery.winter": 8,
+      "cost.tally": 5,
+      "w.fucine": 1,
+      "codex": 1,
+      "r.quenchings.quellings": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50185
   },
   {
     "IdStr": "t.thekerishamportolan",
     "Label": "The Kerisham Portolan",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.moon": 6,
+      "r.seastories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50186
   },
   {
     "IdStr": "t.theknownunknowntantra",
     "Label": "The Known-Unknown Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "mystery.lantern": 6,
+      "period.curia": 1,
+      "r.watchmansparadoxes": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50187
   },
   {
     "IdStr": "t.thelarquebinecodex",
     "Label": "The Larquebine Codex",
+    "Aspects": {
+      "w.phrygian": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 5,
+      "mystery.moon": 6,
+      "period.dawn": 1,
+      "r.seastories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50188
   },
   {
     "IdStr": "t.theleoninetantra",
     "Label": "The Leonine Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "mystery.edge": 8,
+      "period.curia": 1,
+      "scroll": 1,
+      "r.edictsmartial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50189
   },
   {
     "IdStr": "t.thelionandtheglass",
     "Label": "The Lion and the Glass",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "mystery.sky": 12,
+      "r.glaziery.lightsmithing": 1,
+      "period.dawn": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50190
   },
   {
     "IdStr": "t.thelocksmithsdreamalightthroughthekeyhole",
     "Label": "The Locksmith's Dream: a Light through the Keyhole",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "r.purifications.exaltations": 1,
+      "mystery.lantern": 4,
+      "period.nocturnal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50191
   },
   {
     "IdStr": "t.thelocksmithsdreamincursus",
     "Label": "The Locksmith's Dream: Incursus",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "mystery.lantern": 6,
+      "period.nocturnal": 1,
+      "r.glaziery.lightsmithing": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50192
   },
   {
     "IdStr": "t.thelocksmithsdreamportionsandproportions",
     "Label": "The Locksmith's Dream: Portions and Proportions",
+    "Aspects": {
+      "period.nocturnal": 1,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "r.lockworks.clockworks": 1,
+      "mystery.sky": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50193
   },
   {
     "IdStr": "t.thelocksmithsdreamstolenreflections",
     "Label": "The Locksmith's Dream: Stolen Reflections",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.watchmansparadoxes": 1,
+      "mystery.sky": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50194
   },
   {
     "IdStr": "t.thelocksmithsdreamtrespasses",
     "Label": "The Locksmith's Dream: Trespasses",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "mystery.knock": 6,
+      "period.nocturnal": 1,
+      "r.edictsliminal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50195
   },
   {
     "IdStr": "t.themannerinwhichthealchemistwasspared",
     "Label": "The Manner in which the Alchemist was Spared",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 2,
+      "r.anbary.lapidary": 1,
+      "w.vak": 1,
+      "period.curia": 1,
+      "mystery.forge": 14,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50196
   },
   {
     "IdStr": "t.themessengerawaitingherdestination",
     "Label": "The Messenger Awaiting Her Destination",
+    "Aspects": {
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "w.vak": 1,
+      "mystery.forge": 16,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50197
   },
   {
     "IdStr": "t.themirrorofmelancthe",
     "Label": "The Mirror of Melancthe",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 4,
+      "r.sights.sensations": 1,
+      "mystery.sky": 12,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50198
   },
   {
     "IdStr": "t.themoonsegg",
     "Label": "The Moon's Egg",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 4,
+      "r.pearl.tide": 1,
+      "mystery.moon": 4,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50199
   },
   {
     "IdStr": "t.themorphycodex",
     "Label": "The Morphy Codex",
+    "Aspects": {
+      "w.aramaic": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 5,
+      "r.tridesmahiera": 1,
+      "mystery.moon": 6,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50200
   },
   {
     "IdStr": "t.themostsorrowfulendoftheladynonna",
     "Label": "The Most Sorrowful End of the Lady Nonna",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "mystery.nectar": 4,
+      "r.herbs.infusions": 1,
+      "w.henavek": 1,
+      "cost.tally": 4,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50201
   },
   {
     "IdStr": "t.theopenhead",
     "Label": "THE OPEN HEAD",
+    "Aspects": {
+      "soph": 8,
+      "cost.tally": 1,
+      "r.disciplines.thescar": 1,
+      "period.nocturnal": 1,
+      "mystery.edge": 8,
+      "film": 1,
+      "w.hyksos": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50202
   },
   {
     "IdStr": "t.theorchidtransfigurationsabirth",
     "Label": "The Orchid Transfigurations: a Birth",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.grail": 8,
+      "w.latin": 1,
+      "codex": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50203
   },
   {
     "IdStr": "t.theorchidtransfigurationsafeast",
     "Label": "The Orchid Transfigurations: a Feast",
+    "Aspects": {
+      "r.desires.dissolutions": 1,
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.grail": 4,
+      "w.latin": 1,
+      "codex": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50204
   },
   {
     "IdStr": "t.theorchidtransfigurationsnoon",
     "Label": "The Orchid Transfigurations: Noon",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "w.latin": 1,
+      "mystery.heart": 4,
+      "period.curia": 1,
+      "r.maggephenemysteries": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50205
   },
   {
     "IdStr": "t.theoriginsofhours",
     "Label": "The Origins of Hours",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "mystery.sky": 16,
+      "r.sacralimiae": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50206
   },
   {
     "IdStr": "t.theothereyeoftheserpent",
     "Label": "The Other Eye of the Serpent",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 4,
+      "r.anbary.lapidary": 1,
+      "mystery.sky": 10,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50207
   },
   {
     "IdStr": "t.theotherline",
     "Label": "The Other Line",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.heart": 4,
+      "r.preliminalmeter": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50208
   },
   {
     "IdStr": "t.thequeensoftherivers",
     "Label": "The Queens of the Rivers",
+    "Aspects": {
+      "mystery.scale": 4,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "r.path.pilgrim": 1,
+      "period.nocturnal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50209
   },
   {
     "IdStr": "t.thequeensturn",
     "Label": "The Queen's Turn",
+    "Aspects": {
+      "soph": 10,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.moon": 10,
+      "r.hill.hollow": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50210
   },
   {
     "IdStr": "t.theradicalmeasure",
     "Label": "The Radical Measure",
+    "Aspects": {
+      "mystery.rose": 10,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "r.preliminalmeter": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50211
   },
   {
     "IdStr": "t.theradicalmeasureglossed",
     "Label": "The Radical Measure (Glossed)",
+    "Aspects": {
+      "mystery.rose": 12,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.preliminalmeter": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50212
   },
   {
     "IdStr": "t.therapturesofforculus",
     "Label": "The Raptures of Forculus",
+    "Aspects": {
+      "r.thegreatsignsandthegreatscars": 1,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 4,
+      "mystery.knock": 4,
+      "w.latin": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50213
   },
   {
     "IdStr": "t.theredbookofbrittany",
     "Label": "The Red Book of Brittany",
+    "Aspects": {
+      "mystery.rose": 12,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 4,
+      "r.inks.power": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50214
   },
   {
     "IdStr": "t.therepublicofteeth",
     "Label": "The Republic of Teeth",
+    "Aspects": {
+      "r.serpents.venoms": 1,
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.scale": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50215
   },
   {
     "IdStr": "t.theroadtojanus",
     "Label": "The Road to Janus",
+    "Aspects": {
+      "codex": 1,
+      "soph": 18,
+      "cost.tally": 5,
+      "mystery.knock": 18,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50216
   },
   {
     "IdStr": "t.theroseofhypatia",
     "Label": "The Rose of Hypatia",
+    "Aspects": {
+      "mystery.moth": 8,
+      "soph": 8,
+      "cost.tally": 4,
+      "w.greek": 1,
+      "codex": 1,
+      "r.weaving.knotworking": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50217
   },
   {
     "IdStr": "t.theroseofnuriel",
     "Label": "The Rose of Nuriel",
+    "Aspects": {
+      "r.thegreatsignsandthegreatscars": 1,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 4,
+      "mystery.grail": 10,
+      "w.greek": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50218
   },
   {
     "IdStr": "t.theroseofwaznei",
     "Label": "The Rose of Waznei",
+    "Aspects": {
+      "soph": 8,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 8,
+      "w.greek": 1,
+      "codex": 1,
+      "r.auroralcontemplations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50219
   },
   {
     "IdStr": "t.thescarinthesky",
     "Label": "The Scar in the Sky",
+    "Aspects": {
+      "soph": 14,
+      "mystery.winter": 14,
+      "cost.tally": 5,
+      "w.fucine": 1,
+      "codex": 1,
+      "r.quenchings.quellings": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50220
   },
   {
     "IdStr": "t.theseadoesnotregret",
     "Label": "The Sea Does Not Regret",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 2,
+      "r.pearl.tide": 1,
+      "period.curia": 1,
+      "mystery.moon": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50221
   },
   {
     "IdStr": "t.thesecretcolours",
     "Label": "The Secret Colours",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "w.greek": 1,
+      "r.sickle.eclipse": 1,
+      "mystery.moon": 14,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50222
   },
   {
     "IdStr": "t.theserenityoftheblackwood",
     "Label": "The Serenity of the Black Wood",
+    "Aspects": {
+      "w.greek": 1,
+      "mystery.moth": 12,
+      "soph": 12,
+      "cost.tally": 4,
+      "r.sacralimiae": 1,
+      "codex": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50223
   },
   {
     "IdStr": "t.thesevenfoldslayingofthesevencoiled",
     "Label": "The Sevenfold Slaying of the Seven-Coiled",
+    "Aspects": {
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "r.disciplines.thescar": 1,
+      "mystery.edge": 16,
+      "w.fucine": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50224
   },
   {
     "IdStr": "t.theshadowinthestair",
     "Label": "The Shadow in the Stair",
+    "Aspects": {
+      "codex": 1,
+      "period.baronial": 1,
+      "soph": 6,
+      "r.coil.chasm": 1,
+      "mystery.nectar": 6,
+      "cost.tally": 3,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50225
   },
   {
     "IdStr": "t.theshavenlocktantra",
     "Label": "The Shaven Lock Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "mystery.moth": 6,
+      "soph": 6,
+      "cost.tally": 5,
+      "r.rites.theroots": 1,
+      "codex": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50226
   },
   {
     "IdStr": "t.thesilverbook",
     "Label": "The Silver Book",
+    "Aspects": {
+      "mystery.moth": 8,
+      "soph": 8,
+      "cost.tally": 5,
+      "r.edictsliminal": 1,
+      "w.fucine": 1,
+      "codex": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50227
   },
   {
     "IdStr": "t.thesixlettersonnecessity",
     "Label": "The Six Letters on Necessity",
+    "Aspects": {
+      "mystery.moth": 4,
+      "soph": 4,
+      "cost.tally": 2,
+      "codex": 1,
+      "period.curia": 1,
+      "r.transformations.liberations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50228
   },
   {
     "IdStr": "t.theskeletonsongs",
     "Label": "The Skeleton Songs",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "mystery.grail": 4,
+      "period.nocturnal": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50229
   },
   {
     "IdStr": "t.theskyinthescar",
     "Label": "The Sky in the Scar",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 8,
+      "w.sabazine": 1,
+      "mystery.edge": 10,
+      "r.sickle.eclipse": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50230
   },
   {
     "IdStr": "t.theskythesoul",
     "Label": "The Sky, the Soul",
+    "Aspects": {
+      "w.aramaic": 1,
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "mystery.lantern": 12,
+      "period.dawn": 1,
+      "r.pyroglyphics": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50231
   },
   {
     "IdStr": "t.thesongsofthecarapacecross",
     "Label": "The Songs of the Carapace Cross",
+    "Aspects": {
+      "mystery.moth": 16,
+      "soph": 16,
+      "cost.tally": 5,
+      "r.edictsliminal": 1,
+      "w.fucine": 1,
+      "codex": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50232
   },
   {
     "IdStr": "t.thesundisfigured",
     "Label": "The Sun Disfigured",
+    "Aspects": {
+      "scroll": 1,
+      "soph": 10,
+      "cost.tally": 8,
+      "mystery.grail": 10,
+      "r.applebrighteuphonies": 1,
+      "period.dawn": 1,
+      "w.cracktrack": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50233
   },
   {
     "IdStr": "t.thesunsdesign",
     "Label": "The Sun's Design",
+    "Aspects": {
+      "soph": 10,
+      "cost.tally": 8,
+      "mystery.lantern": 10,
+      "tablet": 1,
+      "w.cracktrack": 1,
+      "period.dawn": 1,
+      "r.watchmansparadoxes": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50234
   },
   {
     "IdStr": "t.thesunslament",
     "Label": "The Sun's Lament",
+    "Aspects": {
+      "r.raggedcrossroads": 1,
+      "soph": 4,
+      "cost.tally": 4,
+      "mystery.edge": 4,
+      "codex": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50235
   },
   {
     "IdStr": "t.thetantraofworms",
     "Label": "The Tantra of Worms",
+    "Aspects": {
+      "mystery.scale": 8,
+      "w.sanskrit": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.coil.chasm": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50236
   },
   {
     "IdStr": "t.thetemptationsofarchitecture",
     "Label": "The Temptations of Architecture",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.forge": 10,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50237
   },
   {
     "IdStr": "t.thethirstingtantra",
     "Label": "The Thirsting Tantra",
+    "Aspects": {
+      "scroll": 1,
+      "w.sanskrit": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "mystery.grail": 8,
+      "period.curia": 1,
+      "r.orchids.narcotics": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50238
   },
   {
     "IdStr": "t.thethreeandthethreekerishammanuscript",
     "Label": "The Three and the Three (Kerisham Manuscript)",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 2,
+      "period.curia": 1,
+      "mystery.moon": 10,
+      "r.edictsinviolable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50239
   },
   {
     "IdStr": "t.thethreeandthethreestchiavimanuscript",
     "Label": "The Three and the Three (St Chiavi Manuscript)",
+    "Aspects": {
+      "codex": 1,
+      "soph": 18,
+      "cost.tally": 8,
+      "mystery.moon": 18,
+      "r.edictsinviolable": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50240
   },
   {
     "IdStr": "t.thethreeandthethreevaticanmanuscript",
     "Label": "The Three and the Three (Vatican Manuscript)",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 4,
+      "mystery.moon": 14,
+      "r.edictsinviolable": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50241
   },
   {
     "IdStr": "t.thetimeofdivision",
     "Label": "The Time of Division",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 5,
+      "r.surgeries.exsanguinations": 1,
+      "mystery.heart": 14,
+      "period.dawn": 1,
+      "w.mandaic": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50242
   },
   {
     "IdStr": "t.thetreatiseonunderplaces",
     "Label": "The Treatise on Underplaces",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.knock": 4,
+      "codex": 1,
+      "r.horns.ivories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50243
   },
   {
     "IdStr": "t.thetripledheart",
     "Label": "The Tripled Heart",
+    "Aspects": {
+      "r.tridesmahiera": 1,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 4,
+      "mystery.grail": 4,
+      "w.henavek": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50244
   },
   {
     "IdStr": "t.theturquoisehand",
     "Label": "The Turquoise Hand",
+    "Aspects": {
+      "r.pentiments.precursors": 1,
+      "mystery.rose": 10,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 8,
+      "w.ramsund": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50245
   },
   {
     "IdStr": "t.thetwelvelettersonconsequence",
     "Label": "The Twelve Letters On Consequence",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "r.putrefactions.calcinations": 1,
+      "period.curia": 1,
+      "mystery.moon": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50246
   },
   {
     "IdStr": "t.thetwinserpenttantra",
     "Label": "The Twin-Serpent Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 1,
+      "mystery.knock": 8,
+      "period.nocturnal": 1,
+      "r.edictsliminal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50247
   },
   {
     "IdStr": "t.thevictoryofcrowns",
     "Label": "The Victory of Crowns",
+    "Aspects": {
+      "mystery.edge": 4,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "r.sharps": 1,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50248
   },
   {
     "IdStr": "t.thevienneseconundra",
     "Label": "The Viennese Conundra",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "r.wolfstories": 1,
+      "period.curia": 1,
+      "mystery.moon": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50249
   },
   {
     "IdStr": "t.thevinzantinscriptions",
     "Label": "The Vinzant Inscriptions",
+    "Aspects": {
+      "w.phrygian": 1,
+      "period.dawn": 1,
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 5,
+      "r.transformations.liberations": 1,
+      "mystery.forge": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50250
   },
   {
     "IdStr": "t.thevoyagesofferninshunoforeol",
     "Label": "The Voyages of Ferninshun of Oreol",
+    "Aspects": {
+      "codex": 1,
+      "soph": 18,
+      "cost.tally": 5,
+      "w.fucine": 1,
+      "mystery.moon": 18,
+      "period.dawn": 1,
+      "r.seastories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50251
   },
   {
     "IdStr": "t.thewaroftheroads14511551",
     "Label": "The War of the Roads, 1451-1551",
+    "Aspects": {
+      "r.meniscatereflections": 1,
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 2,
+      "mystery.edge": 4,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50252
   },
   {
     "IdStr": "t.thewatchfultantra",
     "Label": "The Watchful Tantra",
+    "Aspects": {
+      "w.sanskrit": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "r.purifications.exaltations": 1,
+      "mystery.lantern": 8,
+      "period.curia": 1,
+      "scroll": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50253
   },
   {
     "IdStr": "t.thewhitebookofbrittany",
     "Label": "The White Book of Brittany",
+    "Aspects": {
+      "soph": 10,
+      "r.raggedcrossroads": 1,
+      "mystery.winter": 10,
+      "cost.tally": 4,
+      "codex": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50254
   },
   {
     "IdStr": "t.thewindsruin",
     "Label": "The Wind's Ruin",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 4,
+      "mystery.grail": 4,
+      "r.applebrighteuphonies": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50255
   },
   {
     "IdStr": "t.thewonderfulshape",
     "Label": "The Wonderful Shape",
+    "Aspects": {
+      "r.tridesmahiera": 1,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 5,
+      "mystery.grail": 10,
+      "period.dawn": 1,
+      "w.killasimi": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50256
   },
   {
     "IdStr": "t.theworlddespoild",
     "Label": "The World Despoil'd",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.maggephenemysteries": 1,
+      "mystery.moon": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50257
   },
   {
     "IdStr": "t.theworlddoesnotweep",
     "Label": "The World Does Not Weep",
+    "Aspects": {
+      "w.aramaic": 1,
+      "soph": 10,
+      "mystery.winter": 10,
+      "cost.tally": 4,
+      "r.putrefactions.calcinations": 1,
+      "codex": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50258
   },
   {
     "IdStr": "t.thewoundwounds",
     "Label": "The Wound-Wounds",
+    "Aspects": {
+      "codex": 1,
+      "soph": 18,
+      "cost.tally": 2,
+      "r.disciplines.thescar": 1,
+      "mystery.edge": 18,
+      "period.curia": 1,
+      "w.killasimi": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50259
   },
   {
     "IdStr": "t.thewritingonthewall",
     "Label": "The Writing on the Wall",
+    "Aspects": {
+      "soph": 10,
+      "cost.tally": 8,
+      "w.vak": 1,
+      "r.spices.savours": 1,
+      "period.dawn": 1,
+      "mystery.nectar": 10,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50260
   },
   {
     "IdStr": "t.thoseindignitiesperpetratedbythedeceitfulfraternityofobliviates",
     "Label": "Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates",
+    "Aspects": {
+      "soph": 6,
+      "r.raggedcrossroads": 1,
+      "mystery.winter": 6,
+      "cost.tally": 3,
+      "w.latin": 1,
+      "codex": 1,
+      "period.baronial": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50261
   },
   {
     "IdStr": "t.thosewhodonotsleep",
     "Label": "Those Who Do Not Sleep",
+    "Aspects": {
+      "codex": 1,
+      "soph": 12,
+      "cost.tally": 5,
+      "r.surgeries.exsanguinations": 1,
+      "w.fucine": 1,
+      "mystery.heart": 12,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50262
   },
   {
     "IdStr": "t.threeflowershaththetree",
     "Label": "Three Flowers Hath the Tree",
+    "Aspects": {
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "r.leaves.thorns": 1,
+      "mystery.nectar": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50263
   },
   {
     "IdStr": "t.toapalelady",
     "Label": "To a Pale Lady",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "r.pearl.tide": 1,
+      "period.curia": 1,
+      "mystery.moon": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50264
   },
   {
     "IdStr": "t.towardsafundamentalaesthetic",
     "Label": "Towards a Fundamental Aesthetic",
+    "Aspects": {
+      "codex": 1,
+      "soph": 10,
+      "r.glassblowing.vesselcrafting": 1,
+      "w.ericapaean": 1,
+      "period.curia": 1,
+      "mystery.knock": 10,
+      "cost.tally": 8,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50265
   },
   {
     "IdStr": "t.towardsafundamentalaestheticsecondedition",
     "Label": "Towards a Fundamental Aesthetic: Second Edition",
+    "Aspects": {
+      "soph": 10,
+      "mystery.winter": 10,
+      "cost.tally": 8,
+      "w.ericapaean": 1,
+      "period.nocturnal": 1,
+      "codex": 1,
+      "r.sights.sensations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50266
   },
   {
     "IdStr": "t.travellingatnightvol1",
     "Label": "Travelling at Night, vol 1",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "mystery.knock": 4,
+      "period.nocturnal": 1,
+      "r.edictsliminal": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50267
   },
   {
     "IdStr": "t.travellingatnightvol2",
     "Label": "Travelling at Night, vol 2",
+    "Aspects": {
+      "codex": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "r.sights.sensations": 1,
+      "mystery.sky": 6,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50268
   },
   {
     "IdStr": "t.travellingatnightvol3",
     "Label": "Travelling at Night, vol 3",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "mystery.knock": 4,
+      "period.nocturnal": 1,
+      "r.door.wall": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50269
   },
   {
     "IdStr": "t.twentysixenticementsseventorments",
     "Label": "Twenty-Six Enticements, Seven Torments",
+    "Aspects": {
+      "codex": 1,
+      "soph": 14,
+      "cost.tally": 1,
+      "mystery.grail": 14,
+      "period.nocturnal": 1,
+      "w.fucine": 1,
+      "r.resurgences.emergences": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50270
   },
   {
     "IdStr": "t.twowombsoneheart",
     "Label": "Two Wombs, One Heart",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "r.stitching.binding": 1,
+      "mystery.heart": 8,
+      "period.curia": 1,
+      "w.killasimi": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50271
   },
   {
     "IdStr": "t.udrocashaas",
     "Label": "Ud Rocashaas",
+    "Aspects": {
+      "mystery.scale": 10,
+      "codex": 1,
+      "soph": 10,
+      "cost.tally": 4,
+      "r.stonestories": 1,
+      "w.henavek": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50272
   },
   {
     "IdStr": "t.unhatchedhymns",
     "Label": "Unhatched Hymns",
+    "Aspects": {
+      "soph": 10,
+      "w.sabazine": 1,
+      "cost.tally": 4,
+      "mystery.lantern": 10,
+      "codex": 1,
+      "r.sacrasolisinvicti": 1,
+      "period.solar": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50273
   },
   {
     "IdStr": "t.velletriinterviews",
     "Label": "Velletri Interviews",
+    "Aspects": {
+      "record.phonograph": 1,
+      "soph": 6,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "mystery.heart": 6,
+      "r.edictsinviolable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50274
   },
   {
     "IdStr": "t.vinzantsminglings",
     "Label": "Vinzant's Minglings",
+    "Aspects": {
+      "r.bells.brazieries": 1,
+      "soph": 4,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "codex": 1,
+      "mystery.forge": 4,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50275
   },
   {
     "IdStr": "t.wainscothistories",
     "Label": "Wainscot Histories",
+    "Aspects": {
+      "soph": 6,
+      "period.baronial": 1,
+      "cost.tally": 3,
+      "mystery.lantern": 6,
+      "codex": 1,
+      "r.auroralcontemplations": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50276
   },
   {
     "IdStr": "t.warmingdraughtstouplifttheheart",
     "Label": "Warming Draughts to Uplift the Heart",
+    "Aspects": {
+      "codex": 1,
+      "soph": 8,
+      "cost.tally": 2,
+      "r.herbs.infusions": 1,
+      "w.greek": 1,
+      "mystery.heart": 8,
+      "period.curia": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50277
   },
   {
     "IdStr": "t.whatdoesnotbark",
     "Label": "What Does Not Bark",
+    "Aspects": {
+      "codex": 1,
+      "soph": 4,
+      "cost.tally": 1,
+      "period.nocturnal": 1,
+      "mystery.moon": 4,
+      "r.edictsinviolable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50278
   },
   {
     "IdStr": "t.wherehasshegone",
     "Label": "Where Has She Gone?",
+    "Aspects": {
+      "mystery.rose": 16,
+      "codex": 1,
+      "soph": 16,
+      "cost.tally": 5,
+      "w.vak": 1,
+      "period.dawn": 1,
+      "r.sandstories": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50279
   },
   {
     "IdStr": "t.whitejadetablet",
     "Label": "White Jade Tablet",
+    "Aspects": {
+      "mystery.moth": 14,
+      "soph": 14,
+      "cost.tally": 5,
+      "r.rites.theroots": 1,
+      "codex": 1,
+      "w.cracktrack": 1,
+      "period.dawn": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50280
   },
   {
     "IdStr": "t.xenodiceneodes",
     "Label": "Xenodicene Odes",
+    "Aspects": {
+      "codex": 1,
+      "soph": 21,
+      "cost.tally": 5,
+      "mystery.knock": 21,
+      "w.vak": 1,
+      "r.preliminalmeter": 1,
+      "period.dawn": 1,
+      "infinitereadable": 1,
+      "thing": 1,
+      "readable": 1
+    },
     "ApId": 50281
   },
   {
     "IdStr": "x.anbary.lapidary",
     "Label": "Lesson: Anbary & Lapidary",
+    "Aspects": {
+      "sky": 1,
+      "lesson": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 601
   },
   {
     "IdStr": "x.applebrighteuphonies",
     "Label": "Lesson: Applebright Euphonies",
+    "Aspects": {
+      "boost.grail": 1,
+      "sky": 1,
+      "lesson": 1,
+      "grail": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 602
   },
   {
     "IdStr": "x.auroralcontemplations",
     "Label": "Lesson: Auroral Contemplations",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "boost.edge": 1,
+      "edge": 1,
+      "lesson": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 603
   },
   {
     "IdStr": "x.bells.brazieries",
     "Label": "Lesson: Bells & Brazieries",
+    "Aspects": {
+      "sky": 1,
+      "lesson": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 604
   },
   {
     "IdStr": "x.coil.chasm",
     "Label": "Lesson: Coil & Chasm",
+    "Aspects": {
+      "boost.nectar": 1,
+      "scale": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 605
   },
   {
     "IdStr": "x.cracktrack",
     "Label": "Lesson: Cracktrack",
+    "Aspects": {
+      "scale": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "boost.nectar": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 606
   },
   {
     "IdStr": "x.desires.dissolutions",
     "Label": "Lesson: Desires & Dissolutions",
+    "Aspects": {
+      "boost.grail": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "grail": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 607
   },
   {
     "IdStr": "x.disciplines.thehammer",
     "Label": "Lesson: Disciplines of the Hammer",
+    "Aspects": {
+      "lesson": 1,
+      "boost.forge": 1,
+      "boost.edge": 1,
+      "forge": 1,
+      "edge": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 608
   },
   {
     "IdStr": "x.disciplines.thescar",
     "Label": "Lesson: Disciplines of the Scar",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "boost.edge": 1,
+      "edge": 1,
+      "lesson": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 609
   },
   {
     "IdStr": "x.door.wall",
     "Label": "Lesson: Door & Wall",
+    "Aspects": {
+      "lesson": 1,
+      "knock": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6010
   },
   {
     "IdStr": "x.drums.dances",
     "Label": "Lesson: Drums & Dances",
+    "Aspects": {
+      "boost.nectar": 1,
+      "nectar": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6011
   },
   {
     "IdStr": "x.edictsinviolable",
     "Label": "Lesson: Edicts Inviolable",
+    "Aspects": {
+      "boost.moon": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6012
   },
   {
     "IdStr": "x.edictsliminal",
     "Label": "Lesson: Edicts Liminal",
+    "Aspects": {
+      "lesson": 1,
+      "moth": 1,
+      "knock": 1,
+      "boost.moth": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6013
   },
   {
     "IdStr": "x.edictsmartial",
     "Label": "Lesson: Edicts Martial",
+    "Aspects": {
+      "lesson": 1,
+      "boost.edge": 1,
+      "boost.moon": 1,
+      "edge": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6014
   },
   {
     "IdStr": "x.ericapaean",
     "Label": "Lesson: Ericapaean",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "lesson": 1,
+      "boost.winter": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6015
   },
   {
     "IdStr": "x.fucine",
     "Label": "Lesson: Fucine",
+    "Aspects": {
+      "lesson": 1,
+      "knock": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6016
   },
   {
     "IdStr": "x.furs.feathers",
     "Label": "Lesson: Furs & Feathers",
+    "Aspects": {
+      "lesson": 1,
+      "sky": 1,
+      "scale": 1,
+      "boost.sky": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6017
   },
   {
     "IdStr": "x.glassblowing.vesselcrafting",
     "Label": "Lesson: Glassblowing & Vesselcrafting",
+    "Aspects": {
+      "lesson": 1,
+      "sky": 1,
+      "knock": 1,
+      "boost.sky": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6018
   },
   {
     "IdStr": "x.glaziery.lightsmithing",
     "Label": "Lesson: Glaziery & Lightsmithing",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "sky": 1,
+      "boost.sky": 1,
+      "lesson": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6019
   },
   {
     "IdStr": "x.henavek",
     "Label": "Lesson: Henavek",
+    "Aspects": {
+      "scale": 1,
+      "lesson": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6020
   },
   {
     "IdStr": "x.herbs.infusions",
     "Label": "Lesson: Herbs & Infusions",
+    "Aspects": {
+      "boost.nectar": 1,
+      "nectar": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6021
   },
   {
     "IdStr": "x.hill.hollow",
     "Label": "Lesson: Hill & Hollow",
+    "Aspects": {
+      "scale": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "boost.scale": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6022
   },
   {
     "IdStr": "x.horns.ivories",
     "Label": "Lesson: Horns & Ivories",
+    "Aspects": {
+      "lesson": 1,
+      "scale": 1,
+      "knock": 1,
+      "boost.scale": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6023
   },
   {
     "IdStr": "x.hyksos",
     "Label": "Lesson: Hyksos",
+    "Aspects": {
+      "edge": 1,
+      "boost.grail": 1,
+      "boost.edge": 1,
+      "grail": 1,
+      "lesson": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6024
   },
   {
     "IdStr": "x.inks.containment",
     "Label": "Lesson: Inks of Containment",
+    "Aspects": {
+      "lesson": 1,
+      "boost.winter": 1,
+      "moon": 1,
+      "boost.moon": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6025
   },
   {
     "IdStr": "x.inks.power",
     "Label": "Lesson: Inks of Power",
+    "Aspects": {
+      "lesson": 1,
+      "scale": 1,
+      "boost.rose": 1,
+      "rose": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6026
   },
   {
     "IdStr": "x.inks.revelation",
     "Label": "Lesson: Inks of Revelation",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "lesson": 1,
+      "boost.moth": 1,
+      "moth": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6027
   },
   {
     "IdStr": "x.insects.nectars",
     "Label": "Lesson: Insects & Nectars",
+    "Aspects": {
+      "boost.moon": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "boost.nectar": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6028
   },
   {
     "IdStr": "x.killasimi",
     "Label": "Lesson: Killasimi",
+    "Aspects": {
+      "lesson": 1,
+      "boost.winter": 1,
+      "moon": 1,
+      "boost.moon": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6029
   },
   {
     "IdStr": "x.leaves.thorns",
     "Label": "Lesson: Leaves & Thorns",
+    "Aspects": {
+      "boost.grail": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "grail": 1,
+      "boost.nectar": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6030
   },
   {
     "IdStr": "x.lockworks.clockworks",
     "Label": "Lesson: Lockworks & Clockworks",
+    "Aspects": {
+      "lesson": 1,
+      "sky": 1,
+      "knock": 1,
+      "boost.sky": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6031
   },
   {
     "IdStr": "x.maggephenemysteries",
     "Label": "Lesson: Maggephene Mysteries",
+    "Aspects": {
+      "lesson": 1,
+      "heart": 1,
+      "boost.moon": 1,
+      "boost.heart": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6032
   },
   {
     "IdStr": "x.mandaic",
     "Label": "Lesson: Deep Mandaic",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "lesson": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6033
   },
   {
     "IdStr": "x.meniscatereflections",
     "Label": "Lesson: Meniscate Reflections",
+    "Aspects": {
+      "edge": 1,
+      "lesson": 1,
+      "boost.edge": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6034
   },
   {
     "IdStr": "x.orchids.narcotics",
     "Label": "Lesson: Orchids & Narcotics",
+    "Aspects": {
+      "boost.grail": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "grail": 1,
+      "boost.nectar": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6035
   },
   {
     "IdStr": "x.ouranoscopy",
     "Label": "Lesson: Ouranoscopy",
+    "Aspects": {
+      "sky": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "boost.sky": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6036
   },
   {
     "IdStr": "x.path.pilgrim",
     "Label": "Lesson: Path & Pilgrim",
+    "Aspects": {
+      "lesson": 1,
+      "scale": 1,
+      "boost.rose": 1,
+      "rose": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6037
   },
   {
     "IdStr": "x.pearl.tide",
     "Label": "Lesson: Pearl & Tide",
+    "Aspects": {
+      "lesson": 1,
+      "boost.rose": 1,
+      "boost.moon": 1,
+      "rose": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6038
   },
   {
     "IdStr": "x.pentiments.precursors",
     "Label": "Lesson: Pentiments & Precursors",
+    "Aspects": {
+      "boost.grail": 1,
+      "scale": 1,
+      "lesson": 1,
+      "grail": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6039
   },
   {
     "IdStr": "x.preliminalmeter",
     "Label": "Lesson: Preliminal Meter",
+    "Aspects": {
+      "lesson": 1,
+      "boost.rose": 1,
+      "knock": 1,
+      "rose": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6040
   },
   {
     "IdStr": "x.purifications.exaltations",
     "Label": "Lesson: Purifications & Exaltations",
+    "Aspects": {
+      "lantern": 1,
+      "sky": 1,
+      "lesson": 1,
+      "boost.lantern": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6041
   },
   {
     "IdStr": "x.putrefactions.calcinations",
     "Label": "Lesson: Putrefactions & Calcinations",
+    "Aspects": {
+      "lesson": 1,
+      "boost.winter": 1,
+      "moon": 1,
+      "boost.moon": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6042
   },
   {
     "IdStr": "x.pyroglyphics",
     "Label": "Lesson: Pyroglyphics",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "lesson": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6043
   },
   {
     "IdStr": "x.quenchings.quellings",
     "Label": "Lesson: Quenchings & Quellings",
+    "Aspects": {
+      "boost.winter": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6044
   },
   {
     "IdStr": "x.raggedcrossroads",
     "Label": "Lesson: Ragged Crossroads",
+    "Aspects": {
+      "lesson": 1,
+      "boost.winter": 1,
+      "boost.edge": 1,
+      "edge": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6045
   },
   {
     "IdStr": "x.ramsund",
     "Label": "Lesson: Ramsund",
+    "Aspects": {
+      "lesson": 1,
+      "moth": 1,
+      "sky": 1,
+      "boost.moth": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6046
   },
   {
     "IdStr": "x.resurgences.emergences",
     "Label": "Lesson: Resurgences & Emergences",
+    "Aspects": {
+      "grail": 1,
+      "moth": 1,
+      "lesson": 1,
+      "boost.moth": 1,
+      "boost.grail": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6047
   },
   {
     "IdStr": "x.rhyme.remembrance",
     "Label": "Lesson: Rhyme & Remembrance",
+    "Aspects": {
+      "lesson": 1,
+      "boost.winter": 1,
+      "moon": 1,
+      "boost.moon": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6048
   },
   {
     "IdStr": "x.rites.theroots",
     "Label": "Lesson: Rites of the Roots",
+    "Aspects": {
+      "moth": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "boost.moth": 1,
+      "boost.nectar": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6049
   },
   {
     "IdStr": "x.sabazine",
     "Label": "Lesson: Sabazine",
+    "Aspects": {
+      "lantern": 1,
+      "moth": 1,
+      "lesson": 1,
+      "boost.lantern": 1,
+      "boost.moth": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6050
   },
   {
     "IdStr": "x.sacralimiae",
     "Label": "Lesson: Sacra Limiae",
+    "Aspects": {
+      "lesson": 1,
+      "moth": 1,
+      "sky": 1,
+      "boost.moth": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6051
   },
   {
     "IdStr": "x.sacrasolisinvicti",
     "Label": "Lesson: Sacra Solis Invicti",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "sky": 1,
+      "boost.sky": 1,
+      "lesson": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6052
   },
   {
     "IdStr": "x.sandstories",
     "Label": "Lesson: Sand Stories",
+    "Aspects": {
+      "lesson": 1,
+      "boost.rose": 1,
+      "boost.moon": 1,
+      "rose": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6053
   },
   {
     "IdStr": "x.seastories",
     "Label": "Lesson: Sea Stories",
+    "Aspects": {
+      "boost.grail": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "grail": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6054
   },
   {
     "IdStr": "x.serpents.venoms",
     "Label": "Lesson: Serpents & Venoms",
+    "Aspects": {
+      "scale": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "boost.scale": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6055
   },
   {
     "IdStr": "x.sharps",
     "Label": "Lesson: Sharps",
+    "Aspects": {
+      "lesson": 1,
+      "boost.edge": 1,
+      "boost.moon": 1,
+      "edge": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6056
   },
   {
     "IdStr": "x.sickle.eclipse",
     "Label": "Lesson: Sickle & Eclipse",
+    "Aspects": {
+      "lesson": 1,
+      "boost.edge": 1,
+      "boost.moon": 1,
+      "edge": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6057
   },
   {
     "IdStr": "x.sights.sensations",
     "Label": "Lesson: Sights & Sensations",
+    "Aspects": {
+      "boost.winter": 1,
+      "sky": 1,
+      "lesson": 1,
+      "boost.sky": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6058
   },
   {
     "IdStr": "x.skystories",
     "Label": "Lesson: Sky Stories",
+    "Aspects": {
+      "lesson": 1,
+      "sky": 1,
+      "boost.rose": 1,
+      "rose": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6059
   },
   {
     "IdStr": "x.snowstories",
     "Label": "Lesson: Snow Stories",
+    "Aspects": {
+      "lesson": 1,
+      "boost.winter": 1,
+      "moon": 1,
+      "boost.moon": 1,
+      "winter": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6060
   },
   {
     "IdStr": "x.solutions.separations",
     "Label": "Lesson: Solutions & Separations",
+    "Aspects": {
+      "lesson": 1,
+      "moth": 1,
+      "knock": 1,
+      "boost.moth": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6061
   },
   {
     "IdStr": "x.spices.savours",
     "Label": "Lesson: Spices & Savours",
+    "Aspects": {
+      "boost.forge": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "forge": 1,
+      "boost.nectar": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6062
   },
   {
     "IdStr": "x.stitching.binding",
     "Label": "Lesson: Stitching & Binding",
+    "Aspects": {
+      "sky": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6063
   },
   {
     "IdStr": "x.stonestories",
     "Label": "Lesson: Stone Stories",
+    "Aspects": {
+      "boost.nectar": 1,
+      "scale": 1,
+      "lesson": 1,
+      "nectar": 1,
+      "boost.scale": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6064
   },
   {
     "IdStr": "x.strings.songs",
     "Label": "Lesson: Strings & Songs",
+    "Aspects": {
+      "sky": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "boost.sky": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6065
   },
   {
     "IdStr": "x.surgeries.exsanguinations",
     "Label": "Lesson: Surgeries & Exsanguinations",
+    "Aspects": {
+      "lesson": 1,
+      "knock": 1,
+      "heart": 1,
+      "boost.heart": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6066
   },
   {
     "IdStr": "x.thegreatsignsandthegreatscars",
     "Label": "Lesson: The Great Signs and the Great Scars",
+    "Aspects": {
+      "lesson": 1,
+      "boost.grail": 1,
+      "knock": 1,
+      "grail": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6067
   },
   {
     "IdStr": "x.transformations.liberations",
     "Label": "Lesson: Transformations & Liberations",
+    "Aspects": {
+      "lesson": 1,
+      "moth": 1,
+      "boost.moth": 1,
+      "forge": 1,
+      "boost.forge": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6068
   },
   {
     "IdStr": "x.tridesmahiera",
     "Label": "Lesson: Tridesma Hiera",
+    "Aspects": {
+      "boost.grail": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "grail": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6069
   },
   {
     "IdStr": "x.vak",
     "Label": "Lesson: Vak",
+    "Aspects": {
+      "lesson": 1,
+      "boost.rose": 1,
+      "knock": 1,
+      "rose": 1,
+      "boost.knock": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6070
   },
   {
     "IdStr": "x.watchmansparadoxes",
     "Label": "Lesson: Watchman's Paradoxes",
+    "Aspects": {
+      "lantern": 1,
+      "boost.lantern": 1,
+      "sky": 1,
+      "boost.sky": 1,
+      "lesson": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6071
   },
   {
     "IdStr": "x.weaving.knotworking",
     "Label": "Lesson: Weaving & Knotworking",
+    "Aspects": {
+      "moth": 1,
+      "lesson": 1,
+      "heart": 1,
+      "boost.moth": 1,
+      "boost.heart": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6072
   },
   {
     "IdStr": "x.wolfstories",
     "Label": "Lesson: Wolf Stories",
+    "Aspects": {
+      "scale": 1,
+      "lesson": 1,
+      "boost.moon": 1,
+      "boost.scale": 1,
+      "moon": 1,
+      "persistent": 1,
+      "memory": 1
+    },
     "ApId": 6073
   },
   {
     "IdStr": "x.summon.echidna",
     "Label": "Lesson: Echidna's Prowlings",
+    "Aspects": {
+      "scale": 1,
+      "lesson": 1
+    },
     "ApId": 6074
   },
   {
     "IdStr": "s.anbary.lapidary",
     "Label": "Anbary & Lapidary",
+    "Aspects": {
+      "w.ithastry": 1,
+      "sky": 2,
+      "w.horomachistry": 1,
+      "forge": 1,
+      "skill": 1
+    },
     "ApId": 701
   },
   {
     "IdStr": "s.applebrighteuphonies",
     "Label": "Applebright Euphonies",
+    "Aspects": {
+      "w.illumination": 1,
+      "sky": 2,
+      "skill": 1,
+      "grail": 1,
+      "w.bosk": 1
+    },
     "ApId": 702
   },
   {
     "IdStr": "s.auroralcontemplations",
     "Label": "Auroral Contemplations",
+    "Aspects": {
+      "lantern": 2,
+      "w.illumination": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "edge": 1
+    },
     "ApId": 703
   },
   {
     "IdStr": "s.bells.brazieries",
     "Label": "Bells & Brazieries",
+    "Aspects": {
+      "w.ithastry": 1,
+      "sky": 1,
+      "w.horomachistry": 1,
+      "forge": 2,
+      "skill": 1
+    },
     "ApId": 704
   },
   {
     "IdStr": "s.coil.chasm",
     "Label": "Coil & Chasm",
+    "Aspects": {
+      "scale": 2,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "nectar": 1,
+      "host.technique.summon.echidna": 1,
+      "w.skolekosophy": 1
+    },
     "ApId": 705
   },
   {
     "IdStr": "s.cracktrack",
     "Label": "Cracktrack",
+    "Aspects": {
+      "w.illumination": 1,
+      "w.preservation": 1,
+      "scale": 1,
+      "skill": 1,
+      "skill.language": 1,
+      "nectar": 2
+    },
     "ApId": 706
   },
   {
     "IdStr": "s.desires.dissolutions",
     "Label": "Desires & Dissolutions",
+    "Aspects": {
+      "w.bosk": 1,
+      "w.horomachistry": 1,
+      "skill": 1,
+      "grail": 2,
+      "moon": 1
+    },
     "ApId": 707
   },
   {
     "IdStr": "s.disciplines.thehammer",
     "Label": "Disciplines of the Hammer",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "forge": 1,
+      "edge": 2,
+      "w.nyctodromy": 1
+    },
     "ApId": 708
   },
   {
     "IdStr": "s.disciplines.thescar",
     "Label": "Disciplines of the Scar",
+    "Aspects": {
+      "lantern": 1,
+      "w.illumination": 1,
+      "w.hushery": 1,
+      "skill": 1,
+      "edge": 2
+    },
     "ApId": 709
   },
   {
     "IdStr": "s.door.wall",
     "Label": "Door & Wall",
+    "Aspects": {
+      "w.nyctodromy": 1,
+      "knock": 2,
+      "forge": 1,
+      "skill": 1,
+      "w.horomachistry": 1
+    },
     "ApId": 7010
   },
   {
     "IdStr": "s.drums.dances",
     "Label": "Drums & Dances",
+    "Aspects": {
+      "w.bosk": 1,
+      "heart": 2,
+      "nectar": 1,
+      "skill": 1,
+      "w.horomachistry": 1
+    },
     "ApId": 7011
   },
   {
     "IdStr": "s.edictsinviolable",
     "Label": "Edicts Inviolable",
+    "Aspects": {
+      "w.horomachistry": 1,
+      "heart": 2,
+      "skill": 1,
+      "w.preservation": 1,
+      "moon": 1
+    },
     "ApId": 7012
   },
   {
     "IdStr": "s.edictsliminal",
     "Label": "Edicts Liminal",
+    "Aspects": {
+      "w.nyctodromy": 1,
+      "moth": 2,
+      "knock": 1,
+      "w.skolekosophy": 1,
+      "skill": 1
+    },
     "ApId": 7013
   },
   {
     "IdStr": "s.edictsmartial",
     "Label": "Edicts Martial",
+    "Aspects": {
+      "w.illumination": 1,
+      "w.horomachistry": 1,
+      "skill": 1,
+      "edge": 1,
+      "moon": 2
+    },
     "ApId": 7014
   },
   {
     "IdStr": "s.ericapaean",
     "Label": "Ericapaean",
+    "Aspects": {
+      "w.illumination": 1,
+      "winter": 1,
+      "skill": 1,
+      "skill.language": 1,
+      "w.hushery": 1,
+      "lantern": 2
+    },
     "ApId": 7015
   },
   {
     "IdStr": "s.fucine",
     "Label": "Fucine",
+    "Aspects": {
+      "knock": 1,
+      "heart": 2,
+      "skill": 1,
+      "skill.language": 1,
+      "w.ithastry": 1,
+      "w.hushery": 1
+    },
     "ApId": 7016
   },
   {
     "IdStr": "s.furs.feathers",
     "Label": "Furs & Feathers",
+    "Aspects": {
+      "w.nyctodromy": 1,
+      "sky": 2,
+      "skill": 1,
+      "scale": 1,
+      "w.bosk": 1
+    },
     "ApId": 7017
   },
   {
     "IdStr": "s.glassblowing.vesselcrafting",
     "Label": "Glassblowing & Vesselcrafting",
+    "Aspects": {
+      "w.ithastry": 1,
+      "sky": 1,
+      "knock": 2,
+      "skill": 1,
+      "w.hushery": 1
+    },
     "ApId": 7018
   },
   {
     "IdStr": "s.glaziery.lightsmithing",
     "Label": "Glaziery & Lightsmithing",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "skill.chandlery": 1,
+      "w.ithastry": 1,
+      "sky": 1,
+      "lantern": 2
+    },
     "ApId": 7019
   },
   {
     "IdStr": "s.henavek",
     "Label": "Henavek",
+    "Aspects": {
+      "w.bosk": 1,
+      "skill": 1,
+      "scale": 2,
+      "forge": 1,
+      "skill.language": 1,
+      "w.ithastry": 1
+    },
     "ApId": 7020
   },
   {
     "IdStr": "s.herbs.infusions",
     "Label": "Herbs & Infusions",
+    "Aspects": {
+      "w.bosk": 1,
+      "w.preservation": 1,
+      "heart": 2,
+      "skill": 1,
+      "effective.contamination.corruption": 1,
+      "nectar": 1
+    },
     "ApId": 7021
   },
   {
     "IdStr": "s.hill.hollow",
     "Label": "Hill & Hollow",
+    "Aspects": {
+      "moon": 2,
+      "w.preservation": 1,
+      "scale": 1,
+      "skill": 1,
+      "effective.contamination.infestation": 1,
+      "w.birdsong": 1
+    },
     "ApId": 7022
   },
   {
     "IdStr": "s.horns.ivories",
     "Label": "Horns & Ivories",
+    "Aspects": {
+      "w.bosk": 1,
+      "scale": 2,
+      "knock": 1,
+      "w.skolekosophy": 1,
+      "skill": 1
+    },
     "ApId": 7023
   },
   {
     "IdStr": "s.hyksos",
     "Label": "Hyksos",
+    "Aspects": {
+      "skill": 1,
+      "grail": 2,
+      "edge": 1,
+      "skill.language": 1,
+      "w.nyctodromy": 1,
+      "w.skolekosophy": 1
+    },
     "ApId": 7024
   },
   {
     "IdStr": "s.inks.containment",
     "Label": "Inks of Containment",
+    "Aspects": {
+      "moon": 1,
+      "winter": 2,
+      "w.preservation": 1,
+      "effective.contamination.theoplasma": 1,
+      "skill": 1,
+      "w.horomachistry": 1
+    },
     "ApId": 7025
   },
   {
     "IdStr": "s.inks.power",
     "Label": "Inks of Power",
+    "Aspects": {
+      "scale": 1,
+      "w.hushery": 1,
+      "skill": 1,
+      "w.horomachistry": 1,
+      "rose": 2
+    },
     "ApId": 7026
   },
   {
     "IdStr": "s.inks.revelation",
     "Label": "Inks of Revelation",
+    "Aspects": {
+      "lantern": 2,
+      "moth": 1,
+      "w.hushery": 1,
+      "skill": 1,
+      "w.ithastry": 1
+    },
     "ApId": 7027
   },
   {
     "IdStr": "s.insects.nectars",
     "Label": "Insects & Nectars",
+    "Aspects": {
+      "moon": 1,
+      "w.bosk": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "skill.chandlery": 1,
+      "nectar": 2
+    },
     "ApId": 7028
   },
   {
     "IdStr": "s.killasimi",
     "Label": "Killasimi",
+    "Aspects": {
+      "moon": 1,
+      "w.bosk": 1,
+      "winter": 2,
+      "skill": 1,
+      "skill.language": 1,
+      "w.skolekosophy": 1
+    },
     "ApId": 7029
   },
   {
     "IdStr": "s.leaves.thorns",
     "Label": "Leaves & Thorns",
+    "Aspects": {
+      "w.birdsong": 1,
+      "w.bosk": 1,
+      "skill": 1,
+      "nectar": 2,
+      "grail": 1
+    },
     "ApId": 7030
   },
   {
     "IdStr": "s.lockworks.clockworks",
     "Label": "Lockworks & Clockworks",
+    "Aspects": {
+      "w.ithastry": 1,
+      "sky": 1,
+      "knock": 2,
+      "w.skolekosophy": 1,
+      "skill": 1
+    },
     "ApId": 7031
   },
   {
     "IdStr": "s.maggephenemysteries",
     "Label": "Maggephene Mysteries",
+    "Aspects": {
+      "moon": 2,
+      "w.preservation": 1,
+      "heart": 1,
+      "skill": 1,
+      "effective.contamination.corruption": 1,
+      "w.hushery": 1
+    },
     "ApId": 7032
   },
   {
     "IdStr": "s.mandaic",
     "Label": "Deep Mandaic",
+    "Aspects": {
+      "skill": 1,
+      "forge": 2,
+      "skill.language": 1,
+      "w.ithastry": 1,
+      "lantern": 1,
+      "w.horomachistry": 1
+    },
     "ApId": 7033
   },
   {
     "IdStr": "s.meniscatereflections",
     "Label": "Meniscate Reflections",
+    "Aspects": {
+      "skill": 1,
+      "w.illumination": 1,
+      "w.preservation": 1,
+      "effective.contamination.theoplasma": 1,
+      "forge": 2,
+      "edge": 1
+    },
     "ApId": 7034
   },
   {
     "IdStr": "s.orchids.narcotics",
     "Label": "Orchids & Narcotics",
+    "Aspects": {
+      "w.bosk": 1,
+      "skill": 1,
+      "nectar": 1,
+      "grail": 2,
+      "w.skolekosophy": 1
+    },
     "ApId": 7035
   },
   {
     "IdStr": "s.ouranoscopy",
     "Label": "Ouranoscopy",
+    "Aspects": {
+      "sky": 2,
+      "w.horomachistry": 1,
+      "skill": 1,
+      "w.hushery": 1,
+      "moon": 1
+    },
     "ApId": 7036
   },
   {
     "IdStr": "s.path.pilgrim",
     "Label": "Path & Pilgrim",
+    "Aspects": {
+      "w.birdsong": 1,
+      "scale": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "rose": 2
+    },
     "ApId": 7037
   },
   {
     "IdStr": "s.pearl.tide",
     "Label": "Pearl & Tide",
+    "Aspects": {
+      "w.nyctodromy": 1,
+      "w.bosk": 1,
+      "skill": 1,
+      "rose": 2,
+      "moon": 1
+    },
     "ApId": 7038
   },
   {
     "IdStr": "s.pentiments.precursors",
     "Label": "Pentiments & Precursors",
+    "Aspects": {
+      "skill": 1,
+      "w.birdsong": 1,
+      "scale": 2,
+      "grail": 1,
+      "host.technique.summon.echidna": 1,
+      "w.skolekosophy": 1
+    },
     "ApId": 7039
   },
   {
     "IdStr": "s.preliminalmeter",
     "Label": "Preliminal Meter",
+    "Aspects": {
+      "w.illumination": 1,
+      "knock": 2,
+      "w.ithastry": 1,
+      "skill": 1,
+      "rose": 1
+    },
     "ApId": 7040
   },
   {
     "IdStr": "s.purifications.exaltations",
     "Label": "Purifications & Exaltations",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "effective.contamination.corruption": 1,
+      "w.ithastry": 1,
+      "sky": 2,
+      "lantern": 1
+    },
     "ApId": 7041
   },
   {
     "IdStr": "s.putrefactions.calcinations",
     "Label": "Putrefactions & Calcinations",
+    "Aspects": {
+      "winter": 2,
+      "w.ithastry": 1,
+      "w.skolekosophy": 1,
+      "skill": 1,
+      "moon": 1
+    },
     "ApId": 7042
   },
   {
     "IdStr": "s.pyroglyphics",
     "Label": "Pyroglyphics",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "forge": 2,
+      "skill.chandlery": 1,
+      "w.ithastry": 1,
+      "lantern": 1
+    },
     "ApId": 7043
   },
   {
     "IdStr": "s.quenchings.quellings",
     "Label": "Quenchings & Quellings",
+    "Aspects": {
+      "effective.contamination.theoplasma": 1,
+      "winter": 2,
+      "w.preservation": 1,
+      "heart": 1,
+      "skill": 1,
+      "w.hushery": 1
+    },
     "ApId": 7044
   },
   {
     "IdStr": "s.raggedcrossroads",
     "Label": "Ragged Crossroads",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "w.skolekosophy": 1,
+      "edge": 2,
+      "winter": 1
+    },
     "ApId": 7045
   },
   {
     "IdStr": "s.ramsund",
     "Label": "Ramsund",
+    "Aspects": {
+      "w.preservation": 1,
+      "skill": 1,
+      "skill.language": 1,
+      "w.birdsong": 1,
+      "sky": 1,
+      "moth": 2
+    },
     "ApId": 7046
   },
   {
     "IdStr": "s.resurgences.emergences",
     "Label": "Resurgences & Emergences",
+    "Aspects": {
+      "skill": 1,
+      "w.bosk": 1,
+      "w.preservation": 1,
+      "grail": 1,
+      "effective.contamination.infestation": 1,
+      "moth": 2
+    },
     "ApId": 7047
   },
   {
     "IdStr": "s.rhyme.remembrance",
     "Label": "Rhyme & Remembrance",
+    "Aspects": {
+      "winter": 2,
+      "w.birdsong": 1,
+      "w.skolekosophy": 1,
+      "skill": 1,
+      "moon": 1
+    },
     "ApId": 7048
   },
   {
     "IdStr": "s.rites.theroots",
     "Label": "Rites of the Roots",
+    "Aspects": {
+      "w.bosk": 1,
+      "moth": 1,
+      "skill": 1,
+      "nectar": 2,
+      "w.preservation": 1
+    },
     "ApId": 7049
   },
   {
     "IdStr": "s.sabazine",
     "Label": "Sabazine",
+    "Aspects": {
+      "w.birdsong": 1,
+      "skill": 1,
+      "skill.language": 1,
+      "lantern": 1,
+      "moth": 2,
+      "w.horomachistry": 1
+    },
     "ApId": 7050
   },
   {
     "IdStr": "s.sacralimiae",
     "Label": "Sacra Limiae",
+    "Aspects": {
+      "sky": 1,
+      "skill": 1,
+      "effective.contamination.curse": 1,
+      "w.hushery": 1,
+      "moth": 2,
+      "w.horomachistry": 1
+    },
     "ApId": 7051
   },
   {
     "IdStr": "s.sacrasolisinvicti",
     "Label": "Sacra Solis Invicti",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "effective.contamination.curse": 1,
+      "sky": 1,
+      "lantern": 2,
+      "w.horomachistry": 1
+    },
     "ApId": 7052
   },
   {
     "IdStr": "s.sandstories",
     "Label": "Sand Stories",
+    "Aspects": {
+      "w.birdsong": 1,
+      "skill": 1,
+      "w.skolekosophy": 1,
+      "rose": 2,
+      "moon": 1
+    },
     "ApId": 7053
   },
   {
     "IdStr": "s.seastories",
     "Label": "Sea Stories",
+    "Aspects": {
+      "w.birdsong": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "grail": 1,
+      "moon": 2
+    },
     "ApId": 7054
   },
   {
     "IdStr": "s.serpents.venoms",
     "Label": "Serpents & Venoms",
+    "Aspects": {
+      "moon": 1,
+      "scale": 2,
+      "skill": 1,
+      "w.hushery": 1,
+      "host.technique.summon.echidna": 1,
+      "w.skolekosophy": 1
+    },
     "ApId": 7055
   },
   {
     "IdStr": "s.sharps",
     "Label": "Sharps",
+    "Aspects": {
+      "w.hushery": 1,
+      "w.skolekosophy": 1,
+      "edge": 2,
+      "skill": 1,
+      "moon": 1
+    },
     "ApId": 7056
   },
   {
     "IdStr": "s.sickle.eclipse",
     "Label": "Sickle & Eclipse",
+    "Aspects": {
+      "moon": 1,
+      "w.preservation": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "effective.contamination.corruption": 1,
+      "edge": 2
+    },
     "ApId": 7057
   },
   {
     "IdStr": "s.sights.sensations",
     "Label": "Sights & Sensations",
+    "Aspects": {
+      "w.nyctodromy": 1,
+      "sky": 2,
+      "w.hushery": 1,
+      "skill": 1,
+      "winter": 1
+    },
     "ApId": 7058
   },
   {
     "IdStr": "s.skystories",
     "Label": "Sky Stories",
+    "Aspects": {
+      "w.birdsong": 1,
+      "sky": 2,
+      "w.horomachistry": 1,
+      "skill": 1,
+      "rose": 1
+    },
     "ApId": 7059
   },
   {
     "IdStr": "s.snowstories",
     "Label": "Snow Stories",
+    "Aspects": {
+      "winter": 2,
+      "w.hushery": 1,
+      "w.birdsong": 1,
+      "skill": 1,
+      "moon": 1
+    },
     "ApId": 7060
   },
   {
     "IdStr": "s.solutions.separations",
     "Label": "Solutions & Separations",
+    "Aspects": {
+      "w.ithastry": 1,
+      "moth": 2,
+      "knock": 1,
+      "w.skolekosophy": 1,
+      "skill": 1
+    },
     "ApId": 7061
   },
   {
     "IdStr": "s.spices.savours",
     "Label": "Spices & Savours",
+    "Aspects": {
+      "w.bosk": 1,
+      "skill": 1,
+      "forge": 1,
+      "spicing": 1,
+      "w.ithastry": 1,
+      "nectar": 2
+    },
     "ApId": 7062
   },
   {
     "IdStr": "s.stitching.binding",
     "Label": "Stitching & Binding",
+    "Aspects": {
+      "w.preservation": 1,
+      "heart": 1,
+      "skill": 1,
+      "effective.contamination.infestation": 1,
+      "w.ithastry": 1,
+      "sky": 2
+    },
     "ApId": 7063
   },
   {
     "IdStr": "s.stonestories",
     "Label": "Stone Stories",
+    "Aspects": {
+      "w.preservation": 1,
+      "scale": 2,
+      "skill": 1,
+      "effective.contamination.infestation": 1,
+      "w.birdsong": 1,
+      "nectar": 1
+    },
     "ApId": 7064
   },
   {
     "IdStr": "s.strings.songs",
     "Label": "Strings & Songs",
+    "Aspects": {
+      "w.nyctodromy": 1,
+      "sky": 2,
+      "skill": 1,
+      "heart": 1,
+      "w.birdsong": 1
+    },
     "ApId": 7065
   },
   {
     "IdStr": "s.surgeries.exsanguinations",
     "Label": "Surgeries & Exsanguinations",
+    "Aspects": {
+      "w.preservation": 1,
+      "heart": 2,
+      "skill": 1,
+      "effective.contamination.infestation": 1,
+      "knock": 1,
+      "w.hushery": 1
+    },
     "ApId": 7066
   },
   {
     "IdStr": "s.thegreatsignsandthegreatscars",
     "Label": "The Great Signs and the Great Scars",
+    "Aspects": {
+      "w.horomachistry": 1,
+      "knock": 1,
+      "skill": 1,
+      "grail": 2,
+      "w.hushery": 1
+    },
     "ApId": 7067
   },
   {
     "IdStr": "s.transformations.liberations",
     "Label": "Transformations & Liberations",
+    "Aspects": {
+      "w.illumination": 1,
+      "skill": 1,
+      "forge": 2,
+      "skill.chandlery": 1,
+      "w.ithastry": 1,
+      "moth": 1
+    },
     "ApId": 7068
   },
   {
     "IdStr": "s.tridesmahiera",
     "Label": "Tridesma Hiera",
+    "Aspects": {
+      "skill": 1,
+      "moon": 2,
+      "w.bosk": 1,
+      "w.preservation": 1,
+      "grail": 1,
+      "effective.contamination.curse": 1
+    },
     "ApId": 7069
   },
   {
     "IdStr": "s.vak",
     "Label": "Vak",
+    "Aspects": {
+      "rose": 1,
+      "w.birdsong": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "skill.language": 1,
+      "knock": 2
+    },
     "ApId": 7070
   },
   {
     "IdStr": "s.watchmansparadoxes",
     "Label": "Watchman's Paradoxes",
+    "Aspects": {
+      "lantern": 2,
+      "sky": 1,
+      "skill": 1,
+      "w.nyctodromy": 1,
+      "w.illumination": 1
+    },
     "ApId": 7071
   },
   {
     "IdStr": "s.weaving.knotworking",
     "Label": "Weaving & Knotworking",
+    "Aspects": {
+      "w.bosk": 1,
+      "moth": 1,
+      "skill": 1,
+      "heart": 2,
+      "w.birdsong": 1
+    },
     "ApId": 7072
   },
   {
     "IdStr": "s.wolfstories",
     "Label": "Wolf Stories",
+    "Aspects": {
+      "moon": 2,
+      "w.birdsong": 1,
+      "scale": 1,
+      "skill": 1,
+      "host.technique.summon.echidna": 1,
+      "w.skolekosophy": 1
+    },
     "ApId": 7073
   }
 ]
