@@ -14,8 +14,8 @@ if TYPE_CHECKING:
 def create_and_connect_regions(world: BoHWorld) -> None:
     create_all_regions(world)
     connect_regions(world)
-    Utils.visualize_regions(world.get_region("Menu"), "boh.puml")
-    print("------------------------------ puml")
+    if False:
+        Utils.visualize_regions(world.get_region("Menu"), "boh.puml")
 
 
 def create_all_regions(world: BoHWorld) -> None:
