@@ -61,7 +61,7 @@ def set_completion_condition(world: BoHWorld) -> None:
     if world.options.goal.option_room_specific:
         #get event-item at location ~roomId~
         room_ap_id = world.options.room_goal.numerator
-        name = [k for k,v in terrains.items() if v["ApId"] == room_ap_id][0]
+        name = [k for k in terrains if k.ApId == room_ap_id][0]
         world.multiworld.completion_condition[world.player] = lambda state: state.has(name, world.player)
 
     if world.options.goal.option_rooms:

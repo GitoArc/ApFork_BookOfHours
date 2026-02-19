@@ -15,13 +15,13 @@ if TYPE_CHECKING:
 ITEM_NAME_TO_ID = {
     "Twopence": 2
 }
-LOCATION_AS_EVENT_ITEM = {value["Label"]: None for key,value in terrains.items()}
+LOCATION_AS_EVENT_ITEM = {e.Label: None for e in terrains}
 
 
 DEFAULT_ITEM_CLASSIFICATIONS = {
     "Twopence": ItemClassification.filler
 }
-LOCATION_AS_EVENT_ITEM_CLASSIFICATION = { value["Label"]: ItemClassification.progression for value in terrains.values()}
+LOCATION_AS_EVENT_ITEM_CLASSIFICATION = { e.Label: ItemClassification.progression for e in terrains}
 
 # amalgamate every sub-dict togethaa
 #ITEM_NAME_TO_ID = ITEM_NAME_TO_ID | LOCATION_AS_EVENT_ITEM

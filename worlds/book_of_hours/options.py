@@ -362,8 +362,8 @@ class SkillAsLocationChance(Range):
 
 
 # generate the room choices cuz I ain't typing 110 lines by hand
-rooms = {f"option_{a["IdStr"].replace("terrain", "").replace("-", "").replace(".", "").replace("'", "")}": a["ApId"]
-         for a in terrains.values()}
+rooms = {f"option_{a.IdStr.replace("terrain", "").replace("-", "").replace(".", "").replace("'", "")}": a.ApId
+         for a in terrains}
 rooms = {k: v for k, v in rooms.items() if "brancrug" not in k}
 
 RoomGoal = type("RoomGoal", (Choice,), {
@@ -415,5 +415,3 @@ class BoHOptions(PerGameCommonOptions):
     lesssanity: LessonsAsLocations
     lessons_as_items: LessonsAsItems
 
-
-    #NOT ALL HERE YET!!

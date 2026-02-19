@@ -35,23 +35,23 @@ def process_label_lesson(s:str):
 # Even if a location doesn't exist on specific options, it must be present in this lookup.
 LOCATION_NAME_TO_ID = {}
 
-MEMORIES_SPECIFIC = {f"Remember a {a['Label']}" : a["ApId"] for a in jsondump.memories}
+MEMORIES_SPECIFIC = {f"Remember a {a.Label}" : a.ApId for a in jsondump.memories}
 lastUsedId = max(MEMORIES_SPECIFIC.values())
 MEMORIES_X = {f"Recall {i} memories": lastUsedId+i for i in range(1,21)} # essentially a daily progression
 
-SOULS_SPECIFIC = {f"Acquire {a["Label"]}" : a["ApId"] for a in jsondump.souls}
+SOULS_SPECIFIC = {f"Acquire {a.Label}" : a.ApId for a in jsondump.souls}
 lastUsedId = max(SOULS_SPECIFIC.values())
 SOULS_X = {f"Acquire {i} Parts in total" : lastUsedId + i for i in range(1, 11)}
 
-TERRAINS_SPECIFIC = {f"Unlocked the {a["Label"]}" : a["ApId"] for a in jsondump.terrains.values()}
+TERRAINS_SPECIFIC = {f"Unlocked the {a.Label}" : a.ApId for a in jsondump.terrains}
 lastUsedId = max(TERRAINS_SPECIFIC.values())
 TERRAINS_X = {f"Unlock {i} terrains" : lastUsedId + i for i in range(1, 21)}
 
-WISDOMS_SPECIFIC = {f"Attune {a["Label"]}" : a["ApId"] for a in jsondump.wisdomtree}
+WISDOMS_SPECIFIC = {f"Attune {a.Label}" : a.ApId for a in jsondump.wisdomtree}
 lastUsedId = max(WISDOMS_SPECIFIC.values())
 WISDOMS_X = {f"Attune {i}" : lastUsedId + i for i in range(1, 19)}
 
-BOOKS_SPECIFIC = {f"Mastered `{a["Label"]}`" : a["ApId"] for a in jsondump.books}
+BOOKS_SPECIFIC = {f"Mastered `{a.Label}`" : a.ApId for a in jsondump.books}
 lastUsedId = max(BOOKS_SPECIFIC.values())
 BOOKS_X = {f"Master {i} books": lastUsedId + i for i in range(1, 21)}
 lastUsedId = max(BOOKS_X.values())
@@ -68,10 +68,10 @@ lastUsedId = max(CATALOG_X_CURIA.values())
 CATALOG_X_NOCTURNAL = {f"Catalogue {i} books of the Nocturnal period": lastUsedId+i for i in range(1, 33)}
 lastUsedId = max(CATALOG_X_NOCTURNAL.values())
 
-LESSONS_SPECIFIC = {f"{a["Label"]}" : a["ApId"] for a in jsondump.lessons}
+LESSONS_SPECIFIC = {f"{a.Label}" : a.ApId for a in jsondump.lessons}
 LESSONS_X = {}
 
-SKILLS_SPECIFIC = {"Skill: "+ a["Label"] : a["ApId"] for a in jsondump.skills}
+SKILLS_SPECIFIC = {"Skill: "+ a.Label : a.ApId for a in jsondump.skills}
 SKILLS_X = {}
 
 MEMORIES = MEMORIES_SPECIFIC | MEMORIES_X
@@ -122,7 +122,7 @@ def create_locations(world: BoHWorld) -> None:
             #world.set_rule(world.get_location(normname), True_())
         else:
             # find what room can connect to this
-            roads:list[str] = [e["Label"] for e in terrains.values() for c in e["ConnectsTo"] if c["Label"] == normname]
+            roads:list[str] = [c for e in terrains for c in e.ConnectsTo if c == normname]
             region.add_event(normname, None, None, BoHLocation, BoHItem, False)
             #world.set_rule(world.get_location(normname), HasAny(*roads))
 

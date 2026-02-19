@@ -20,8 +20,8 @@ def create_and_connect_regions(world: BoHWorld) -> None:
 
 def create_all_regions(world: BoHWorld) -> None:
     regions = []
-    for e in terrains.values():
-        region = Region(e["Label"], world.player, world.multiworld)
+    for e in terrains:
+        region = Region(e.Label, world.player, world.multiworld)
         regions.append(region)
 
     #if world.options.rooms:
@@ -29,7 +29,7 @@ def create_all_regions(world: BoHWorld) -> None:
 
     if world.options.insanitree:
         # extra prefix, easier search+find
-        tree = [Region("Wisdoms: "+e["Label"],world.player, world.multiworld) for e in wisdomtree]
+        tree = [Region("Wisdoms: "+e.Label,world.player, world.multiworld) for e in wisdomtree]
         world.multiworld.regions += tree
 
     world.multiworld.regions += [Region("Menu", world.player, world.multiworld)]
@@ -47,7 +47,7 @@ def connect_regions(world: BoHWorld) -> None:
         currentName = unhandled[0]
         #add self -> others connectors
         region = world.get_region(currentName)
-        nexts = [e["Label"] for e in terrains[currentName]["ConnectsTo"]]
+        nexts = [connection.Label for t in terrains for connection in t.ConnectsTo if t.Label == currentName]
         n:str
         for n in nexts:
             # do NOT add a -> b -> a connections; it clutters the logic, methinks
