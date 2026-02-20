@@ -7,7 +7,6 @@ from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle, Op
 
 from .jsondump import terrains
 
-
 class Goal(Choice):
     display_name = "Goal"
     option_remember_specific = 11
@@ -33,12 +32,59 @@ class Goal(Choice):
     default = option_room_specific
 
 
-class MemoriesAsLocations(Toggle):
+class MemoriesAsLocations_GenericProgression(Toggle):
     """
-    Add 'acquiring memories' as locations.
+    Enables 'acquiring memories' as locations.
+    """
+    display_name = "Memory Progression"
+class MemoriesAsLocations_GenericProgression_EachOnlyOnce(DefaultOnToggle):
+    """
+    Each particular memory can only count once towards progression.
+    """
+    display_name = "Memory Progression - Count Uniques"
+
+class OLDMemoriesAsLocations_GenericProgressionSources(Choice):
+    display_name = "MemoriesAsLocationsGenericProgressionSources"
+    option_only_basics = 1
+    option_only_lessons = 2
+    option_only_weathers = 4
+    option_basics_and_lessons = 3
+    option_basics_and_weathers = 5
+    option_lessons_and_weathers = 6
+    option_all = 7
+    default = option_all
+    # whatabout music or "advanced" ones?
+    # maybe using (Range) and bitmask is better...
+
+class MemoriesAsLocationsGenericProgressionSources22(OptionSet):
+    """
+    Configure wich memories count towards 'Memory Progression'.
+    """
+    display_name = "MemoriesAsLocationsGenericProgressionSourcesDICT"
+    default = {
+        "basics",
+        "weathers",
+        "lessons",
+        "musics",
+        "persistent",
+        "else",
+    }
+
+class MemoriesAsLocationsGenericProgressionChance(Range):
+    """
+    Roll the die to decide if a memory does become a location.
+    """
+    range_end = 100
+    default = 100
+
+class MemoriesAsLocationsChance(Range):
+    """
+    Every memory becomes its own location.
+    Rolls each memory against this chance.
+    Does not include Lessons and Weathers.
     """
     display_name = "MemorInsanity"
-
+    range_end = 100
 
 class MemoriesAsLocationsAllowArchipelago(Toggle):
     """
@@ -52,23 +98,22 @@ class MemoriesAsLocationsIncludeWeathers(Toggle):
     """
     If true, adds the different weather memories as locations.
     You are at the mercy of rng.
-    Does nothing if 'MemorInsanity' is not enabled.
+    Does nothing if 'MemorInsanity' is disabled.
     Adds 9 locations.
     """
-    display_name = "Include Wheater?"
+    display_name = "MemorInsanity - Include Wheather?"
 
 class MemoriesAsLocationsIncludeWeathersIncludeNuma(Toggle):
     """
     If true, Numa is a location.
     Does nothing if 'Include Wheater' is disabled.
     """
-    display_name = "Include Numa in wheather?"
+    display_name = "MemorInsanity - Include Weather - Numa?"
 
 
 class MemoriesAsItems(OptionList):
     """
-    Insert memories into the itempool.
-    Does not care about 'MemorInsanity'.
+    Insert memories into the itempool, regardless of 'MemorInsanity'.
     Can fail generation if not enough locations.
     If "MemorInsanity" is enabled, ItemClassification will be (ignored and) forced to "Progression".
     """
@@ -106,7 +151,7 @@ class SoulParts(Toggle):
 class SoulPartsRewardPerTier(OptionDict):
     """
     Adjust the amount of locations per soul tier.
-    Does nothing if InSoulnity is not enabled.
+    Does nothing if InSoulnity is disabled.
     Adds n locations per tier.
     """
     display_name = "Soul tier rewards"
@@ -123,7 +168,7 @@ class SoulPartsRewardPerTierSplit(Toggle):
     """
     If true, +Health is a different location than +Chor, +Ereb, etc.
     If false, each Tier will only have its own 'Tier achieved' location.
-    Does nothing if InSoulnity is not enabled.
+    Does nothing if InSoulnity is disabled.
     Adds nine times the sum of SoulRewards as locations.
     """
     display_name = "Split Soul Parts"
@@ -140,14 +185,14 @@ class Terrains(DefaultOnToggle):
 class TerrainsConnectRandom(Toggle):
     """
     The revealed connections of terrains become random.
-    Does nothing if Terrainsanity is not enabled.
+    Does nothing if Terrainsanity is disabled.
     """
     display_name = "Terrain Connection Randomiser"
 
 
 class TerrainsConnectRandomMinimum(Range):
     """
-    Does nothing if Terrainsanity is not enabled.
+    Does nothing if Terrainsanity is disabled.
     """
     display_name = "Minimum Connections per Terrain"
     range_start = 1
@@ -157,7 +202,7 @@ class TerrainsConnectRandomMinimum(Range):
 
 class TerrainsConnectRandomMaximum(TerrainsConnectRandomMinimum):
     """
-    Does nothing if Terrainsanity is not enabled.
+    Does nothing if Terrainsanity is disabled.
     """
     display_name = "Maximum Connections per Terrain"
     default = 3
@@ -166,7 +211,7 @@ class TerrainsConnectRandomMaximum(TerrainsConnectRandomMinimum):
 class TerrainsConnectRandomConsideration(Choice):
     """
     Randomization will try to acommodate revealed connections.
-    Does nothing if Terrainsanity is not enabled.
+    Does nothing if Terrainsanity is disabled.
 
     All - connections have a similar difficulty
     At least one - connection is of similar difficulty
@@ -189,7 +234,7 @@ class TreeOfWisdoms(Toggle):
 class TreeOfWisdomsSplit(Toggle):
     """
     Every Path of the Tree gets its own progressive locations.
-    Does nothing if 'InsaniTree of Wisdoms' is not enabled.
+    Does nothing if 'InsaniTree of Wisdoms' is disabled.
     Increases the previous 10 locations to 82.
     """
     display_name = "Split Wisdoms"
@@ -204,7 +249,7 @@ class Books(DefaultOnToggle):
 class BooksCatalogue(OptionDict):
     """
     How often cataloguing is a location.
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     Overlap is possible; For example, with "Any:4" and "Curia:2",
     if you catalogue 1 Curia and 1 Baronial,
       you check the locations "Catalogue any 1 book", "... any 2 books", and "... 1 Curia"
@@ -256,7 +301,7 @@ class BooksCatalogueRewards(OptionDict):
 class BooksMaster(OptionDict):
     """
     How often mastering a book is a location.
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     """
     display_name = "Master n books from ___ period"  # no wordplay w insanity :(
     default = {
@@ -277,14 +322,14 @@ class BooksMaster(OptionDict):
 
 class BooksMasterRequirementsRandom(Toggle):
     """
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     """
     display_name = "Book RandoMysteries"
 
 class BooksMasterSplit(Toggle):
     """
     Every single book gets its own location.
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     Adds 281 locations.
     Overlaps with any 'Master n books' setting.
     """
@@ -293,7 +338,7 @@ class BooksMasterSplit(Toggle):
 class BooksMasterSplitStyle(Choice):
     """
     Modify BookSplit: Decides randomly if a book has a 'Mastered' location.
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     """
     display_name = "Book Splitsanity - Split Style"
     option_set_for_all = 0
@@ -305,7 +350,7 @@ class BooksMasterSplitStyle(Choice):
 class BooksMasterSplitChance(Range):
     """
     Set the chance of a book becoming a location.
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     Does nothing if BooksMasterSplitStyle is not 'Set for all'
     """
     display_name = "Split Style SetAll - Chance"
@@ -314,7 +359,7 @@ class BooksMasterSplitChance(Range):
 
 class BooksRewardRandom(Toggle):
     """
-    Does nothing if 'Booksanity' is not enabled.
+    Does nothing if 'Booksanity' is disabled.
     """
     display_name = "Book Random Reward"
 
@@ -330,7 +375,7 @@ class LessonsAsLocations(Range):
 
 class LessonAsLocationAllowArchipelago(Toggle):
     """
-    Does nothing if 'Lesssanity' is not enabled.
+    Does nothing if 'Lesssanity' is disabled.
     If true, items received through the multiworld count for checks; This can trigger repeatedly and can speed up your playthrough.
     If false, you have to get lessons the normal way: mastering books (or maybe saloons if you own House of Light)
     """
@@ -374,44 +419,16 @@ RoomGoal = type("RoomGoal", (Choice,), {
     **rooms,
     "default": 3060
 })
-
-
-#del rooms
+del rooms
 
 @dataclass
 class BoHOptions(PerGameCommonOptions):
     goal: Goal
     room_goal: RoomGoal
-    memorinsanity: MemoriesAsLocations
+
+    memorinsanity: MemoriesAsLocationsChance
+    memorinsanityDICT: MemoriesAsLocationsGenericProgressionSources22
     memorinsanity_allow_ap: MemoriesAsLocationsAllowArchipelago     # can only be implemented/tested client-side
     memorinsanity_weathers: MemoriesAsLocationsIncludeWeathers
     memorinsanity_weathers_numa: MemoriesAsLocationsIncludeWeathersIncludeNuma
     memories_as_items: MemoriesAsItems
-
-    insoulnity: SoulParts
-    insoulnity_tier_rewards: SoulPartsRewardPerTier
-    insoulnity_split: SoulPartsRewardPerTierSplit
-
-    terrainsanity: Terrains
-    terrainsanity_randomconnection: TerrainsConnectRandom
-    terrainsanity_randomconnections_min: TerrainsConnectRandomMinimum
-    terrainsanity_randomconnections_max: TerrainsConnectRandomMaximum
-    terrainsanity_randomconnection_consideration: TerrainsConnectRandomConsideration
-
-    insanitree: TreeOfWisdoms
-    insanitree_split: TreeOfWisdomsSplit
-
-    booksanity: Books
-    booksanity_catalogue: BooksCatalogue
-    books_catalogue_rewards: BooksCatalogueRewards
-    booksanity_master: BooksMaster
-    booksanity_master_randomise_requirements: BooksMasterRequirementsRandom
-    #some consideration setting?
-    booksanity_master_split: BooksMasterSplit
-    booksanity_master_splitstyle: BooksMasterSplitStyle
-    booksanity_master_splitstyle_all_chance: BooksMasterSplitChance
-    books_randomise_rewards: BooksRewardRandom
-
-    lesssanity: LessonsAsLocations
-    lessons_as_items: LessonsAsItems
-
