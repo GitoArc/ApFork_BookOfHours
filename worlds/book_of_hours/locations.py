@@ -4,7 +4,6 @@ import random
 from typing import TYPE_CHECKING
 
 from BaseClasses import Location
-from rule_builder.rules import HasAny, Has, True_
 from . import items, jsondump
 from .items import BoHItem
 from .jsondump import terrains
@@ -122,7 +121,7 @@ def create_locations(world: BoHWorld) -> None:
             #world.set_rule(world.get_location(normname), True_())
         else:
             # find what room can connect to this
-            roads:list[str] = [c for e in terrains for c in e.ConnectsTo if c == normname]
+            roads:list[str] = [c.Label for e in terrains for c in e.ConnectsTo if c == normname]
             region.add_event(normname, None, None, BoHLocation, BoHItem, False)
             #world.set_rule(world.get_location(normname), HasAny(*roads))
 
