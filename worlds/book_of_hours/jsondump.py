@@ -57,6 +57,15 @@ for a in data:
         case "50":books.append(JsonParsed(a));
         case "60":lessons.append(JsonParsed(a));
         case "70":skills.append(JsonParsed(a));
+
+memories_basic = [a for a in memories if "mem." in a.IdStr]
+memories_music = [a for a in memories if "sound" in a.Aspects]
+memories_weather = [a for a in memories if "weather" in a.Aspects]
+memories_persistent = [a for a in memories if "persistent" in a.Aspects]
+memories_leftovers = [a for a in memories if a not in memories_basic
+         and a not in memories_music
+         and a not in memories_weather
+         and a not in memories_persistent]
 everything = memories + souls + terrains + books + wisdomtree + lessons + skills
 
 # more background than game element, also: can not be interacted with, so its best to fire and fhuget abbat id
