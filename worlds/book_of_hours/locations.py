@@ -3,88 +3,143 @@ from __future__ import annotations
 import random
 from typing import TYPE_CHECKING
 
-from BaseClasses import Location
+from BaseClasses import Location, ItemClassification, CollectionState, Region
+from rule_builder.rules import Has
 from . import items, jsondump
 from .items import BoHItem
-from .jsondump import terrains
+from .jsondump import terrains, memories_basic, memories_weather, memories_persistent, memories_music, \
+    memories_leftovers, lessons, JsonParsed
+from ..generic.Rules import set_rule
 
 if TYPE_CHECKING:
     from .world import BoHWorld
 
-def process_label_memory(s:str):
+
+def __process_label_memory(s: str):
     s = s.replace("Memory: ", "")
     # if vowel: 'a' or 'an'
     matches = ["a", "e", "i", "o", "u"]
     f = s[0:1].lower()
     if any([a in f for a in matches]):
-        s = "an "+s
+        s = "an " + s
     else:
-        s =  "a "+s
+        s = "a " + s
     return s
-def process_label_soul(s:str):
+
+
+def __process_label_soul(s: str):
     return f"a Part: {s}"
-def process_label_lesson(s:str):
+
+
+def __process_label_lesson(s: str):
     #no access to world.random ... ¯\_(ツ)_/¯
     s = s.replace("Lesson:", "")
     s = random.choice(["of", "in", "about"]) + s
     return s
 
+
+def __slice_off_category(i: int):
+    s = str(i)
+    s = s[2:]
+    return int(s)
+
+
+def __last_subid_of(d: dict[any, int]):
+    i = max(d.values())
+    i = __slice_off_category(i)
+    return i
+
+
+#################
+MEMORIES_SPECIFIC = {f"Remember a {o.Label}": int(f"10{i + 1}")
+                     for i, o in enumerate(jsondump.memories)}
+# I would've liked to create these dependant on the options, BUT location_name_to_id IS STATIC -> even generate_early is too late, this HAS to be set before AP calls BoHWorld, but then I don't have the option values...
+MEMORIES_PILE = {f"Remember {i} memory" if i == 1 else f"Remember {i} memories"
+                 : int(f"10{__last_subid_of(MEMORIES_SPECIFIC) + i}")
+                 for i in range(1, 333)}
+MEMORIES_PILE["Goal - Remember Memories"] = __last_subid_of(MEMORIES_PILE) + 1
+##############
+SOULS_SPECIFIC = {f"Acquire {o.Label}": int(f"20{i + 1}")
+                  for i, o in enumerate(jsondump.souls)}
+SOULS_TIERS = {
+    f"Acquire a {"+" * (n + 1)}Soul - Reward {r + 1}": int(f"20{__last_subid_of(SOULS_SPECIFIC) + n * 3 + r}")
+    for n in range(0, 3) for r in range(1, 1 + 3)}
+SOULS_PILE = {f"Acquire {i} part of the human soul" if i == 1 else f"Acquire {i} parts of the human soul"
+              : int(f"20{__last_subid_of(SOULS_TIERS) + i}")
+              for i in range(1, 1 + 36)}
+#################
+TERRAINS_SPECIFIC = {f"Unlock the {o.Label}": int(f"30{i + 1}")
+                     for i, o in enumerate(jsondump.terrains)}
+TERRAINS_PILE = {f"Unlock {i} terrain" if i == 1 else f"Unlock {i} terrains"
+                 : int(f"30{__last_subid_of(TERRAINS_SPECIFIC) + i}")
+                 for i in range(1, 111)}  # 110 bc ocean doesnt count
+################
+WISDOMS_SPECIFIC = {(
+    f"Root your Journal into The Tree of Wisdoms" if "Root" in o.Label else f"Commit a skill to '{o.Label}' in The Tree of Wisdoms"): int(
+    f"40{i + 1}")
+    for i, o in enumerate(jsondump.wisdomtree)}
+WISDOMS_TIERS = {f"Reach Tier {t + 1} in The Tree of Wisdoms - Reward {r}"
+                 : int(f"40{__last_subid_of(WISDOMS_SPECIFIC) + t * 9 + r}")
+                 for t in range(0, 9) for r in range(1,
+                                                     1 + 9)}  # this allows more control over the distribution; You could shift the whole tree down to just T2 rewards but 4 items each.
+WISDOMS_PILE = {
+    f"Commit {n + 1} skill to The Tree of Wisdoms - Reward {r}" if n == 0 else f"Commit {n + 1} skills to The Tree of Wisdoms - Reward {r}"
+    : int(f"40{__last_subid_of(WISDOMS_TIERS) + n * 2 + r}")
+    for n in range(0, 81) for r in range(1, 1 + 2)}  # a 81*9 combo might be too much? For now, limit to max 2
+##############
+BOOKS_SPECIFIC = {f"Master '{o.Label}'": int(f"50{i + 1}")
+                  for i, o in enumerate(jsondump.books)}
+BOOKS_PILE = {f"Master {i} book" if i == 1 else f"Master {i} books"
+              : int(f"50{__last_subid_of(BOOKS_SPECIFIC) + i}")
+              for i in range(1, 1 + 281)}
+###
+CATALOG_PILE_ANY = {f"Catalogue {i} book" if i == 1 else f"Catalogue {i} books"
+                    : int(f"50{__last_subid_of(BOOKS_PILE) + i}")
+                    for i in range(1, 1 + 281)}
+CATALOG_PILE_DAWN = {f"Catalogue {i} book of the Dawn Period" if i == 1 else f"Catalogue {i} books of the Dawn Period"
+                     : int(f"50{__last_subid_of(CATALOG_PILE_ANY) + i}")
+                     for i in range(1, 1 + 60)}
+CATALOG_PILE_SOLAR = {
+    f"Catalogue {i} book of the Solar Period" if i == 1 else f"Catalogue {i} books of the Solar Period"
+    : int(f"50{__last_subid_of(CATALOG_PILE_DAWN) + i}")
+    for i in range(1, 1 + 49)}
+CATALOG_PILE_BARONIAL = {
+    f"Catalogue {i} book of the Baronial Period" if i == 1 else f"Catalogue {i} books of the Baronial Period"
+    : int(f"50{__last_subid_of(CATALOG_PILE_SOLAR) + i}")
+    for i in range(1, 1 + 60)}
+CATALOG_PILE_CURIA = {
+    f"Catalogue {i} book of the Curia Period" if i == 1 else f"Catalogue {i} books of the Curia Period"
+    : int(f"50{__last_subid_of(CATALOG_PILE_BARONIAL) + i}")
+    for i in range(1, 1 + 69)}
+CATALOG_PILE_NOCTURNAL = {
+    f"Catalogue {i} book of the Nocturnal Period" if i == 1 else f"Catalogue {i} books of the Nocturnal Period"
+    : int(f"50{__last_subid_of(CATALOG_PILE_CURIA) + i}")
+    for i in range(1, 1 + 43)}
+################ I think skills are better for locations since you can use lessons as memories:
+# If you want a skill location you have to use up the lesson
+# ..and since books do/will reward (random) lessons after mastering, it would just be a double location for mastery (in a sense)
+LESSONS_SPECIFIC = {}
+LESSONS_PILE = {}
+###############
+SKILLS_SPECIFIC = {f"Learn '{o.Label}'": int(f"70{i + 1}")
+                   for i, o in enumerate(jsondump.skills)}
+SKILLS_PILE = {f"Learn {i} skill" if i == 1 else f"Learn {i} skills"
+               : int(f"70{__last_subid_of(SKILLS_SPECIFIC) + i}")
+               for i in range(1, 1 + 73)}
+
 # Every location must have a unique integer ID associated with it.
 # We will have a lookup from location name to ID here that, in world.py, we will import and bind to the world class.
 # Even if a location doesn't exist on specific options, it must be present in this lookup.
-LOCATION_NAME_TO_ID = {}
+LOCATION_NAME_TO_ID = (MEMORIES_SPECIFIC | MEMORIES_PILE
+                       | SOULS_SPECIFIC | SOULS_PILE
+                       | TERRAINS_SPECIFIC | TERRAINS_PILE
+                       | BOOKS_SPECIFIC | BOOKS_PILE
+                       | CATALOG_PILE_ANY | CATALOG_PILE_DAWN | CATALOG_PILE_SOLAR | CATALOG_PILE_BARONIAL | CATALOG_PILE_CURIA | CATALOG_PILE_NOCTURNAL
+                       | WISDOMS_SPECIFIC | WISDOMS_PILE
+                       | LESSONS_SPECIFIC | LESSONS_PILE
+                       | SKILLS_SPECIFIC | SKILLS_PILE)
+pass
 
-MEMORIES_SPECIFIC = {f"Remember a {a.Label}" : a.ApId for a in jsondump.memories}
-lastUsedId = max(MEMORIES_SPECIFIC.values())
-MEMORIES_X = {f"Recall {i} memories": lastUsedId+i for i in range(1,21)} # essentially a daily progression
-
-SOULS_SPECIFIC = {f"Acquire {a.Label}" : a.ApId for a in jsondump.souls}
-lastUsedId = max(SOULS_SPECIFIC.values())
-SOULS_X = {f"Acquire {i} Parts in total" : lastUsedId + i for i in range(1, 11)}
-
-TERRAINS_SPECIFIC = {f"Unlocked the {a.Label}" : a.ApId for a in jsondump.terrains}
-lastUsedId = max(TERRAINS_SPECIFIC.values())
-TERRAINS_X = {f"Unlock {i} terrains" : lastUsedId + i for i in range(1, 21)}
-
-WISDOMS_SPECIFIC = {f"Attune {a.Label}" : a.ApId for a in jsondump.wisdomtree}
-lastUsedId = max(WISDOMS_SPECIFIC.values())
-WISDOMS_X = {f"Attune {i}" : lastUsedId + i for i in range(1, 19)}
-
-BOOKS_SPECIFIC = {f"Mastered `{a.Label}`" : a.ApId for a in jsondump.books}
-lastUsedId = max(BOOKS_SPECIFIC.values())
-BOOKS_X = {f"Master {i} books": lastUsedId + i for i in range(1, 21)}
-lastUsedId = max(BOOKS_X.values())
-CATALOG_X_ANY = {f"Catalogue {i} books": lastUsedId + i for i in range(1, 21)}
-lastUsedId = max(CATALOG_X_ANY.values())
-CATALOG_X_DAWN = {f"Catalogue {i} books of the Dawn Period": lastUsedId+i for i in range(1, 3)}
-lastUsedId = max(CATALOG_X_DAWN.values())
-CATALOG_X_SOLAR = {f"Catalogue {i} books of the Solar Period": lastUsedId+i for i in range(1, 5)}
-lastUsedId = max(CATALOG_X_SOLAR.values())
-CATALOG_X_BARONIAL = {f"Catalogue {i} books of the Baronial Period": lastUsedId+i for i in range(1, 9)}
-lastUsedId = max(CATALOG_X_BARONIAL.values())
-CATALOG_X_CURIA = {f"Catalogue {i} books of the Curia period": lastUsedId+i for i in range(1, 17)}
-lastUsedId = max(CATALOG_X_CURIA.values())
-CATALOG_X_NOCTURNAL = {f"Catalogue {i} books of the Nocturnal period": lastUsedId+i for i in range(1, 33)}
-lastUsedId = max(CATALOG_X_NOCTURNAL.values())
-
-LESSONS_SPECIFIC = {f"{a.Label}" : a.ApId for a in jsondump.lessons}
-LESSONS_X = {}
-
-SKILLS_SPECIFIC = {"Skill: "+ a.Label : a.ApId for a in jsondump.skills}
-SKILLS_X = {}
-
-MEMORIES = MEMORIES_SPECIFIC | MEMORIES_X
-SOULS = SOULS_SPECIFIC | SOULS_X
-TERRAINS = TERRAINS_SPECIFIC | TERRAINS_X
-BOOKS = BOOKS_SPECIFIC | BOOKS_X | CATALOG_X_ANY | CATALOG_X_DAWN | CATALOG_X_SOLAR | CATALOG_X_BARONIAL | CATALOG_X_CURIA | CATALOG_X_NOCTURNAL
-WISDOMS = WISDOMS_SPECIFIC | WISDOMS_X
-LESSONS = {}
-# Lessons into Skill is sooo trivial (no condition; if you got the lesson, you got the skill in 30s)
-# I think it's enough with either/or, but both seem redundant
-SKILLS = SKILLS_SPECIFIC | SKILLS_X
-
-LOCATION_NAME_TO_ID = LOCATION_NAME_TO_ID | MEMORIES | SOULS | TERRAINS | BOOKS | WISDOMS | LESSONS | SKILLS
-x=0
 
 class BoHLocation(Location):
     game = "Book of Hours"
@@ -99,36 +154,174 @@ class BoHLocation(Location):
 def get_location_names_with_ids(location_names: list[str]) -> dict[str, int | None]:
     return {location_name: LOCATION_NAME_TO_ID[location_name] for location_name in location_names}
 
+
 def create_all_locations(world: BoHWorld) -> None:
     create_locations(world)
     create_events(world)
 
+
+def extract_roman(a: str):
+    i = 0
+
+    core = a.split("'")
+    if len(core) == 1:
+        return 0
+
+    core = a.split("'")[1]
+    num = core.split(" ")[1]
+    match num:
+        case "I":
+            i = 1
+        case "II":
+            i = 2
+        case "III":
+            i = 3
+        case "IV":
+            i = 4
+        case "V":
+            i = 5
+        case "VI":
+            i = 6
+        case "VII":
+            i = 7
+        case "VIII":
+            i = 8
+        case "IX":
+            i = 9
+        case _:
+            i = 0
+    return i
+
+
 def create_locations(world: BoHWorld) -> None:
-    # Finally, we need to put the Locations ("checks") into their regions.
-    # Once again, before we do anything, we can grab our regions we created by using world.get_region()
     menu = world.get_region("Menu")
-    menu.add_locations(get_location_names_with_ids([k for k in BOOKS.keys()]), BoHLocation)
 
-    #beach1 = world.get_region("St Brandan’s Cove")
-    #beach1.add_event("St Brandan’s Cove", "St Brandan’s Cove", lambda state: True, BoHLocation, BoHItem, False)
-    #beach1.add_locations({"Unlocked St Brandan’s Cove": 1})
+    def create_locations_option_memories() -> None:
+        locations_wanted: int = world.options.memory_progression["locations"]
+        rewards_per_loc: int = world.options.memory_progression["rewards_per_location"]
 
-    for unlockname, apid in TERRAINS_SPECIFIC.items():
-        normname = unlockname.replace("Unlocked the ", "")
-        region = world.get_region(normname)
-        if normname == "St Brandan’s Cove" and 1 == 0:
-            region.add_event(normname, None, None, BoHLocation, BoHItem)
-            #world.set_rule(world.get_location(normname), True_())
-        else:
-            # find what room can connect to this
-            roads:list[str] = [c.Label for e in terrains for c in e.ConnectsTo if c == normname]
-            region.add_event(normname, None, None, BoHLocation, BoHItem, False)
-            #world.set_rule(world.get_location(normname), HasAny(*roads))
+        if locations_wanted == 0:
+            return
+        if world.options.memory_progression.any_chance is False:
+            raise ValueError(f"No progression possible when every chance is 0. Aborting...")
 
-        region.add_locations({unlockname: apid}, BoHLocation)
-        #world.set_rule(world.get_location(unlockname), Has(unlockname))
+        # Time only starts after your introduction to the village acquantance.
+        # Meaning 'weathers' are theoretically locked behind 'Brancrug Village Acquaintance'
+        #  but basic, musics, ESPECIALLY lessons, etc... require the library rooms (or at MINIMUM the lodge)
+        # just streamline everything post-lodge? or stick in menu?
+        locs = {k: v
+                for k, v in MEMORIES_PILE.items()
+                for l in range(1, 1 + locations_wanted)
+                for r in range(1, 1 + rewards_per_loc)
+                if (f"Remember {l} " in k and f"Reward {r}" in k)}
+        pass
+        # The exact goal-number is checked in client
+        goal = BoHLocation(world.player, "Goal - Remember X memories", None, menu)
+        goal.place_locked_item(BoHItem("Victory Shard", ItemClassification.progression, None, world.player))
+        menu.locations.append(goal)
+
+        menu.add_locations(locs, BoHLocation)
+        for k, v in MEMORIES_SPECIFIC.items():
+            menu.locations.append(BoHLocation(world.player, k, v, menu))
+        pass
+        ### Verifaction"UniqueOnly" and Chance roll can only happen in client:
+        # basics_chance = [world.options.memory_progression["basics_chance"] for i in range(0, len(memories_basic))]
+        # weathers_chance = [world.options.memory_progression["weathers_chance"] for i in range(0, len(memories_weather)-2)]
+        # weather_earthquake_chance = world.options.memory_progression["weather_earthquake_chance"]
+        # weather_numa_chance = world.options.memory_progression["weather_numa_chance"]
+        # lessons_chance = [world.options.memory_progression["lessons_chance"] for i in range(0, len(lessons))]
+        # musics_chance = [world.options.memory_progression["musics_chance"]  for i in range(0, len(memories_music))]
+        # persistents_chance = [world.options.memory_progression["persistents_chance"] for i in range(0, len(memories_persistent))]
+        # leftovers_chance = [world.options.memory_progression["leftovers_chance"] for i in range(0, len(memories_leftovers))]
+        # equake = [a for a in memories_weather if "quake" in a.Label][0]
+        # numa = [a for a in memories_weather if "Nume-Brume" in a.Label][0]
+        # normal_weathers = [a for a in memories_weather if not ("quake" in a.IdStr or "numa" in a.IdStr)]
+
+        # pop = [*memories_basic, *normal_weathers, equake, numa, *lessons, *memories_music, *memories_persistent, *memories_leftovers]
+        # weights = [*basics_chance, *weathers_chance, weather_earthquake_chance, weather_numa_chance, *lessons_chance, *musics_chance, *persistents_chance, *leftovers_chance]
+        # sam = world.random.sample(pop, counts=weights, k=40)
+
+    def create_locations_option_wisdoms() -> None:
+        wt = world.get_region("The Tree of Wisdoms")
+        reward_per_new_tier = 1
+        reward_per_accum_progression = 1
+        allowed_tiers_for_node_locations = "012"
+        rewards_per_tier_reached = "012000000"
+        rewards_per_node_location = "023000000"
+
+        wt.add_locations({k: v for k, v in WISDOMS_PILE.items()}, BoHLocation)
+        wt.add_locations({k: v for k, v in WISDOMS_TIERS.items()}, BoHLocation)
+        wt.add_locations({k: v for k, v in WISDOMS_SPECIFIC.items()}, BoHLocation)
+
+    ###menu.add_locations(get_location_names_with_ids([k for k in BOOKS.keys()]), BoHLocation)
+
+    village = world.get_region("Brancrug Village")
+    acquaint = BoHLocation(world.player, "Brancrug Village Acquaintance", None, village)
+    acquaint.place_locked_item(
+        BoHItem("Brancrug Village Acquaintance", ItemClassification.progression, None, world.player))
+    village.locations.append(acquaint)
+    journal = BoHLocation(world.player, "Dried Journal", None, village)
+    journal.place_locked_item(BoHItem("Dried Journal", ItemClassification.progression, None, world.player))
+    village.locations.append(journal)
+
+    create_locations_option_memories()
+    create_locations_option_wisdoms()
+
+    # JSUT FOR DEBUG; THEY NEED PROPER CHAINING
+    for k, v in TERRAINS_SPECIFIC.items():
+        menu.locations.append(BoHLocation(world.player, k, v, menu))
+
+    if False:
+        for unlockname, apid in TERRAINS_SPECIFIC.items():
+            normname = unlockname.replace("Unlocked the ", "")
+            region = world.get_region(normname)
+            if normname == "St Brandan’s Cove" and 1 == 0:
+                region.add_event(normname, None, None, BoHLocation, BoHItem)
+                #world.set_rule(world.get_location(normname), True_())
+            else:
+                # find what room can connect to this
+                roads: list[str] = [c.Label for e in terrains for c in e.ConnectsTo if c == normname]
+                region.add_event(normname, None, None, BoHLocation, BoHItem, False)
+                #world.set_rule(world.get_location(normname), HasAny(*roads))
+
+            region.add_locations({unlockname: apid}, BoHLocation)
+            #world.set_rule(world.get_location(unlockname), Has(unlockname))
 
 
 def create_events(world: BoHWorld) -> None:
     menu = world.get_region("Menu")
+    lodge = world.get_region("Keeper's Lodge")
+    goal = world.options.memory_progression["goal"]
+    #menu.add_event("Victory Shard", "Victory Shard", None, BoHLocation, BoHItem)
+    #world.set_rule(world.get_location("Victory Shard"), Has("progressive_memory", count=goal))
 
+    if world.options.memory_progression.is_enabled:
+        locations_wanted = world.options.memory_progression["locations"]
+        for i in range(1, locations_wanted + 1):
+            loc_name = f"event_memory_progression_{i}"
+            menu.add_event(loc_name, "progressive_memory",
+                           location_type=BoHLocation, item_type=items.BoHItem,
+                           show_in_spoiler=False)
+            world.set_rule(world.get_location(loc_name), Has("progressive_memory", count=i - 1))
+
+        goal = world.options.memory_progression["goal"]
+    if True: #wisdom tree
+        wt = world.get_region("The Tree of Wisdoms")
+
+        l = [a for a in jsondump.wisdomtree if "locus" not in a.IdStr]
+        _root = [a for a in jsondump.wisdomtree if a.IdStr == "wt.memorylocus"][0]
+
+        wt.add_event("__event_wt.memorylocus", "__event_wt.memorylocus", lambda state: state.can_reach_region("The Tree of Wisdoms", world.player), BoHLocation, BoHItem)
+        for i in range(0, 9): # == 9 paths
+            _current_idstr = l[0].IdStr[:-1]
+            _all_of_path = [a for a in l if _current_idstr in a.IdStr]
+            assert len(_all_of_path) == 9
+            e = [a for a in _all_of_path if ".1" in a.IdStr][0]
+            l.remove(e)
+            wt.add_event("__event_"+e.IdStr, "__event_"+e.IdStr, lambda state: state.has("__event_wt.memorylocus", world.player), BoHLocation, BoHItem)
+            for j in range (1+1, 1+9):
+                e_next = [a for a in _all_of_path if str(j) in a.IdStr][0]
+                l.remove(e_next)
+                wt.add_event("__event_"+e_next.IdStr, "__event_"+e_next.IdStr, lambda state, s="__event_"+e.IdStr: state.has(s, world.player), BoHLocation, BoHItem)
+                e = e_next
+        assert len(l) == 0
