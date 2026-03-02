@@ -7,23 +7,23 @@ class JsonParsed:
     IdStr:str
     Label:str
     Preface:str
-    ApId: int|None
+    Category: int
     Aspects:dict[str, int]|None
     Requires:dict[str, int]|None
     ConnectsTo:list[JsonParsed]
 
-    def __init__(self, obj):
+    def __init__(self, obj:dict[str, any]):
         self.IdStr = obj["IdStr"]
         self.Label = obj["Label"]
-        self.ApId = dict.get(obj, "ApId")
+        self.Category = obj["Category"]
         self.Aspects = dict.get(obj, "Aspects", {})
         self.ConnectsTo = [JsonParsed(c) for c in dict.get(obj, "ConnectsTo", [])]
-        self.Preface = dict.get(obj,"Preface", "")
+        self.Preface = dict.get(obj,"Preface", self.Label)
         self.Requires = dict.get(obj,"Requires", {})
         pass
 
     def __repr__(self):
-        return f"{self.ApId} - {self.Label}"
+        return self.Label
 
     def contains_substr(self, s:str):
         return (s in self.IdStr
@@ -47,17 +47,16 @@ wisdomtree:list[JsonParsed]=[]
 lessons:list[JsonParsed]=[]
 skills:list[JsonParsed]=[]
 for a in data:
-    s = str(a["ApId"])
-    sl = s[:2]
-    match sl:
-        case "10":memories.append(JsonParsed(a));
-        case "20":souls.append(JsonParsed(a));
-        case "30":terrains.append(JsonParsed(a));
-        case "40":wisdomtree.append(JsonParsed(a));
-        case "50":books.append(JsonParsed(a));
-        case "60":lessons.append(JsonParsed(a));
-        case "70":skills.append(JsonParsed(a));
-
+    j = JsonParsed(a)
+    match j.Category:
+        case 1: memories.append(j);
+        case 2: souls.append(j);
+        case 3: terrains.append(j);
+        case 4: wisdomtree.append(j);
+        case 5: books.append(j);
+        case 6: lessons.append(j);
+        case 7: skills.append(j);
+del a,j
 memories_basic = [a for a in memories if "mem." in a.IdStr]
 memories_music = [a for a in memories if "sound" in a.Aspects]
 memories_weather = [a for a in memories if "weather" in a.Aspects]
@@ -70,6 +69,3 @@ everything = memories + souls + terrains + books + wisdomtree + lessons + skills
 
 # more background than game element, also: can not be interacted with, so its best to fire and fhuget abbat id
 terrains = [a for a in terrains if a.Label != "The Atlantic Ocean"]
-# oddly the only other terrain left that has Preface = string.Empty // nullchecks wont work
-t = [a for a in terrains if a.Label == "St Brandan’s Cove"][0]
-t.Preface = "St Brandan’s Cove"
