@@ -3,8 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from BaseClasses import Item, ItemClassification
-from .jsondump import terrains
-from ..apquest.game.locations import Location
+from .locations import MEMORIES_SPECIFIC
 
 if TYPE_CHECKING:
     from .world import BoHWorld
@@ -15,20 +14,21 @@ if TYPE_CHECKING:
 ITEM_NAME_TO_ID = {
     "Twopence": 2
 }
-LOCATION_AS_EVENT_ITEM = {e.Label: None for e in terrains}
+MEMORIES_NAME_TO_ID = {k:v for k,v in MEMORIES_SPECIFIC.items()}
+#LOCATION_AS_EVENT_ITEM = {e.Label: None for e in terrains}
 
 
 DEFAULT_ITEM_CLASSIFICATIONS = {
     "Twopence": ItemClassification.filler
 }
-LOCATION_AS_EVENT_ITEM_CLASSIFICATION = { e.Label: ItemClassification.progression for e in terrains}
+MEMORIES_DEFAULT_CLASSIFICATIONS = {a.Label:ItemClassification.useful for a in memories}
+#LOCATION_AS_EVENT_ITEM_CLASSIFICATION = { e.Label: ItemClassification.progression for e in terrains}
 
 # amalgamate every sub-dict togethaa
-#ITEM_NAME_TO_ID = ITEM_NAME_TO_ID | LOCATION_AS_EVENT_ITEM
-#DEFAULT_ITEM_CLASSIFICATIONS = DEFAULT_ITEM_CLASSIFICATIONS | LOCATION_AS_EVENT_ITEM_CLASSIFICATION
+ITEM_NAME_TO_ID = ITEM_NAME_TO_ID | MEMORIES_NAME_TO_ID
+DEFAULT_ITEM_CLASSIFICATIONS = DEFAULT_ITEM_CLASSIFICATIONS | MEMORIES_DEFAULT_CLASSIFICATIONS
 
-# Each Item instance must correctly report the "game" it belongs to.
-# To make this simple, it is common practice to subclass the basic Item class and override the "game" field.
+
 class BoHItem(Item):
     game = "Book of Hours"
 

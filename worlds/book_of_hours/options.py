@@ -3,21 +3,21 @@ from dataclasses import dataclass
 from schema import Schema, And
 
 from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle, OptionDict, DefaultOnToggle, OptionSet, \
-    OptionList
+    OptionList, OptionCounter
+from worlds.book_of_hours.locations import TERRAINS_SPECIFIC
 
-from .jsondump import terrains
 
 class Goal(Choice):
     display_name = "Goal"
     option_remember_specific = 11
     option_remember = 12
-    option_soul_specific = 21
+    option_souls_specific = 21
     option_souls = 22
-    option_room_specific = 31
+    option_rooms_specific = 31
     option_rooms = 32
-    option_wisdom_specific = 41
+    option_wisdoms_specific = 41
     option_wisdoms = 42
-    option_book_mastered_specific = 51
+    option_books_mastered_specific = 51
     option_books_mastered = 52
     option_books_catlog_any = 53
     option_books_catlog_dawn = 54
@@ -26,56 +26,73 @@ class Goal(Choice):
     option_books_catlog_curia = 57
     option_books_catlog_nocturnal = 58
 
-    option_skill_specific = 71
+    option_skills_specific = 71
     option_skills = 72
 
-    default = option_room_specific
+    option_custom_mix = 99
+    default = option_rooms_specific
 
 
-class MemoriesAsLocations_GenericProgression(Toggle):
+class MemoriesAsLocations_GenericProgression(OptionCounter):
     """
-    Enables 'acquiring memories' as locations.
+    Which memories count towards 'Memory Progression'.
+    Will be enabled if locations > 0 and any chance is between 0 and 100.
+
+    locations: How many locations to create.
+        This is a hard number and will be fulfilled.
+
+    goal: On what count will be the "goal" item.
+        Must be <= locations
+
+    allow_ap_item_to_proc: If 1, items received through the multiworld count towards the checks.
+    If 0, only counts memories that were earned ingame/local.
+
+    *_chance: Any memory found will be rolled against their set category-chance (see below).
+        If the roll was <= chance, it will count towards progression.
+        Maybe the best is either 0 or 100, but if you want to 50/50 here ya go.
+
+    basics: Easily acquired memories like 'Memory: Touch'
+
+    weathers: The daily weather-memories;
+        Clouds, Earthquake, Fog, Gale, Hail, Rain, Snow, Storm, Sunny
+
+    weather.earthquake: A weather-memory that is not in the daily occurences, but a possible result by Considering 'Sovereign Treasures' in unmodded game.
+
+    weather.numa: The weather-memory 'Nume-Brume', received from the arrival of Numa.
+        Separated from weather bc of rng.
+
+    lessons: The 74 Lessons, rewarded when mastering a book.
+
+    musics: Memories with the "sound" aspect;
+        Ascendant Harmony, Bittersweet Certainty, Beguiling Melody, Cheerful Ditty, Hive's Lament, Savage Hymn, Thunderskin's Paean, Wistful Air
+
+    leftovers: Memories that did not fit any of the above categories;
+        Confounding Parable, Old Moment, Nameday Riddle, Secret Threshold, Wild Surmise, Wind-Rumour, Winning Move
     """
     display_name = "Memory Progression"
-class MemoriesAsLocations_GenericProgression_EachOnlyOnce(DefaultOnToggle):
-    """
-    Each particular memory can only count once towards progression.
-    """
-    display_name = "Memory Progression - Count Uniques"
-
-class OLDMemoriesAsLocations_GenericProgressionSources(Choice):
-    display_name = "MemoriesAsLocationsGenericProgressionSources"
-    option_only_basics = 1
-    option_only_lessons = 2
-    option_only_weathers = 4
-    option_basics_and_lessons = 3
-    option_basics_and_weathers = 5
-    option_lessons_and_weathers = 6
-    option_all = 7
-    default = option_all
-    # whatabout music or "advanced" ones?
-    # maybe using (Range) and bitmask is better...
-
-class MemoriesAsLocationsGenericProgressionSources22(OptionSet):
-    """
-    Configure wich memories count towards 'Memory Progression'.
-    """
-    display_name = "MemoriesAsLocationsGenericProgressionSourcesDICT"
     default = {
-        "basics",
-        "weathers",
-        "lessons",
-        "musics",
-        "persistent",
-        "else",
+        "locations": 10,
+        "goal": 5,
+        "allow_ap_item_to_proc": 1,
+        "basics_chance": 40,
+        "weathers_chance": 100,
+        "weather_earthquake_chance": 100,
+        "weather_numa_chance": 100,
+        "lessons_chance": 100,
+        "musics_chance": 100,
+        "persistents_chance": 100,
+        "leftovers_chance": 100
     }
 
-class MemoriesAsLocationsGenericProgressionChance(Range):
-    """
-    Roll the die to decide if a memory does become a location.
-    """
-    range_end = 100
-    default = 100
+    def __init__(self, value: dict[str, int]):
+        super().__init__(value)
+
+        chances = [True for k, v in self.default.items() if "chance" in k and 0 <= v <= 100]
+        self.is_enabled = self.default["goal"] > 0
+
+        non_zero = [a for a in chances if a > 0]
+        self.any_chance = len(non_zero) > 0
+
 
 class MemoriesAsLocationsChance(Range):
     """
@@ -86,6 +103,7 @@ class MemoriesAsLocationsChance(Range):
     display_name = "MemorInsanity"
     range_end = 100
 
+
 class MemoriesAsLocationsAllowArchipelago(Toggle):
     """
     Does nothing if 'MemorInsanity' is not enabled.
@@ -94,14 +112,6 @@ class MemoriesAsLocationsAllowArchipelago(Toggle):
     """
     display_name = "Allow multiworld to check location?"
 
-class MemoriesAsLocationsIncludeWeathers(Toggle):
-    """
-    If true, adds the different weather memories as locations.
-    You are at the mercy of rng.
-    Does nothing if 'MemorInsanity' is disabled.
-    Adds 9 locations.
-    """
-    display_name = "MemorInsanity - Include Wheather?"
 
 class MemoriesAsLocationsIncludeWeathersIncludeNuma(Toggle):
     """
@@ -132,6 +142,7 @@ class MemoriesAsItems(OptionList):
         # apply to all memories where it can find "hindsight" OR "salt" __ any aspect  must be > 0 __ set classification to 'trap'   __ add 30 into draw-pool
     ]
     total = 30
+
 
 # Adds everything into the draw-pool and draw {total} times.
 # The list will go from top to bottom "first-come-first-serverd; If the "memory-key" (as above, "persistent") was already processed,
@@ -246,6 +257,7 @@ class Books(DefaultOnToggle):
     """
     display_name = "Booksanity"
 
+
 class BooksCatalogue(OptionDict):
     """
     How often cataloguing is a location.
@@ -326,6 +338,7 @@ class BooksMasterRequirementsRandom(Toggle):
     """
     display_name = "Book RandoMysteries"
 
+
 class BooksMasterSplit(Toggle):
     """
     Every single book gets its own location.
@@ -334,6 +347,7 @@ class BooksMasterSplit(Toggle):
     Overlaps with any 'Master n books' setting.
     """
     display_name = "Book Splitsanity"
+
 
 class BooksMasterSplitStyle(Choice):
     """
@@ -389,11 +403,11 @@ class LessonsAsItems(OptionList):
     If "Lesssanity" is enabled, ItemClassification will be (ignored and) forced to "Progression".
     """
     display_name = "Add Lessons to itempool?"
-    verify_item_name = False    # Use own validation in 'generate_early(self)'
+    verify_item_name = False  # Use own validation in 'generate_early(self)'
     default = [
         "any__any>0__useful__50",
     ]
-    total = 30                  # max can not exceed 74, validate in 'generate_early(self)'
+    total = 30  # max can not exceed 74, validate in 'generate_early(self)'
 
 
 class SkillAsLocationChance(Range):
@@ -407,8 +421,9 @@ class SkillAsLocationChance(Range):
 
 
 # generate the room choices cuz I ain't typing 110 lines by hand
-rooms = {f"option_{a.IdStr.replace("terrain", "").replace("-", "").replace(".", "").replace("'", "")}": a.ApId
-         for a in terrains}
+rooms = {f"option_{k}"
+         : v
+         for k,v in TERRAINS_SPECIFIC.items()}
 rooms = {k: v for k, v in rooms.items() if "brancrug" not in k}
 
 RoomGoal = type("RoomGoal", (Choice,), {
@@ -421,14 +436,7 @@ RoomGoal = type("RoomGoal", (Choice,), {
 })
 del rooms
 
+
 @dataclass
 class BoHOptions(PerGameCommonOptions):
-    goal: Goal
-    room_goal: RoomGoal
-
-    memorinsanity: MemoriesAsLocationsChance
-    memorinsanityDICT: MemoriesAsLocationsGenericProgressionSources22
-    memorinsanity_allow_ap: MemoriesAsLocationsAllowArchipelago     # can only be implemented/tested client-side
-    memorinsanity_weathers: MemoriesAsLocationsIncludeWeathers
-    memorinsanity_weathers_numa: MemoriesAsLocationsIncludeWeathersIncludeNuma
-    memories_as_items: MemoriesAsItems
+    memory_progression: MemoriesAsLocations_GenericProgression

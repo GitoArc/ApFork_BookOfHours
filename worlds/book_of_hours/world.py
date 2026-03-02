@@ -4,6 +4,7 @@ from typing import Any
 from worlds.AutoWorld import World
 from . import items, locations, options, regions, rules, web_world
 
+
 class BoHWorld(World):
     """
     Restore a crumbling occult library by a winter sea.
@@ -20,6 +21,7 @@ class BoHWorld(World):
     # This is how we associate the options defined in our options.py with our world.
     options_dataclass = options.BoHOptions
     options: options.BoHOptions  # Common mistake: This has to be a colon (:), not an equals sign (=).
+
 
     # Our world class must have a static location_name_to_id and item_name_to_id defined.
     # We define these in regions.py and items.py respectively, so we just set them here.
@@ -51,10 +53,8 @@ class BoHWorld(World):
     # This is what slot_data exists for. Upon every client connection, the slot's slot_data is sent to the client.
     # slot_data is just a dictionary using basic types, that will be converted to json when sent to the client.
     def fill_slot_data(self) -> Mapping[str, Any]:
-        # If you need access to the player's chosen options on the client side, there is a helper for that.
-        return self.options.as_dict(
-            "progression_balancing",
-            "accessibility",
-            "goal",
-            "room_goal"
-        )
+        slot_data: dict[str, Any] = {
+            "memory_progression": self.options.memory_progression.value,
+            "victory_shards": len([a for a in self.get_locations() if a.item.name == "Victory Shard"])
+        }
+        return slot_data

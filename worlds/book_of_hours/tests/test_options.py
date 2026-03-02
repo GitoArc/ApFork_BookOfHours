@@ -11,9 +11,9 @@ class TestOptions(BoHTestBase):
         ops = self.world.options
         assert ops.goal is not None
         assert ops.room_goal is not None
-        assert ops.memorinsanity is not None
-        assert ops.insoulnity is not None
-        assert ops.terrainsanity is not None
+        #assert ops.memorinsanity is not None
+        #assert ops.insoulnity is not None
+        #assert ops.terrainsanity is not None
         pass
 
 
@@ -53,3 +53,28 @@ class TestOptions(BoHTestBase):
 
                 self.assertTrue(predicateMatchedAspects or predicateMatchedTerrainReqs, f"{p} was incorrectly passed")
             pass
+
+
+class TestOption_MemoryProgressionOff(BoHTestBase):
+    run_default_tests = False
+    options = {
+        "memory_progression": {
+            "locations": 0
+        }
+    }
+
+    def test_locations_do_not_exists(self):
+        l = [a for a in self.world.get_locations() if "recall" in a.name or "memories" in a.name]
+        self.assertTrue(len(l)==0, f"")
+
+class TestOption_MemoryProgressionOn(BoHTestBase):
+    run_default_tests = False
+    options = {
+        "memory_progression": {
+            "locations": 40
+        }
+    }
+
+    def test_n_locations_exist(self):
+        l = [a for a in self.world.get_locations() if "Recall" in a.name and "memories" in a.name]
+        self.assertTrue(len(l) == 40, f"")

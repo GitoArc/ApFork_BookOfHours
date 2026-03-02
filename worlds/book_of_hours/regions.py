@@ -27,10 +27,9 @@ def create_all_regions(world: BoHWorld) -> None:
     #if world.options.rooms:
     #    x=0
 
-    if world.options.insanitree:
-        # extra prefix, easier search+find
-        tree = [Region("Wisdoms: "+e.Label,world.player, world.multiworld) for e in wisdomtree]
-        world.multiworld.regions += tree
+    if True: #world.options.wisdomtree
+        world.multiworld.regions += [Region("The Tree of Wisdoms", world.player, world.multiworld)]
+        pass
 
     world.multiworld.regions += [Region("Menu", world.player, world.multiworld)]
     world.multiworld.regions += regions
@@ -40,6 +39,9 @@ def connect_regions(world: BoHWorld) -> None:
     start_name = "St Brandan’s Cove"
     world.get_region("Menu").connect(world.get_region(start_name),
                                      f"Menu -> {start_name}",None)
+
+    world.get_region("Menu").connect(world.get_region("The Tree of Wisdoms"),
+                                     f"Menu -> The Tree of Wisdoms", None)
 
     unhandled: list[str] = [start_name]
     done: list[str] = []
@@ -60,7 +62,7 @@ def connect_regions(world: BoHWorld) -> None:
         done.append(currentName)
         unhandled.remove(currentName)
 
-    if world.options.insanitree:
+    if False:
         o = world.options.room_goal == RoomGoal.option_lodge
         wt = [e for e in world.get_regions() if "Wisdoms:" in e.name]
         cache1 = [w for w in wt if "1" in w.name]

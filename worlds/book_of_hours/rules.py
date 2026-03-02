@@ -2,40 +2,20 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
-from BaseClasses import CollectionState
 from rule_builder.rules import HasAny, Has
 from worlds.generic.Rules import add_rule, set_rule
 from .jsondump import terrains
-from .options import RoomGoal
 
 if TYPE_CHECKING:
     from .world import BoHWorld
 
 
 def set_all_rules(world: BoHWorld) -> None:
-    # In order for AP to generate an item layout that is actually possible for the player to complete,
-    # we need to define rules for our Entrances and Locations.
     # Note: Regions do not have rules, the Entrances connecting them do!
     # We'll do entrances first, then locations, and then finally we set our victory condition.
     set_all_entrance_rules(world)
     set_all_location_rules(world)
     set_completion_condition(world)
-    from rule_builder.rules import Has, And, Or, CanReachRegion
-    all_state = world.multiworld.get_all_state(False)
-    all_state.sweep_for_advancements()
-    rule_a = Has("St Brandan’s Cove")
-    rule_b = CanReachRegion("Brancrug Village")
-    rule1 = And(rule_a, rule_b)
-    rule0 = Or(rule_a, rule_b)
-    w = world.multiworld.worlds[1]
-    r1 = rule1.resolve(w)
-    r0 = rule0.resolve(w)
-    #print(r1.explain_str(all_state))
-    #print(r0.explain_str(all_state))
-    r = {a:a.access_rule for a in world.get_locations()}
-    for l in world.get_locations():
-        #print(l)
-        x=0
 
 
 def set_all_entrance_rules(world: BoHWorld) -> None:
@@ -47,7 +27,22 @@ def set_all_entrance_rules(world: BoHWorld) -> None:
         pass
 
 def set_all_location_rules(world: BoHWorld) -> None:
-    x=0
+    if world.options.memory_progression.is_enabled:
+        locs_memory_progression = [a for a in world.get_locations() if "Remember" in a.name and " memories" in a.name]
+        max = world.options.memory_progression["locations"]
+        goal = world.options.memory_progression["goal"]
+        for i in range(2, 1+max):
+            locs = [a for a in locs_memory_progression if f"Remember {i} memor" in a.name]
+            for l in locs:
+                # is such finely-grained detail necessary? If you can get 2 memories you can get 3/4/40... etc
+                #world.set_rule(l, Has("Progressive Memory", count=i-1))
+                pass
+            pass
+        [goal_memory_loc] = [a for a in world.get_locations() if "oal" in a.name]
+        #world.set_rule(goal_memory_loc, Has("Progressive Memory", count=goal))
+        pass
+
+
 
 def set_completion_condition(world: BoHWorld) -> None:
     # Finally, we need to set a completion condition for our world, defining what the player needs to win the game.
@@ -56,13 +51,5 @@ def set_completion_condition(world: BoHWorld) -> None:
 
     # In our case, we went for the Victory event design pattern (see create_events() in locations.py).
     # So lets undo what we just did, and instead set the completion condition to:
-    world.multiworld.completion_condition[world.player] = lambda state: state.has("Victory", world.player)
-
-    if world.options.goal.option_room_specific:
-        #get event-item at location ~roomId~
-        room_ap_id = world.options.room_goal.numerator
-        name = [k for k in terrains if k.ApId == room_ap_id][0]
-        world.multiworld.completion_condition[world.player] = lambda state: state.has(name, world.player)
-
-    if world.options.goal.option_rooms:
-        pass
+    world.multiworld.completion_condition[world.player] = lambda state: True
+    world.set_completion_rule(Has("Victory Shard", count=1))
