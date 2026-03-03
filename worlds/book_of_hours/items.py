@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import TYPE_CHECKING
 
 from BaseClasses import Item, ItemClassification
-from .locations import MEMORIES_SPECIFIC
+from .generate_locations import MEMORIES_SPECIFIC
 
 if TYPE_CHECKING:
     from .world import BoHWorld
@@ -21,7 +21,7 @@ MEMORIES_NAME_TO_ID = {k:v for k,v in MEMORIES_SPECIFIC.items()}
 DEFAULT_ITEM_CLASSIFICATIONS = {
     "Twopence": ItemClassification.filler
 }
-MEMORIES_DEFAULT_CLASSIFICATIONS = {a.Label:ItemClassification.useful for a in memories}
+MEMORIES_DEFAULT_CLASSIFICATIONS = {a:ItemClassification.useful for a in MEMORIES_SPECIFIC}
 #LOCATION_AS_EVENT_ITEM_CLASSIFICATION = { e.Label: ItemClassification.progression for e in terrains}
 
 # amalgamate every sub-dict togethaa
