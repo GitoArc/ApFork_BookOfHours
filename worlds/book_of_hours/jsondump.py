@@ -11,6 +11,7 @@ class JsonParsed:
     Aspects:dict[str, int]|None
     Requires:dict[str, int]|None
     ConnectsTo:list[JsonParsed]
+    Rewards_Vanilla_to_IdStr:dict[str,str] # used by books
 
     def __init__(self, obj:dict[str, any]):
         self.IdStr = obj["IdStr"]
@@ -20,6 +21,7 @@ class JsonParsed:
         self.ConnectsTo = [JsonParsed(c) for c in dict.get(obj, "ConnectsTo", [])]
         self.Preface = dict.get(obj,"Preface", self.Label)
         self.Requires = dict.get(obj,"Requires", {})
+        self.Rewards_Vanilla_to_IdStr = dict.get(obj, "Rewards", {})
         pass
 
     def __repr__(self):
