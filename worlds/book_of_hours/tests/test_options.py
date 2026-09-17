@@ -1,12 +1,7 @@
 import re
 
-from Cython.Shadow import returns
-
 from .bases import BOHTestBase
-from ..jsondump import everything
 from ..options import BoHOptions
-from ...stardew_valley.data.season_data import all_seasons
-
 
 class TestOptions(BOHTestBase):
     run_default_tests = False

@@ -1,10 +1,46 @@
-from enum import StrEnum, unique
+from enum import StrEnum, unique, Enum, auto
 
-@unique
-class BOH_StrEnums(StrEnum):
+class BOHCompare(Enum):
+    LessThan = auto()
+    LessOrEquals = auto()
+    EqualTo = auto()
+    GreaterOrEquals = auto()
+    GreaterThan = auto()
+
+class BOHQuantity(Enum):
+    None_ = 0
+    Any = 1
+    All = 2
+
+
+class BOHStrEnums:
+    Edge = "edge"
+    Forge = "forge"
+    Grail = "grail"
+    Heart = "heart"
+    Knock = "knock"
+    Lantern = "lantern"
+    Moon = "moon"
+    Moth = "moth"
+    Nectar = "nectar"
+    Rose = "rose"
+    Scale = "scale"
+    Sky = "sky"
+    Winter = "winter"
+    ###
+    DawnPeriod = "Dawn Period"
+    SolarPeriod = "Solar Gothic Period"
+    BaronialPeriod = "Baronial Period"
+    CuriaPeriod = "Curia Period"
+    NocturnalPeriod = "Nocturnal Period"
+    OpenAir = "Open Air"
+    OutOfBounds = "Out of Bounds"
+    ###
     FishermanAssistance = "Fisherman's Assistance"
     VillageFriend = "An Old Friend's Address"
     DriedJournal = "Dried Journal"
+    VillagerAssistance = "json.assistance.x"
+    HushHouseKey = "Hush House Key"
     EventItem_MemoryProgression = "event_memories_collected"
     OriginRegionName = "Menu"
     ### Terrains
@@ -81,6 +117,7 @@ class BOH_StrEnums(StrEnum):
     Narthex = "Narthex"
     NaveoftheAbbeyChurch = "Nave of the Abbey Church"
     NightGallery = "Night Gallery"
+    Ocean = "The Atlantic Ocean"
     Oubliette = "Oubliette"
     OurLadyBeneath = "Our Lady Beneath"
     PaleChamber = "Pale Chamber"
@@ -120,4 +157,8 @@ class BOH_StrEnums(StrEnum):
     WineCellar = "Wine Cellar"
     ### Tree of Wisdoms
     TreeOfWisdoms = "Tree of Wisdoms"
-    TreeOfWisdoms_Root = "The Roots of Memory"
+
+
+occult_aspects = [BOHStrEnums.Edge, BOHStrEnums.Forge, BOHStrEnums.Grail, BOHStrEnums.Heart, BOHStrEnums.Knock, BOHStrEnums.Lantern,
+                  BOHStrEnums.Moon, BOHStrEnums. Moth, BOHStrEnums.Nectar, BOHStrEnums.Rose, BOHStrEnums.Scale, BOHStrEnums.Sky,
+                  BOHStrEnums.Winter]

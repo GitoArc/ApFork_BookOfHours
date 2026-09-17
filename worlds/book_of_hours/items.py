@@ -1,22 +1,21 @@
 from __future__ import annotations
 
 from typing import TYPE_CHECKING
-from enum import StrEnum, unique
 from BaseClasses import Item, ItemClassification
 from ._generate_locations import MEMORIES_SPECIFIC
+from .enums import BOHStrEnums
 from .functions import predicate_with
-from .jsondump import memories, SimplePredicate, lessons
+from .jsondump import memories, SimplePredicate, lessons, books, skills
 
 if TYPE_CHECKING:
     from .world import BOHWorld
 
-# Every item must have a unique integer ID associated with it.
-# We will have a lookup from item name to ID here that, in world.py, we will import and bind to the world class.
-# ! Even if an item doesn't exist on specific options, it must be present in this lookup.
-ITEM_NAME_TO_ID = {
-    "Fisherman's Assistance": 101,  # "assistance.fisherman.intro"
-    "An Old Friend's Address": 102, # "introduction.**.start" (yes, all 4 starts have same Label)
-    "Hush House Key": 103,
+
+HARDCODE_ITEM_NAME_TO_ID = {
+    BOHStrEnums.FishermanAssistance: 1,  # "assistance.fisherman.intro"
+    BOHStrEnums.VillageFriend: 2, # "introduction.**.start" (yes, all 4 starts have same "An Acquaintance" Label)
+    BOHStrEnums.HushHouseKey: 3,
+    "Victory Shard": 4,
     "Twopence": 202
 }
 MEMORIES_NAME_TO_ID = {m.Label: v
@@ -24,23 +23,31 @@ MEMORIES_NAME_TO_ID = {m.Label: v
                        for k, v in MEMORIES_SPECIFIC.items()
                        if m.Label in k}
 # make lessons part of memories (bc they are) but also, they have kinda weak existence for being their own category
-MEMORIES_NAME_TO_ID = MEMORIES_NAME_TO_ID | {o.Label:f"60{i}" for i, o in enumerate(lessons)}
+#MEMORIES_NAME_TO_ID = MEMORIES_NAME_TO_ID | {o.Label:f"60{i}" for i, o in enumerate(lessons)}
 #LOCATION_AS_EVENT_ITEM = {e.Label: None for e in terrains}
+BOOKS_ITEM_NAME_TO_ID:dict[str, int] = { o.Label : int(f"50{i+1}") for i,o in enumerate(books)}
+BOOKS_ITEM_CLASSIFICATIONS = { o.Label : ItemClassification.progression for i,o in enumerate(books) }
 
-
+SKILLS_ITEM_NAME_TO_ID = { o.Label : int(f"60{i+1}") for i,o in enumerate(skills)}
+SKILLS_ITEM_CLASSIFICATIONS = { o.Label : ItemClassification.progression for i,o in enumerate(skills) }
+assert len(SKILLS_ITEM_NAME_TO_ID) == 73, "skill length mismatch"
+assert len(SKILLS_ITEM_CLASSIFICATIONS) == 73, "skill length mismatch"
+# StrEnums NEED conversion to normal str, else the type leaks into multiworld (causing crash)
 DEFAULT_ITEM_CLASSIFICATIONS = {
-    "Fisherman's Assistance": ItemClassification.progression | ItemClassification.useful,
-    "An Old Friend's Address": ItemClassification.progression | ItemClassification.useful,
-    "Hush House Key": ItemClassification.progression | ItemClassification.useful,
+    BOHStrEnums.FishermanAssistance: ItemClassification.progression | ItemClassification.useful,
+    BOHStrEnums.VillageFriend: ItemClassification.progression | ItemClassification.useful,
+    BOHStrEnums.HushHouseKey: ItemClassification.progression | ItemClassification.useful,
+    "Victory Shard": ItemClassification.progression | ItemClassification.useful,
     "Twopence": ItemClassification.filler
 }
 MEMORIES_DEFAULT_CLASSIFICATIONS = {a.Label: ItemClassification.filler for a in memories} # since filler is 0, literally any flag overwrites it
 MEMORIES_DEFAULT_CLASSIFICATIONS = MEMORIES_DEFAULT_CLASSIFICATIONS | {a.Label: ItemClassification.filler for a in lessons}
 #LOCATION_AS_EVENT_ITEM_CLASSIFICATION = { e.Label: ItemClassification.progression for e in terrains}
 
-# amalgamate every sub-dict togethaa
-ITEM_NAME_TO_ID = ITEM_NAME_TO_ID | MEMORIES_NAME_TO_ID
-ITEM_CLASSIFICATIONS = DEFAULT_ITEM_CLASSIFICATIONS | MEMORIES_DEFAULT_CLASSIFICATIONS
+# Every item must have a unique integer ID associated with it.
+# !! Even if an item doesn't exist on specific options, it must be present in this lookup !!
+ITEM_NAME_TO_ID = ITEM_NAME_TO_ID
+ITEM_CLASSIFICATIONS = DEFAULT_ITEM_CLASSIFICATIONS
 
 
 class BOHItem(Item):
@@ -48,9 +55,8 @@ class BOHItem(Item):
 
 
 def get_random_filler_item_name(world: BOHWorld) -> str:
+    return "Twopence"
     # IMPORTANT: Whenever you need to use a random generator, you must use world.random.
-    # This ensures that generating with the same generator seed twice yields the same output.
-    # DO NOT use a bare random object from Python's built-in random module.
     chance_roll = world.random.randint(0,100)
 
     fillers_and_traps = [k for k,v in ITEM_CLASSIFICATIONS.items() if not v & ItemClassification.progression and not v & ItemClassification.useful]
@@ -97,7 +103,7 @@ def create_item_with_auto_classification(world: BOHWorld, name: str) -> BOHItem:
 # With those two helper functions defined, let's now get to actually creating and submitting our itempool.
 def create_all_items(world: BOHWorld) -> None:
     # Add unique / "can only drop once" items
-    itempool = [world.create_item(k) for k, v in ITEM_NAME_TO_ID.items() if v is not None]
+    itempool = [world.create_item(k) for k, v in ITEM_NAME_TO_ID.items() if v is not None and k != "Victory Shard"]
     itempool = [a for a in itempool if not a.trap and not a.filler]
 
     # Archipelago requires that each world submits as many locations as it submits items.

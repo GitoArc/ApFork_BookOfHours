@@ -3,7 +3,7 @@ from typing import Any
 
 from worlds.AutoWorld import World
 from . import items, locations, options, regions, rules, web_world
-from .enums import BOH_StrEnums
+from .enums import BOHStrEnums
 
 
 class BOHWorld(World):
@@ -29,7 +29,7 @@ class BOHWorld(World):
     location_name_to_id = locations.LOCATION_NAME_TO_ID
     item_name_to_id = items.ITEM_NAME_TO_ID
 
-    origin_region_name = BOH_StrEnums.OriginRegionName
+    origin_region_name = BOHStrEnums.OriginRegionName
 
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)
@@ -55,7 +55,7 @@ class BOHWorld(World):
     # slot_data is just a dictionary using basic types, that will be converted to json when sent to the client.
     def fill_slot_data(self) -> Mapping[str, Any]:
         slot_data: dict[str, Any] = {
+            "victory_shards": len([a for a in self.get_locations() if a.item.name == "Victory Shard"]),
             "memory_progression": self.options.memory_progression.value,
-            "victory_shards": len([a for a in self.get_locations() if a.item.name == "Victory Shard"])
         }
         return slot_data

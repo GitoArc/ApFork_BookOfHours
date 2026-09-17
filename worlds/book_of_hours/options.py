@@ -3,34 +3,11 @@ from dataclasses import dataclass
 
 from schema import Schema, And
 
-from Options import Choice, PerGameCommonOptions, Range, Toggle, OptionDict, DefaultOnToggle, OptionList, OptionCounter
+from BaseClasses import LocationProgressType
+from Options import Choice, PerGameCommonOptions, Range, Toggle, OptionDict, DefaultOnToggle, OptionList, OptionCounter, \
+    OptionSet
+from worlds.book_of_hours.enums import BOHStrEnums
 from worlds.book_of_hours.locations import TERRAINS_SPECIFIC
-
-
-class Goal(Choice):
-    display_name = "Goal"
-    option_remember_specific = 11
-    option_remember = 12
-    option_souls_specific = 21
-    option_souls = 22
-    option_rooms_specific = 31
-    option_rooms = 32
-    option_wisdoms_specific = 41
-    option_wisdoms = 42
-    option_books_mastered_specific = 51
-    option_books_mastered = 52
-    option_books_catlog_any = 53
-    option_books_catlog_dawn = 54
-    option_books_catlog_solar = 55
-    option_books_catlog_baronial = 56
-    option_books_catlog_curia = 57
-    option_books_catlog_nocturnal = 58
-
-    option_skills_specific = 71
-    option_skills = 72
-
-    option_custom_mix = 99
-    default = option_rooms_specific
 
 
 class MemoriesAsLocations_GenericProgression(OptionCounter):
@@ -68,8 +45,8 @@ class MemoriesAsLocations_GenericProgression(OptionCounter):
     """
     display_name = "Memory Progression"
     default = {
-        "locations": 40,
-        "goal": 30,
+        "locations": 10,
+        "goal": 5,
         "basics_chance": 40,
         "weathers_chance": 100,
         "weather_earthquake_chance": 100,
@@ -114,8 +91,9 @@ class MemoriesAsLocations_Specific(OptionDict):
     """
     display_name = "MemorInsanity"
     default = {
-        "weather":00,
-        #"mem.,weather.ea,numa":0,
+        "mem.":100,
+        "weather":10,
+        "weather.earthquake,weather.numa":0,
         #"sound,persistent,@leftovers":100,
     }
 
@@ -132,7 +110,7 @@ class MemoriesAsLocations_SpecificGoals(OptionList):  # need order preserved, so
     That location can not send a multiworld item, but will reward a local event item instead.
     """
     default = [
-        # "memory:1",   enables all cards where "memory" in JsonParsed
+         "ouch:1", #  enables all cards where "memory" in JsonParsed
         # "__any>5:1",  # enables cards where "" in card and any aspect > 5
         # "weather__all<3:1",  # searches for and enables cards that contains "weather" and all aspects < 3
         # "arthquake,idumos,uma:0",  # searches for and disables cards that contain "arthquake" or "idumos"
@@ -159,7 +137,7 @@ class MemoriesAsItems(OptionDict):
         "downgrade_trap_chance": 50,
         "predicates": {
             # "__all<5": "filler",                          # apply to all memories where "knock"               __ all aspects must be < 4 __ set classification to 'filler'
-            "hindsight,salt,regret,loss__any>0": "trap",    # apply to all memories where "hindsight" OR "salt" __ any aspect  must be > 0 __ set classification to 'trap'
+            #"hindsight,salt,regret,loss__any>0": "trap",    # apply to all memories where "hindsight" OR "salt" __ any aspect  must be > 0 __ set classification to 'trap'
             "__all<2": "trap",
         }
     }
@@ -216,106 +194,93 @@ class SoulPartsRewardPerTierSplit(Toggle):
     display_name = "Split Soul Parts"
 
 
-class Terrains(DefaultOnToggle):
+class TerrainGoals(OptionDict):
+    display_name = "TerraInsanity"
+    default = {
+        "curia": 1,
+        "vault": 1,
+    }
+    #def __bool__(self):
+    #    return True
+
+
+class Terrains(OptionDict):
     """
     Add 'unlocking terrains/rooms' as location.
     Adds 110 locations.
     """
-    display_name = "Terrainsanity"
+    display_name = "TerraInsanity"
+    default = {
+        "" : 1,
+        "winter" : 0
+    }
 
-
-class TerrainsConnectRandom(Toggle):
-    """
-    The revealed connections of terrains become random.
-    Does nothing if Terrainsanity is disabled.
-    """
-    display_name = "Terrain Connection Randomiser"
-
-
-class TerrainsConnectRandomMinimum(Range):
-    """
-    Does nothing if Terrainsanity is disabled.
-    """
-    display_name = "Minimum Connections per Terrain"
-    range_start = 1
-    range_end = 5
-    default = 1
-
-
-class TerrainsConnectRandomMaximum(TerrainsConnectRandomMinimum):
-    """
-    Does nothing if Terrainsanity is disabled.
-    """
-    display_name = "Maximum Connections per Terrain"
-    default = 3
-
-
-class TerrainsConnectRandomConsideration(Choice):
-    """
-    Randomization will try to acommodate revealed connections.
-    Does nothing if Terrainsanity is disabled.
-
-    All - connections have a similar difficulty
-    At least one - connection is of similar difficulty
-    No - It is totally random what connects to where; Your first room could require 14 Lantern. Generation can fail. Numa.
-    """
-    display_name = "Terrain Connection Randomiser Consideration"
-    option_all_ = 0
-    option_at_least_one = 1
-    option_no = 2
+    #def __bool__(self):
+    #    return True
 
 
 class TreeOfWisdoms(OptionDict):
     """
-    Add up 82 locations to The Tree of Wisdoms and its many nodes.
-
-    Expects the range to be
-     0 <= from_tier <= to_tier <= 9;  Tier 0 is the Journal-Slot.
-
-    'location_progress_types' expects a 10 digit int and sets the LocationType of the corresponding index;
-    Example 2213333333:
-        1st digit = Tier 0 = 2 : The Journal-Slot is forced to have a progression item.
-        2nd digit = Tier 1 = 2 : All "I" slots are forced to have a progression item.
-        3rd digit = Tier 2 = 1 : All "II" slots have default item rule.
-        4th digit = Tier 3 = 3 : All "III" slots will not have progression items.
-        etcetera
-
-    If 'split_paths' == 0, uses "Commit to any Tier X" locations.
-    If 'split_paths' == 1, every node of every path becomes a location.
-
-    Can cause generation to fail if you try to place too many prog items.
+    Add locations to The Tree of Wisdoms and its many nodes.
     """
     display_name = "InsaniTree of Wisdoms"
     default = {
-        "from_tier": 0,
-        "to_tier": 9,
-        "location_progress_types": 2221333333,
-        "split_paths": 1
+        "generic_progression_enabled": 1,
+        "generic_progression_locations": 27,
+        "generic_progression_rewards_per_location": 2,
+        "tiered_progression_enabled": 1,
+        "tiered_progression_rewards_per_":      "1123456789",
+        "tiered_progression_locprogtypes_per_": "2211333333",
+        "path_progression_enabled": 1,
+        "path_progression_rewards_per_":        "222111222",
+        "path_progression_locprogtypes_per_":   "211133333",
     }
 
-    def __init__(self, value: typing.Dict[str, int]):
+    def __init__(self, dic: dict[str, typing.Any]):
         # if smth not set, use default
         for d_key in self.default:
-            if d_key not in value:
-                value[d_key] = self.default[d_key]
-        super().__init__(value)
-        self.from_ = value["from_tier"]
-        self.to = value["to_tier"]
-        self.location_progress_types = str(value["location_progress_types"])
-        self.split_paths = value["split_paths"] == 1
-        if (len(self.location_progress_types) != 10
-                or not 0 <= self.from_ <= self.to <= 9):
-            raise ValueError("Option Insanitree has invalid values! Plx fiz")
+            if d_key not in dic:
+                dic[d_key] = self.default[d_key]
+        super().__init__(dic)
+        self.generic_progression_enabled:bool = dic["generic_progression_enabled"] == 1
+        self.generic_progression_count:int = dic["generic_progression_locations"]
+        self.generic_progression_rewards_per_loc:int = dic["generic_progression_rewards_per_location"]
+
+        self.tiered_progression_enabled:bool = dic["tiered_progression_enabled"] == 1
+        self.tiered_progression_rewards_for_tier:list[int] = [int(a) for a in dic["tiered_progression_rewards_per_"]]
+        self.tiered_progression_locprogtype_for_tier:list[LocationProgressType] = [LocationProgressType(int(a)) for a in dic["tiered_progression_locprogtypes_per_"]]
+
+        self.path_progression_enabled:bool = dic["path_progression_enabled"] == 1
+        self.path_progression_rewards_per_loc:list[int] = [0] + [int(a) for a in dic["path_progression_rewards_per_"]]
+        # pad the list
+        self.path_progression_locprogtype_for_tier:list[LocationProgressType] = [LocationProgressType.EXCLUDED] + [LocationProgressType(int(a)) for a in dic["path_progression_locprogtypes_per_"]]
 
     def __bool__(self):
-        return 0 <= self.from_ <= self.to <= 9
+        return self.generic_progression_enabled or self.tiered_progression_enabled or self.path_progression_enabled
 
 
-class Books(DefaultOnToggle):
-    """
-    Enables every subsetting concerning books.
-    """
+class BookLocations(OptionDict):
     display_name = "Booksanity"
+
+    def __init__(self, dic:dict[str, typing.Any]):
+        super().__init__(dic)
+        self.generic_progression_enabled:bool = dic.get("generic_progression_enabled", True)
+        self.generic_progression_locations: int = dic.get("generic_progression_locations", 281)
+        self.specific_mastery_enabled:bool = dic.get("specific_mastery_enabled", True)
+        self.specific_mastery_rewards_if_mystery4 = dic.get("mystery4_rewards", 1)
+        self.specific_mastery_rewards_if_mystery6 = dic.get("mystery6_rewards", 2)
+        self.specific_mastery_rewards_if_mystery8 = dic.get("mystery8_rewards", 3)
+        self.specific_mastery_rewards_if_mystery10 = dic.get("mystery10_rewards", 4)
+        self.specific_mastery_rewards_if_mystery12 = dic.get("mystery12_rewards", 5)
+        self.specific_mastery_rewards_if_mystery14 = dic.get("mystery14_rewards", 6)
+        self.specific_mastery_rewards_if_mystery16 = dic.get("mystery16_rewards", 7)
+        self.specific_mastery_rewards_if_mystery18 = dic.get("mystery18_rewards", 8)
+        self.specific_mastery_rewards_if_mystery21 = dic.get("mystery21_rewards", 9)
+
+        pass
+
+    def __bool__(self):
+        return self.generic_progression_enabled or self.specific_mastery_enabled
 
 
 class BooksCatalogue(OptionDict):
@@ -497,14 +462,14 @@ RoomGoal = type("RoomGoal", (Choice,), {
 del rooms
 
 
-class Memorinsanity(Toggle):
-    display_name = "aaaaa"
-
-
 @dataclass
 class BoHOptions(PerGameCommonOptions):
     memory_progression: MemoriesAsLocations_GenericProgression
-    memorinsanity: MemoriesAsLocations_Specific
-    memorinsanity_goals: MemoriesAsLocations_SpecificGoals
+    memories: MemoriesAsLocations_Specific
+    memory_goals: MemoriesAsLocations_SpecificGoals
     memory_items: MemoriesAsItems
+    terrain_goals: TerrainGoals
+    terrain_locations: Terrains
+    booksanity: BookLocations
     insanitree: TreeOfWisdoms
+    local_items = [BOHStrEnums.FishermanAssistance, BOHStrEnums.VillageFriend]
